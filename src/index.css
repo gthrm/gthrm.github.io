@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'cern';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/formats/cern-terminal.eot');
+  /* IE9 Compat Modes */
+  src: url('./font/formats/cern-terminal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./font/formats/cern-terminal.woff') format('woff'), /* Modern Browsers */
+  url('./font/formats/cern-terminal.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('./font/formats/cern-terminal.svg#cern') format('svg');
+  /* Legacy iOS */
+}
+
+html {
+  background: black;
+  width: 44em;
+  width: 80ch;
+  height: 37.5em;
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+  overflow: hidden;
+  color: hsl(150, 100%, 50%);
+  text-shadow: 0 0 10px;
+  word-wrap: break-word;
+  font-family: cern, monospace;
+  line-height: 1.5em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 1.5em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+code {
+  font-family: cern, monospace;
+  line-height: 1.5em;
+  color: hsl(150, 100%, 50%);
+}
