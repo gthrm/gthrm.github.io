@@ -13,9 +13,9 @@
 
 html {
   background: black;
-  width: 44em;
-  width: 80ch;
-  height: 37.5em;
+  /* width: 44em;
+  width: 80ch; */
+  /* height: 37.5em; */
   margin: 0 auto;
   padding-bottom: 1.5em;
   overflow: hidden;
@@ -29,6 +29,12 @@ html {
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1 {
