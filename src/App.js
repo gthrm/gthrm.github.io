@@ -13,19 +13,19 @@ class App extends React.Component {
         },
         {
           id: '02',
-          text: ['Its my GitHub:'],
+          text: ['This is my GitHub:'],
           isTyped: false,
           link: 'https://github.com/gthrm'
         },
         {
           id: '03',
-          text: ['Its my CodePen:'],
+          text: ['This is my CodePen:'],
           isTyped: false,
           link: 'https://codepen.io/gthrm'
         },
         {
           id: '04',
-          text: ['Its my Twitter:'],
+          text: ['This is my Twitter:'],
           isTyped: false,
           link: 'https://twitter.com/RomanSeRA'
         },
