@@ -13,9 +13,6 @@
 
 html {
   background: black;
-  /* width: 44em;
-  width: 80ch; */
-  /* height: 37.5em; */
   margin: 0 auto;
   padding-bottom: 1.5em;
   overflow: hidden;
@@ -27,7 +24,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -35,6 +32,7 @@ body {
   height: 100vh;
   padding-left: 10px;
   padding-right: 10px;
+  max-width: 800px;
 }
 
 h1 {
@@ -48,4 +46,60 @@ code {
   font-family: cern, monospace;
   line-height: 1.5em;
   color: hsl(150, 100%, 50%);
+}
+
+a {
+  font-size: 18px;
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: cern, monospace;
+  line-height: 1.5em;
+  color: hsl(150, 100%, 50%);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header-container {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+a:hover, a:active {
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+  background: hsl(150, 100%, 50%);
+  color: black;
+  box-shadow: 0 0 10px;
 }
