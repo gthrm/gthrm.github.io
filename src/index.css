@@ -15,7 +15,6 @@ html {
   background: black;
   margin: 0 auto;
   padding-bottom: 1.5em;
-  overflow: hidden;
   color: hsl(150, 100%, 50%);
   text-shadow: 0 0 10px;
   word-wrap: break-word;
@@ -29,7 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  min-height: 100vh;
   padding-left: 10px;
   padding-right: 10px;
   max-width: 800px;
