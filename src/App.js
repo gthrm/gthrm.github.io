@@ -31,6 +31,12 @@ class App extends React.Component {
         },
         {
           id: '05',
+          text: ['This is my Patreon:'],
+          isTyped: false,
+          link: 'https://www.patreon.com/cdroma'
+        },
+        {
+          id: '06',
           text: ['WELCOM!'],
           isTyped: false
         }
@@ -56,7 +62,7 @@ class App extends React.Component {
       <div className="App flex">
         <header className="App-header flex">
           <h1 className="unselectable">
-            gthrm.github.io
+            cdroma.ru - gthrm.github.io
           </h1>
           {
             strings.map(
