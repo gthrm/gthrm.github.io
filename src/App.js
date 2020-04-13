@@ -8,7 +8,7 @@ class App extends React.Component {
       strings: [
         {
           id: '01',
-          text: ['Hello! My name is Roman and I Frontend developer.'],
+          text: ['Hello! My name is Roman and I am Frontend developer.'],
           isTyped: false
         },
         {
@@ -37,7 +37,7 @@ class App extends React.Component {
         },
         {
           id: '06',
-          text: ['WELCOM!'],
+          text: ['WELCOME!'],
           isTyped: false
         }
       ]
