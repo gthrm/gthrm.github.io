@@ -1,53 +1,52 @@
 {
-  "name": "my-site",
-  "version": "0.1.0",
+  "name": "cdroma.ru",
   "private": true,
+  "description": "cdroma.ru",
+  "version": "0.1.0",
+  "author": "Roman Meshcheriakov <mrv24ru@yandex.ru>",
+  "homepage": "https://cdroma.ru",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "babel-eslint": "^10.0.3",
-    "gh-pages": "^2.2.0",
+    "@emotion/core": "^10.0.28",
+    "gatsby": "^2.20.12",
+    "gatsby-plugin-dark-mode": "^1.1.1",
+    "gatsby-plugin-emotion": "^4.2.1",
+    "gatsby-plugin-typography": "^2.4.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-remark": "^2.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "react-typed": "^1.2.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "prod": "GENERATE_SOURCEMAP=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -b master -d build",
-    "lint": "eslint src/**/*.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-helmet": "^6.0.0",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-ocean-beach": "^0.16.19"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gthrm/gthrm.github.io"
+    "url": "https://github.com/gthrm/gthrm.github.io"
   },
-  "homepage": "https://gthrm.github.io/"
+  "bugs": {
+    "url": "https://github.com/gthrm/gthrm.github.io/issues"
+  }
 }
