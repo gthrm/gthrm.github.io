@@ -31,4 +31,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: '/gthrm.github.io'
 };
