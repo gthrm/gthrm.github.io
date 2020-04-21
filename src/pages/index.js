@@ -30,7 +30,6 @@ export default ({ data }) => (
           alt="Roman Meshcheriakov"
           css={css`
               @media (max-width: 420px) {
-                font-size: ${rhythm(1)};
                 width: ${rhythm(2)};
                 height: ${rhythm(2)};
               }
