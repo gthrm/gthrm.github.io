@@ -35,13 +35,13 @@ export default function Footer() {
       {data.site.siteMetadata.links.map(
         (item) => (
           <li
+            key={item.id}
             css={css`
             list-style-type: none;
             padding-top: 5px;
         `}
           >
             <a
-              key={item.id}
               href={item.url}
               rel="noopener noreferrer"
               target="_blank"

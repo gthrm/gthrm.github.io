@@ -26,15 +26,18 @@ export default ({ data }) => (
           Notes by Roman Mesheshcheriakov
         </h1>
         <img
+          loading="lazy"
           src="https://pbs.twimg.com/profile_images/1250156684892307456/DvGRkppG_400x400.jpg"
           alt="Roman Meshcheriakov"
           css={css`
               @media (max-width: 420px) {
-                width: ${rhythm(2)};
+                min-width: ${rhythm(2)};
                 height: ${rhythm(2)};
               }
+              font-size: 10px;
+              color: var(--bg);
               margin-bottom: 0;
-              width: ${rhythm(2.6)};
+              min-width: ${rhythm(2.6)};
               height: ${rhythm(2.6)};
               border-radius: 50%;
             `}
