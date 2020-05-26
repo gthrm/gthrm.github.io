@@ -13,6 +13,18 @@ altonTheme.overrideStyles = () => ({
   h1: {
     color: 'var(--textNormal)',
   },
+  h2: {
+    color: 'var(--textNormal)',
+  },
+  h3: {
+    color: 'var(--textNormal)',
+  },
+  code: {
+    backgroundColor: 'var(--codeBg)',
+    color: 'var(--codeText)',
+    padding: '10px 15px',
+    borderRadius: '3px',
+  },
   // gatsby-remark-autolink-headers - use theme colours for the link icon
   'a.anchor svg[aria-hidden="true"]': {
     stroke: 'var(--textLink)',

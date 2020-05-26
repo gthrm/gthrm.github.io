@@ -7,6 +7,8 @@ body {
   --textLink: rgb(255, 87, 0);
   --textLinkHover: rgba(255, 87, 0, 0.8);
   --hr: hsla(0, 0%, 0%, 0.2);
+  --codeBg: #f2f2f2;
+  --codeText: #000;
 
   min-width: 320px;
   background-color: var(--bg);
