@@ -1,1 +1,0 @@
-module.exports = require("/Users/redevice/Documents/GitHub/gthrm.github.io/src/utils/typography")
