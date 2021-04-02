@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import { rhythm } from '../utils/typography';
 import Layout from '../components/layout';
+import avatar from '../assets/avatar.jpg';
 
 export default ({ data }) => (
   <Layout>
@@ -27,7 +28,7 @@ export default ({ data }) => (
         </h1>
         <img
           loading="lazy"
-          src="https://pbs.twimg.com/profile_images/1250156684892307456/DvGRkppG_400x400.jpg"
+          src={avatar}
           alt="Roman Meshcheriakov"
           css={css`
               @media (max-width: 420px) {

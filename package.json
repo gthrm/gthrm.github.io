@@ -1,6 +1,6 @@
 {
   "name": "cdroma.ru",
-  "private": true,
+  "private": false,
   "description": "cdroma.ru",
   "version": "0.1.0",
   "author": "Roman Meshcheriakov <mrv24ru@yandex.ru>",
@@ -50,5 +50,6 @@
   },
   "bugs": {
     "url": "https://github.com/gthrm/gthrm.github.io/issues"
-  }
+  },
+  "homepage": "https://github.com/gthrm/gthrm.github.io"
 }
