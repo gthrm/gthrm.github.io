@@ -11,7 +11,7 @@ module.exports = {
       { id: '001', name: 'github', url: 'https://vk.cc/asTUrW' },
       { id: '002', name: 'twitter', url: 'https://vk.cc/asTUtC' },
       { id: '003', name: 'codepen', url: 'https://vk.cc/asTUve' },
-      { id: '004', name: 'patreon', url: 'https://vk.cc/asTUxm' }]
+      { id: '004', name: 'medium', url: 'https://medium.com/@cdroma' }]
   },
   plugins: [
     {
