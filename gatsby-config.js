@@ -24,6 +24,7 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-emotion',
     'gatsby-plugin-dark-mode',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
