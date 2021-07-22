@@ -1,6 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/core';
 import { useStaticQuery, Link, graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 import ThemeTogglerComponent from './theme-toggler';
 import Footer from './footer';
 import { rhythm } from '../utils/typography';
@@ -19,8 +20,12 @@ export default ({ children }) => {
   );
 
   return (
-    <div
-      css={css`
+    <>
+      <Helmet>
+        <meta name="theme-color" content="" />
+      </Helmet>
+      <div
+        css={css`
         margin: 0 auto;
         max-width: 700px;
         padding: ${rhythm(2)};
@@ -33,21 +38,22 @@ export default ({ children }) => {
         transition-duration: 0.2s;
         transition-property: background-color, color;
     `}
-    >
-      <Link to="/">
-        <h3
-          css={css`
+      >
+        <Link to="/">
+          <h3
+            css={css`
           margin-bottom: ${rhythm(2)};
           display: inline-block;
           font-style: normal;
         `}
-        >
-          {data.site.siteMetadata.title}
-        </h3>
-      </Link>
-      <ThemeTogglerComponent />
-      {children}
-      <Footer />
-    </div>
+          >
+            {data.site.siteMetadata.title}
+          </h3>
+        </Link>
+        <ThemeTogglerComponent />
+        {children}
+        <Footer />
+      </div>
+    </>
   );
 };
