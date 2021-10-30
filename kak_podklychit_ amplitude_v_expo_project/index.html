@@ -33,7 +33,7 @@ void function() {
 
   setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
 }()
-    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion-css="chdz4a">.css-chdz4a{margin:0 auto;max-width:700px;padding:3.16rem;padding-top:2.37rem;color:var(--textNormal);-webkit-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-property:background-color,color;transition-property:background-color,color;}@media (max-width:550px){.css-chdz4a{padding:1.58rem;}}</style><div class="css-chdz4a"><a href="/"><style data-emotion-css="yj4po0">.css-yj4po0{margin-bottom:3.16rem;display:inline-block;font-style:normal;}</style><h3 class="css-yj4po0">cdROma.ru</h3></a><style data-emotion-css="146q31f">.css-146q31f{float:right;}</style><div class="css-146q31f"></div><div><h1>Как настроить и подключить Amplitude в проект на React Native - Expo</h1><div><p><img src="https://https://cloud.cdroma.ru/upload/a73a6017268863bc3232eff836c3ec251590507684094.png" alt="alt text" title="Expo + Amplitude"></p>
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion-css="chdz4a">.css-chdz4a{margin:0 auto;max-width:700px;padding:3.16rem;padding-top:2.37rem;color:var(--textNormal);-webkit-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-property:background-color,color;transition-property:background-color,color;}@media (max-width:550px){.css-chdz4a{padding:1.58rem;}}</style><div class="css-chdz4a"><a href="/"><style data-emotion-css="yj4po0">.css-yj4po0{margin-bottom:3.16rem;display:inline-block;font-style:normal;}</style><h3 class="css-yj4po0">cdROma.ru</h3></a><style data-emotion-css="146q31f">.css-146q31f{float:right;}</style><div class="css-146q31f"></div><div><h1>Как настроить и подключить Amplitude в проект на React Native - Expo</h1><div><p><img src="https://cloud.cdroma.ru/upload/a73a6017268863bc3232eff836c3ec251590507684094.png" alt="alt text" title="Expo + Amplitude"></p>
 <p>Эта статья описывает моё виденье того, как можно подключить <a href="https://amplitude.com/">Amplitude</a> — комплексное программное обеспечение для анализа продуктов для web и мобильных устройств в проект React Native созданные с использованием <a href="https://expo.io/learn">Expo CLI</a>.</p>
 <h2>1. Настройка проекта</h2>
 <hr>
@@ -53,17 +53,17 @@ void function() {
 </ul>
 <hr>
 <p>1.2.3 В <strong>config.js</strong> экспортируем константу <strong>apiKey</strong>, пока ей будет присвоена пустая строка, мы вернемся к ней ниже</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/5cc0869b1a747462c2cb48c1b8bca8951590508715755.png" alt="// amplitude/config.js export const apiKey = &#x27;&#x27;;" title="// amplitude/config.js export const apiKey = &#x27;&#x27;"></p>
+<p><img src="https://cloud.cdroma.ru/upload/5cc0869b1a747462c2cb48c1b8bca8951590508715755.png" alt="// amplitude/config.js export const apiKey = &#x27;&#x27;;" title="// amplitude/config.js export const apiKey = &#x27;&#x27;"></p>
 <hr>
 <p>1.2.4 В <strong>utils.js</strong> пропишем функцию <strong>normalizeTrackingOptions</strong>.</p>
 <p>Эта функция служит для создания объекта - опции, который содержит дополнительную информации о событии, передаваемом в Amplitude.</p>
 <p>Именно такой код рекомендует Expo в своем <a href="https://github.com/expo/expo/blob/master/home/api/Analytics.ts">примере</a></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/173a6117019feff888cf74ee4b8dfb111590508947263.png" alt="normalizeTrackingOptions" title="normalizeTrackingOptions"></p>
+<p><img src="https://cloud.cdroma.ru/upload/173a6117019feff888cf74ee4b8dfb111590508947263.png" alt="normalizeTrackingOptions" title="normalizeTrackingOptions"></p>
 <hr>
 <p>1.2.5 Файл <strong>events.js</strong> необходим для хранения и стандартизации наименований тех событий, которые мы хотим логировать в Amplitude.</p>
 <p>Например, мы хотим логировать вход пользователя в приложение, для этого создадим константу <strong>LOG_IN</strong>, которою будем передавать в функцию логирования (ниже).</p>
 <p>Таким же образом можно логировать ошибки.</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/00d297e0dc9455e67ac9633dafd088281590509141543.png" alt="amplitude/events.js" title="amplitude/events.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/00d297e0dc9455e67ac9633dafd088281590509141543.png" alt="amplitude/events.js" title="amplitude/events.js"></p>
 <hr>
 <p>1.2.6 В файл <strong>index.js</strong> импортируем</p>
 <ul>
@@ -72,86 +72,86 @@ void function() {
 <li><strong>normalizeTrackingOptions</strong> из <em>utils.js</em></li>
 </ul>
 <p>и <strong>eventAction</strong> из <em>events.js</em></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/f8b320d7cb58a9c6d42cdfb691fb839b1590509442327.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/f8b320d7cb58a9c6d42cdfb691fb839b1590509442327.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <p>И ниже экспортируем events, это нужно для удобного доступа к ним.</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/9877b33b90aa40a8e4ba289415494e031590509588590.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/9877b33b90aa40a8e4ba289415494e031590509588590.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <hr>
 <p>1.2.7 Теперь создадим фикцию <strong>initialize</strong> для инициализации Amplitude, она необходима для авторизации в сервисе по apiKey</p>
 <p>Она будет вызывать метод initialize у Amplitude с нашим apiKey, это выглядит так:</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/5024a14c01a794a7a60deb0d129c5ace1590510408687.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/5024a14c01a794a7a60deb0d129c5ace1590510408687.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <hr>
 <p>1.2.8 Создадим функцию <strong>identify</strong> для идентификации наших пользователей приложения в Amplitude по их данным, например, получаемых с api</p>
 <p>Она будет принимать <strong>id</strong> пользователя <em>(id, который присвоен вашему пользователю при регистрации в вашем приложении, если такой есть)</em> и <strong>options</strong> <em>(дополнительная информация о пользователе, например имя, email, дата рождения и др.)</em>.</p>
 <p>Выглядит следующим образом:</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/767e03e360a91f9f6c4ffaf1150b51101590510555332.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/767e03e360a91f9f6c4ffaf1150b51101590510555332.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <hr>
 <p>1.2.9 Создадим фикцию <strong>logEvent</strong> для логирования событий в приложении</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/5db520dd48141c52f26514d075f7e0a61590510724047.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/5db520dd48141c52f26514d075f7e0a61590510724047.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <hr>
 <p>1.2.10 В завершении, экспортируем <strong>events</strong>, <strong>initialize</strong>, <strong>identify</strong>, <strong>logEvent</strong> из <strong><em>index.js</em></strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/073dea3d94a21270de34387c1bcc10961590510826996.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/073dea3d94a21270de34387c1bcc10961590510826996.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <p>Целиком <strong>index.js</strong> выглядит так:</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/841ac12d4c681422f753099e55d0c03b1590510898814.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/841ac12d4c681422f753099e55d0c03b1590510898814.png" alt="amplitude/index.js" title="amplitude/index.js"></p>
 <hr>
 <h3>1.3 Подключение логера Amplitude в компонент</h3>
 <p>1.3.1 Импортируем <strong>logEvent</strong> и <strong>events</strong> в компонент, действия которого необходимо логировать, например в <strong>App.js</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/9d9b8df2cb926ad1bcdaa99790f888451590511083596.png" alt="App.js" title="App.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/9d9b8df2cb926ad1bcdaa99790f888451590511083596.png" alt="App.js" title="App.js"></p>
 <hr>
 <p>1.3.2 В <strong>App.js</strong> создадим тестовую кнопки <strong>LogIn</strong> и <strong>Error</strong>.</p>
 <p><strong>LogIn</strong> будет имитировать вход в приложение.</p>
 <p><strong>Error</strong> -  соответственно, будет имитировать ошибку.</p>
 <p>А так же создадим хендлер <strong>onPressHandler</strong> для <strong>LogIn</strong> и <strong>errorHandler</strong> для <strong>Error</strong>.</p>
 <p>В них мы будем вызывать <strong>logEvent</strong> с событиями, которые мы подготовили в файле <strong>events.js</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/cbc7e840fcd6ecef4f884f1bf5bcb77d1590511391427.png" alt="App.js" title="App.js"></p>
+<p><img src="https://cloud.cdroma.ru/upload/cbc7e840fcd6ecef4f884f1bf5bcb77d1590511391427.png" alt="App.js" title="App.js"></p>
 <hr>
 <h2>2 Настройка Amplitude</h2>
 <hr>
 <h3>2.1 Создание и настройка аккаунта</h3>
 <p>2.1.1 Переходим на сайт <a href="https://amplitude.com/">https://amplitude.com/</a> и жмём <strong>Explore demo now</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/fbf7de218b23f68fdf378f2784f664df1590511548379.png" alt="Переходим на сайт https://amplitude.com/ и жмём **Explore demo now**" title="Переходим на сайт https://amplitude.com/ и жмём **Explore demo now**"></p>
+<p><img src="https://cloud.cdroma.ru/upload/fbf7de218b23f68fdf378f2784f664df1590511548379.png" alt="Переходим на сайт https://amplitude.com/ и жмём **Explore demo now**" title="Переходим на сайт https://amplitude.com/ и жмём **Explore demo now**"></p>
 <hr>
 <p>2.1.2 Вводим email</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/4e0f5813311b05421bbb71c00c0a04b41590511582694.png" alt="Вводим email" title="Вводим email"></p>
+<p><img src="https://cloud.cdroma.ru/upload/4e0f5813311b05421bbb71c00c0a04b41590511582694.png" alt="Вводим email" title="Вводим email"></p>
 <hr>
 <p>2.1.3 Выбираем направленность вашего приложения, например <strong>Media</strong> и жмём <strong>Next</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/ef7c4cf8aec226615d57daac4e44b43d1590511664969.png" alt="Выбираем направленность вашего приложения" title="Выбираем направленность вашего приложения"></p>
+<p><img src="https://cloud.cdroma.ru/upload/ef7c4cf8aec226615d57daac4e44b43d1590511664969.png" alt="Выбираем направленность вашего приложения" title="Выбираем направленность вашего приложения"></p>
 <hr>
 <p>2.1.4 Вводим свои данные</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/d2b94b89bac6404a973a0a415fa236501590511712055.png" alt="Вводим свои данные" title="Вводим свои данные"></p>
+<p><img src="https://cloud.cdroma.ru/upload/d2b94b89bac6404a973a0a415fa236501590511712055.png" alt="Вводим свои данные" title="Вводим свои данные"></p>
 <hr>
 <p>На данный момент открыта демо версия с различными метриками. Метрики подобраны под направленность компании, которая была выбрана ранее (Media).</p>
 <p>Тут можно изучить как работает Amplitude, потыкать разные кнопки, увидеть систему в рабочем состоянии на demo данных.</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/446c8ff68faea4c7874730c97b33b3751590511784799.png" alt="демо версия с различными метриками" title="демо версия с различными метриками"></p>
+<p><img src="https://cloud.cdroma.ru/upload/446c8ff68faea4c7874730c97b33b3751590511784799.png" alt="демо версия с различными метриками" title="демо версия с различными метриками"></p>
 <hr>
 <p>2.1.5 Идем в почту, находим письмо от Amplitude, переходим по ссылке, вводим данные в форму и жмём <strong>Activate</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/217438033c3672a72dc07876801be5dd1590511855826.png" alt="Activate" title="Activate"></p>
+<p><img src="https://cloud.cdroma.ru/upload/217438033c3672a72dc07876801be5dd1590511855826.png" alt="Activate" title="Activate"></p>
 <hr>
 <p>2.1.6 Теперь, когда мы уже все проверили, изучили и подтвердили, в самом верху страницы жмём кнопку <strong>Set up on the Free Plan</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/453674a4918d37a31c9ded2b9db70ad31590511925197.png" alt="Set up on the Free Plan" title="Set up on the Free Plan"></p>
+<p><img src="https://cloud.cdroma.ru/upload/453674a4918d37a31c9ded2b9db70ad31590511925197.png" alt="Set up on the Free Plan" title="Set up on the Free Plan"></p>
 <hr>
 <p>2.1.7 Далее, вводим имя организации (будет отображаться в системе) и url по которому будет доступен ваш аккаунт Amplitude, и жмём <strong>Create</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/8ab933098f8e3a02cc54d3f544310d8b1590513017669.png" alt="Create" title="Create"></p>
+<p><img src="https://cloud.cdroma.ru/upload/8ab933098f8e3a02cc54d3f544310d8b1590513017669.png" alt="Create" title="Create"></p>
 <hr>
 <p>Поздравляю, теперь у вас есть аккаунт на Amplitude</p>
 <hr>
 <h3>2.2 Создание и настройка проекта</h3>
 <p>2.2.1 На появившемся экране жмём <strong>Create Project</strong>, вводим имя проекта и жмём <strong>Create</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/78c077f1e7db771eb9cc5fc3451e8ed51590513175963.png" alt="Create Project" title="Create Project"></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/9eb555cf6184a91c4a7cfbeeacf9d2cc1590513235774.png" alt="Create Project" title="Create Project"></p>
+<p><img src="https://cloud.cdroma.ru/upload/78c077f1e7db771eb9cc5fc3451e8ed51590513175963.png" alt="Create Project" title="Create Project"></p>
+<p><img src="https://cloud.cdroma.ru/upload/9eb555cf6184a91c4a7cfbeeacf9d2cc1590513235774.png" alt="Create Project" title="Create Project"></p>
 <hr>
 <p>2.2.2 После сохдания проекта открылась главная его страница, на ней нас интересует <strong>API Key</strong>.</p>
 <p>Копируем его в файл <strong>сonfig.js</strong> и жмём <strong>Add Data Source</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/66391f4ab3af4820391abed1ea0ce9611590513353394.png" alt="Add Data Source" title="Add Data Source"></p>
+<p><img src="https://cloud.cdroma.ru/upload/66391f4ab3af4820391abed1ea0ce9611590513353394.png" alt="Add Data Source" title="Add Data Source"></p>
 <hr>
 <p>2.2.3 Выбираем iOS SDK и жмём <strong>Next</strong> и снова <strong>Next</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/27fc24a1f6073df92eba6b412f672c401590513419484.png" alt="iOS SDK" title="iOS SDK"></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/364c6209edc9a1258486a85175c657e91590513471040.png" alt="iOS SDK" title="iOS SDK"></p>
+<p><img src="https://cloud.cdroma.ru/upload/27fc24a1f6073df92eba6b412f672c401590513419484.png" alt="iOS SDK" title="iOS SDK"></p>
+<p><img src="https://cloud.cdroma.ru/upload/364c6209edc9a1258486a85175c657e91590513471040.png" alt="iOS SDK" title="iOS SDK"></p>
 <p>Сейчас Amplitude ждёт события от приложения.</p>
 <p>Как только событие будет отправлено, Amplitude получит его и укажет здесь.</p>
-<p><img src="https://https://cloud.cdroma.ru/upload/6ba084544cad9fddc5a28386609b3ad01590513527355.png" alt="Amplitude ждёт события от приложения" title="Amplitude ждёт события от приложения"></p>
+<p><img src="https://cloud.cdroma.ru/upload/6ba084544cad9fddc5a28386609b3ad01590513527355.png" alt="Amplitude ждёт события от приложения" title="Amplitude ждёт события от приложения"></p>
 <hr>
 <p>2.2.4 Теперь запускаем наше приложение в симуляторе iPhone и жмём кнопку <strong>Login</strong>, чтобы отправить первый ивент после чего Amplitude получит наше событие из приложения и выведет такое окно. Жмём <strong>Finish</strong></p>
-<p><img src="https://https://cloud.cdroma.ru/upload/11bf25f5d20e1fdb237b46c8c32dcfe81590513671203.png" alt="Amplitude получит наше событие из приложения" title="Amplitude получит наше событие из приложения"></p>
+<p><img src="https://cloud.cdroma.ru/upload/11bf25f5d20e1fdb237b46c8c32dcfe81590513671203.png" alt="Amplitude получит наше событие из приложения" title="Amplitude получит наше событие из приложения"></p>
 <hr>
 <p>2.2.5 Чтобы добавить поддержку Android, проделайте подобное (2.2.3–2.2.5) для Android SDK и симулятором Android</p>
 <hr>
