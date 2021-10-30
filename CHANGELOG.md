@@ -8,6 +8,10 @@
 
 - Added theme-color meta tag
 
-## [0.1.1] - 21.07.2021
+## [0.1.3] - 21.07.2021
 
 - Added `order_keys_in_js_objects`
+
+## [0.1.4] - 30.10.2021
+
+- Image server changed

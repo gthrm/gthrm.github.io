@@ -53,4 +53,4 @@ date: "2020-05-15"
 П.С. Если есть предложения по усовершенствованию и доработке кода, буду рад их принять
 
 
-![The-Imagination](https://25mbcloud.ml/upload/897ac9b6e3623895213a05df28efd2071590515216564.gif "The-Imagination")
+![The-Imagination](https://https://cloud.cdroma.ru/upload/897ac9b6e3623895213a05df28efd2071590515216564.gif "The-Imagination")
