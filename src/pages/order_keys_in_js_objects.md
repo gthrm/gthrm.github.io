@@ -1,5 +1,5 @@
 ---
-title: "Порядок хранения/перечисления ключей в объекте JS"
+title: "Order of Storing/Enumerating Keys in a JS Object"
 date: "2021-07-14"
 ---
 
