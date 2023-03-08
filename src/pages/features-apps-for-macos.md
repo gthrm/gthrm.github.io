@@ -1,46 +1,46 @@
 ---
-title: "Приложения для MacOS, которые облегчат жизнь разработчика"
+title: "Useful MacOS Apps for Developers"
 date: "2021-02-10"
 ---
 
-1. **[iTerm2](https://www.iterm2.com/)**
+1. [iTerm2](https://www.iterm2.com/)
 
-iTerm2 является заменой Терминала и преемником iTerm. Работает на Mac с macOS 10.12 или новее.
-> Удобное дополнение - подсветка синтаксиса **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
+iTerm2 is a replacement for Terminal and successor to iTerm. It runs on Mac with macOS 10.12 or later.
+> Useful addition - syntax highlighting with [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-> Еще более удобное дополнение - Zsh prompt - **[spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)**
+> Even more useful addition - Zsh prompt with [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)
 
-> Шрифт с символами  **[FiraCode](https://github.com/tonsky/FiraCode)**
+> Font with symbols - [FiraCode](https://github.com/tonsky/FiraCode)
 
-2. **[SpectacleApp](https://www.spectacleapp.com/)**
+2. [SpectacleApp](https://www.spectacleapp.com/)
 
-Приложение для быстрого и ровного ресайзинга окон на рабочем столе
+An app for quickly and easily resizing windows on your desktop.
 
-3. **[Transporter](https://apps.apple.com/ru/app/transporter/id1450874784?mt=12)**
+3. [Transporter](https://apps.apple.com/ru/app/transporter/id1450874784?mt=12)
 
-Приложение для быстрой загрузки .ipa в AppStore
+An app for quickly uploading .ipa files to the AppStore.
 
-4. **[PixelPerfect](http://pixelperfect-app.com/)**
+4. [PixelPerfect](http://pixelperfect-app.com/)
 
-Приложение для наложения картинки-макета поверх страницы для Pixelperfect-верстки
+An app for overlaying an image mockup onto a page for pixel-perfect web design.
 
-5. **[Postman](https://www.postman.com/)**
+5. [Postman](https://www.postman.com/)
 
-Думаю все знаю, но на всякий случай... приложение для работы (отладки, тестирования и др.) с API
+A well-known app for working with APIs (debugging, testing, etc.).
 
-6. **[Postwoman](https://postwoman.io/)**
+6. [Postwoman](https://postwoman.io/)
 
-Почти то же, что и Postman, но в web
+Similar to Postman, but web-based.
 
-7. **[docker-openvpn](https://github.com/kylemanna/docker-openvpn/)**
+7. [docker-openvpn](https://github.com/kylemanna/docker-openvpn/)
 
-Создай свой VPN
+Create your own VPN.
 
-8. **[responsively.app](https://responsively.app/)**
+8. [responsively.app](https://responsively.app/)
 
-Приложение для дебагинга UI на различных размерах экрана
+An app for debugging UI on various screen sizes.
 
-9. **[VS Code](https://code.visualstudio.com/) Extension**
+9. [VS Code](https://code.visualstudio.com/) Extensions
 
 [Todo-Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
@@ -48,7 +48,7 @@ iTerm2 является заменой Терминала и преемнико�
 
 [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
-![vscode-styled-components](https://github.com/styled-components/vscode-styled-components/raw/master/demo.gif)
+![vscode-styled-components](https://github.com/styled-components/vscode-styled-components/raw/main/demo.gif)
 
 [polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 

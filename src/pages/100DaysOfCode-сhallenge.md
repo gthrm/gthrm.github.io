@@ -2,55 +2,59 @@
 title: "#100DaysOfCode - Challenge"
 date: "2020-05-15"
 ---
-Это маленькая заметка об одном челлендже под названием #100DaysOfCode и о моём проекте в рамках этого челленджа.
 
-## Что же такое [#100DaysOfCode](https://www.100daysofcode.com/) ##
+This is a short note about a challenge called #100DaysOfCode and my project within the framework of this challenge.
+
+## What is #100DaysOfCode? ##
+
 -----------------------------------
 
-Этот челлендж направлен на то, чтобы помочь вам реализовать ваши давние идеи связанные с кодом.
+This challenge is aimed to help you realize your long-standing ideas related to code.
 
-Будь то свой проект или обучение программированию, на которые у вас всегда нет времени.
+Be it your own project or programming education, which you never have time for.
 
-В челлендже нет никаких ограничений на тему или стэк, вы можете выбрать для реализации все что угодно, все зависит только от вас.
+There are no restrictions on the topic or stack in the challenge, you can choose anything to implement, everything depends on you.
 
-В челлендже есть только основных два правила:
-- Кодить минимум час каждый день в течение следующих 100 дней;
-- Каждый день сообщайте о своем прогрессе с помощью хэштега #100DaysOfCode в twiter.
+The challenge has only two main rules:
 
-Чтобы принять в нем участие, необходимо публично принять на себя обязательство - подробнее [тут](https://www.100daysofcode.com/).
+- Code at least an hour every day for the next 100 days;
+- Every day report your progress using the #100DaysOfCode hashtag on Twitter.
 
-Я участвую уже около 20 дней.
-Четно скажу, кодить каждый день, не получатеся, в связи с рабочими проектами.
-Иногда просто физически не получается выделить даже час.
+To participate in it, you need to publicly commit to it - more details [here](https://www.100daysofcode.com/).
 
-Но всё равно я стараюсь не выходить из графика.
+I have been participating for about 20 days.
+Honestly, it is not possible to code every day due to work projects.
+Sometimes it is just physically impossible to allocate even an hour.
 
-## О моём проекте ##
+But still, I try not to deviate from the schedule.
+
+## About my project ##
+
 -----------------------------------
 
-Я думаю, многие играли в игру Имаджинариум?!
+I think many of you have played the game Imaginarium?!
 
-Мне очень нравится эта игра, но в ней есть, на мой взгляд, две проблемы:
-- для игры нужно собрать много людей (около 5, для меня это много) в одном месте, а сейчас вообще режим самоизоляции;
-- карты быстро надоедают.
+I really like this game, but it has, in my opinion, two problems:
 
-И я решил перенести эту игру в онлайн и реализовать в ней функцию подгрузки карт.
+- You need to gather a lot of people (about 5, for me, it's a lot) in one place to play, and now there is self-isolation mode;
+- Cards quickly become boring.
 
-Сейчас любая картинка может быть картой.
+And I decided to move this game online and implement a function for loading cards.
 
-В настоящее время работа над игрой еще идет, но основные функции уже реализованы.
+Now any picture can be a card.
 
-Это значит, что в неё уже можно играть.
+Currently, work on the game is still ongoing, but the main functions have already been implemented.
 
-Если вам интересно протестировать игру, напишите мне, я выдам вам доступ и расскажу подробнее.
+This means that you can already play it.
 
-А так же, вы можете взять исходный код игры и развернуть её у себя.
+If you are interested in testing the game, write to me, I will give you access and tell you more.
 
-Репозиторий: https://github.com/gthrm/The-Imagination
+Also, you can take the game's source code and deploy it yourself.
 
-Рад, если я вас заинтересовал.
+Repository: <https://github.com/gthrm/The-Imagination>
 
-П.С. Если есть предложения по усовершенствованию и доработке кода, буду рад их принять
+I'm glad if I interested you.
 
+P.S. If you have any suggestions for improving and refining the code, I'll be happy to accept them.
 
 ![The-Imagination](https://cloud.cdroma.ru/upload/897ac9b6e3623895213a05df28efd2071590515216564.gif "The-Imagination")
