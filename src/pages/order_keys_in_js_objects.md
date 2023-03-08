@@ -1,4 +1,7 @@
-# Order of Storing/Enumerating Keys in a JS Object
+---
+title: "Порядок хранения/перечисления ключей в объекте JS"
+date: "2021-07-14"
+---
 
 In JS, objects were 'unordered' until ES5. Starting from ES6, there is a predictable order of iterating through an object's properties.
 
