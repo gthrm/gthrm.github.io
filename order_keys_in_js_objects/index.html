@@ -33,40 +33,40 @@ void function() {
 
   setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
 }()
-    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion-css="chdz4a">.css-chdz4a{margin:0 auto;max-width:700px;padding:3.16rem;padding-top:2.37rem;color:var(--textNormal);-webkit-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-property:background-color,color;transition-property:background-color,color;}@media (max-width:550px){.css-chdz4a{padding:1.58rem;}}</style><div class="css-chdz4a"><a href="/"><style data-emotion-css="yj4po0">.css-yj4po0{margin-bottom:3.16rem;display:inline-block;font-style:normal;}</style><h3 class="css-yj4po0">cdROma.me</h3></a><style data-emotion-css="146q31f">.css-146q31f{float:right;}</style><div class="css-146q31f"></div><div><h1>Порядок хранения/перечисления ключей в объекте JS</h1><div><p><strong>Объекты</strong> в JS были <code>'unordered'</code> до <strong>ES5</strong>.
-Начиная с <strong>ES6</strong>, существует предсказуемый порядок итерации свойств объекта.</p>
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion-css="chdz4a">.css-chdz4a{margin:0 auto;max-width:700px;padding:3.16rem;padding-top:2.37rem;color:var(--textNormal);-webkit-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-property:background-color,color;transition-property:background-color,color;}@media (max-width:550px){.css-chdz4a{padding:1.58rem;}}</style><div class="css-chdz4a"><a href="/"><style data-emotion-css="yj4po0">.css-yj4po0{margin-bottom:3.16rem;display:inline-block;font-style:normal;}</style><h3 class="css-yj4po0">cdROma.me</h3></a><style data-emotion-css="146q31f">.css-146q31f{float:right;}</style><div class="css-146q31f"></div><div><h1></h1><div><h1>Order of Storing/Enumerating Keys in a JS Object</h1>
+<p>In JS, objects were 'unordered' until ES5. Starting from ES6, there is a predictable order of iterating through an object's properties.</p>
 <ol>
-<li>Все неотрицательные целочисленные ключи меньше <strong>2<sup>32</sup></strong> , в порядке возрастания. (например, <code>'1'</code>, <code>'79'</code> и т. д.). Обычно, все допустимые индексы массива. <em>(не отрицательные числа до 2<sup>32</sup>)</em>.</li>
-</ol>
+<li>
+<p>All non-negative integer keys less than 2^32, in ascending order. (e.g., '1', '79', etc.). Typically, all valid array indexes. (non-negative numbers up to 2^32)</p>
 <blockquote>
-<p><em>Предостережение</em>: <code>'05'</code> не будет считаться целочисленным ключом, так как целое число, проанализированное из него, даст другое строковое представление.</p>
+<p><em>Warning</em>: '05' will not be considered an integer key, as the integer parsed from it yields a different string representation.</p>
 </blockquote>
-<ol start="2">
-<li>Все строковые ключи в исходном порядке вставки (в том порядке, в котором они были добавлены в объект).</li>
-</ol>
+</li>
+<li>
+<p>All string keys in the order of insertion (in the order they were added to the object).</p>
 <blockquote>
-<p>Здесь будут рассмотрены числовые строки, не попадающие в пределы первого шага и числа с плавающей запятой.</p>
+<p>Here, numeric strings not falling within the first step and floating-point numbers will be covered.</p>
 </blockquote>
-<ol start="3">
-<li>Свойства, имена которых являются символами, перечислены в том порядке, в котором они были добавлены в объект.</li>
+</li>
+<li>Properties whose names are symbols are listed in the order in which they were added to the object.</li>
 </ol>
-<p>Если порядок перечисления релевантен, вы всегда можете использовать <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map</a>, который гарантирует, что порядок вставки будет сохранен.</p>
-<h2>Функции, перечисляющие свойства в описанном выше порядке с учетом их собственных ограничений</h2>
+<p>If the enumeration order is relevant, you can always use Map, which guarantees that the insertion order will be preserved.</p>
+<h2>Functions that enumerate properties in the order described above, taking into account their own limitations</h2>
 <ul>
-<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"><code>Object.keys()</code></a></li>
-<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames"><code>Object.getOwnPropertyNames()</code></a></li>
-<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols"><code>Object.getOwnPropertySymbols()</code></a></li>
-<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys"><code>Reflect.ownKeys()</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"><code>Object.keys()</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames"><code>Object.getOwnPropertyNames()</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols"><code>Object.getOwnPropertySymbols()</code></a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys"><code>Reflect.ownKeys()</code></a></li>
 </ul>
 <blockquote>
-<p>Следует иметь в виду, что порядок перечисления для цикла <strong>for in</strong> не так строго определен, как для функций выше, но обычно перечисление собственных свойств происходит в описанном порядке.</p>
+<p>Note that the enumeration order for the <strong>for in</strong> loop is not as strictly defined as for the above functions, but usually, the enumeration of own properties occurs in the order described above.</p>
 </blockquote>
 <blockquote>
-<p>Поскольку цикл <strong>for in</strong> также перечисляет свойства в цепочке прототипов, то после перечисления собственных свойств он будет двигаться <em>вверх по цепочке прототипов</em>, перечисляя свойства каждого объекта прототипа <em>в том же порядке, как описано выше</em>.</p>
+<p>Since the <strong>for in</strong> loop also enumerates properties in the prototype chain, after enumerating own properties, it will move <em>up the prototype chain</em>, enumerating the properties of each prototype object <em>in the same order as described above</em>.</p>
 </blockquote>
 <blockquote>
-<p>Если свойство уже <strong>было перечислено</strong>, то любое свойство с тем же именем <strong>не будет</strong> перечислено снова.</p>
+<p>If a property has already been enumerated, any property with the same name will <strong>not be</strong> enumerated again.</p>
 </blockquote>
 <blockquote>
-<p>Свойство <strong>не будет</strong> перечислено, даже если уже было рассмотрено неисчислимое свойство с тем же именем.</p>
+<p>A property will <strong>not be</strong> enumerated, even if an enumerable property with the same name has already been considered. </p>
 </blockquote></div></div><style data-emotion-css="15hwuq3">.css-15hwuq3{margin:0;padding:10px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;border-top:1px solid var(--textNormal);}@media (max-width:420px){.css-15hwuq3{display:block;}}</style><ul class="css-15hwuq3"><style data-emotion-css="1bnzsti">.css-1bnzsti{list-style-type:none;padding-top:5px;}</style><li class="css-1bnzsti"><a href="https://vk.cc/asTUrW" rel="noopener noreferrer" target="_blank"><span role="img" aria-label="Указатель">👉<!-- --> <!-- -->github</span></a></li><li class="css-1bnzsti"><a href="https://vk.cc/asTUve" rel="noopener noreferrer" target="_blank"><span role="img" aria-label="Указатель">👉<!-- --> <!-- -->codepen</span></a></li></ul></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/order_keys_in_js_objects/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-52b26d7d9106be8a9a55.js"],"app":["/app-0db63fa8467eb686fa14.js"],"component---src-pages-404-js":["/component---src-pages-404-js-87e7d08c5b7c489ed73a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-e979d863cf3855748f54.js"],"component---src-pages-my-files-js":["/component---src-pages-my-files-js-62253c4eff69662ec9fb.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-72ed82ccd6eb23d23554.js"]};/*]]>*/</script><script src="/polyfill-52b26d7d9106be8a9a55.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-72ed82ccd6eb23d23554.js" async=""></script><script src="/commons-3a3af077ad583ef12c31.js" async=""></script><script src="/styles-29147cbc04bbc833f6a0.js" async=""></script><script src="/app-0db63fa8467eb686fa14.js" async=""></script><script src="/framework-643cd9d57cfac08fd2c4.js" async=""></script><script src="/webpack-runtime-7055caba3aa2669227b5.js" async=""></script></body></html>
