@@ -1,34 +1,30 @@
----
-title: "Порядок хранения/перечисления ключей в объекте JS"
-date: "2021-07-14"
----
+# Order of Storing/Enumerating Keys in a JS Object
 
-**Объекты** в JS были `'unordered'` до **ES5**.
-Начиная с **ES6**, существует предсказуемый порядок итерации свойств объекта.
+In JS, objects were 'unordered' until ES5. Starting from ES6, there is a predictable order of iterating through an object's properties.
 
-1. Все неотрицательные целочисленные ключи меньше **2<sup>32</sup>** , в порядке возрастания. (например, `'1'`, `'79'` и т. д.). Обычно, все допустимые индексы массива. _(не отрицательные числа до 2<sup>32</sup>)_.
+1. All non-negative integer keys less than 2^32, in ascending order. (e.g., '1', '79', etc.). Typically, all valid array indexes. (non-negative numbers up to 2^32)
 
-> _Предостережение_: `'05'` не будет считаться целочисленным ключом, так как целое число, проанализированное из него, даст другое строковое представление.
+   > _Warning_: '05' will not be considered an integer key, as the integer parsed from it yields a different string representation.
 
-2. Все строковые ключи в исходном порядке вставки (в том порядке, в котором они были добавлены в объект).
+2. All string keys in the order of insertion (in the order they were added to the object).
 
-> Здесь будут рассмотрены числовые строки, не попадающие в пределы первого шага и числа с плавающей запятой.
+   > Here, numeric strings not falling within the first step and floating-point numbers will be covered.
 
-3. Свойства, имена которых являются символами, перечислены в том порядке, в котором они были добавлены в объект.
+3. Properties whose names are symbols are listed in the order in which they were added to the object.
 
-Если порядок перечисления релевантен, вы всегда можете использовать [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), который гарантирует, что порядок вставки будет сохранен.
+If the enumeration order is relevant, you can always use Map, which guarantees that the insertion order will be preserved.
 
-## Функции, перечисляющие свойства в описанном выше порядке с учетом их собственных ограничений
+## Functions that enumerate properties in the order described above, taking into account their own limitations
 
-- [`Object.keys()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-- [`Object.getOwnPropertyNames()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
-- [`Object.getOwnPropertySymbols()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols)
-- [`Reflect.ownKeys()`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys)
+- [`Object.keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+- [`Object.getOwnPropertyNames()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames)
+- [`Object.getOwnPropertySymbols()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols)
+- [`Reflect.ownKeys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys)
 
-> Следует иметь в виду, что порядок перечисления для цикла **for in** не так строго определен, как для функций выше, но обычно перечисление собственных свойств происходит в описанном порядке.
+> Note that the enumeration order for the **for in** loop is not as strictly defined as for the above functions, but usually, the enumeration of own properties occurs in the order described above.
 
-> Поскольку цикл **for in** также перечисляет свойства в цепочке прототипов, то после перечисления собственных свойств он будет двигаться _вверх по цепочке прототипов_, перечисляя свойства каждого объекта прототипа _в том же порядке, как описано выше_.
+> Since the **for in** loop also enumerates properties in the prototype chain, after enumerating own properties, it will move _up the prototype chain_, enumerating the properties of each prototype object _in the same order as described above_.
 
-> Если свойство уже **было перечислено**, то любое свойство с тем же именем **не будет** перечислено снова.
+> If a property has already been enumerated, any property with the same name will **not be** enumerated again.
 
-> Свойство **не будет** перечислено, даже если уже было рассмотрено неисчислимое свойство с тем же именем.
+> A property will **not be** enumerated, even if an enumerable property with the same name has already been considered. 
