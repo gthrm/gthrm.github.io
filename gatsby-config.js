@@ -9,7 +9,7 @@ module.exports = {
     title: 'cdROma.me',
     links: [
       { id: '000', name: 'github', url: 'https://share.cdroma.me/0tlpA' },
-      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/' }]
+      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/ksfKG' }]
   },
   plugins: [
     {
