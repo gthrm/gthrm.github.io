@@ -8,8 +8,8 @@ module.exports = {
   siteMetadata: {
     title: 'cdROma.me',
     links: [
-      { id: '000', name: 'github', url: 'https://share.cdroma.me/0tlpA' },
-      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/ksfKG' }]
+      { id: '000', name: 'github', url: 'https://share.cdroma.me/hnXii' },
+      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/3CBJx' }]
   },
   plugins: [
     {
