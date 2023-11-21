@@ -10,7 +10,6 @@ const styledHeaderWrapper = css`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: ${rhythm(1)};
 `;
 
 const styledAvatar = css`
@@ -41,9 +40,27 @@ const styledLink = css`
   color: inherit;
 `;
 
+const styledCoffeeWrapper = css`
+  padding: ${rhythm(1)} 0;
+  margin: ${rhythm(1)} 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px dotted var(--textLink);
+`;
+
 const styledLinkHeader = css`
   font-size: ${rhythm(1)};
   margin-bottom: ${rhythm(0.5)};
+
+  @media (max-width: 420px) {
+    font-size: ${rhythm(0.8)};
+  }
+`;
+
+const styledCoffeeLinkHeader = css`
+  font-size: ${rhythm(1)};
+  margin: 0;
 
   @media (max-width: 420px) {
     font-size: ${rhythm(0.8)};
@@ -74,6 +91,21 @@ export default ({ data }) => (
           </h4>
         </div>
         <img loading="lazy" src={avatar} alt="Roman" css={styledAvatar} />
+      </div>
+      <div css={styledCoffeeWrapper}>
+        <Link to="coffee" css={styledLink}>
+          <h3 css={styledCoffeeLinkHeader}>
+            <span aria-label="Coffee" role="img">
+              ☕️
+            </span>
+            {' '}
+            The Coffee Blog here
+            {' '}
+            <span aria-label="Click" role="img">
+              👈
+            </span>
+          </h3>
+        </Link>
       </div>
 
       {data.allMarkdownRemark.edges.map(({ node }) => (

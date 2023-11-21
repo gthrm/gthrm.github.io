@@ -7,7 +7,7 @@ export default function NotFoundPage({ location }) {
   return (
     <Layout location={location}>
       <main>
-        <h1>Not Found</h1>
+        <h1>The Coffee Page</h1>
         <p>I haven’t written this post yet. Will you help me write it?</p>
         <div css={styledIframeWrapper}>
           <iframe
@@ -21,6 +21,7 @@ export default function NotFoundPage({ location }) {
             allowFullscreen
           />
         </div>
+
         <p>Look at</p>
       </main>
     </Layout>
