@@ -24,31 +24,9 @@ export default ({ children }) => {
       <Helmet>
         <meta name="theme-color" content="" />
       </Helmet>
-      <div
-        css={css`
-        margin: 0 auto;
-        max-width: 700px;
-        padding: ${rhythm(2)};
-        @media (max-width: 550px) {
-          padding: ${rhythm(1)};
-        }
-        padding-top: ${rhythm(1.5)};
-
-        color: var(--textNormal);
-        transition-duration: 0.2s;
-        transition-property: background-color, color;
-    `}
-      >
+      <div css={styledContainer}>
         <Link to="/">
-          <h3
-            css={css`
-          margin-bottom: ${rhythm(2)};
-          display: inline-block;
-          font-style: normal;
-        `}
-          >
-            {data.site.siteMetadata.title}
-          </h3>
+          <h3 css={styledHeader}>{data.site.siteMetadata.title}</h3>
         </Link>
         <ThemeTogglerComponent />
         {children}
@@ -57,3 +35,23 @@ export default ({ children }) => {
     </>
   );
 };
+
+const styledContainer = css`
+  margin: 0 auto;
+  max-width: 700px;
+  padding: ${rhythm(2)};
+  padding-top: ${rhythm(1.5)};
+  color: var(--textNormal);
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+
+  @media (max-width: 550px) {
+    padding: ${rhythm(1)};
+  }
+`;
+
+const styledHeader = css`
+  margin-bottom: ${rhythm(2)};
+  display: inline-block;
+  font-style: normal;
+`;
