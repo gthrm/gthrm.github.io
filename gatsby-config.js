@@ -30,7 +30,7 @@ module.exports = {
         short_name: 'GatsbyJS',
         start_url: '/',
         background_color: 'white',
-        theme_color: '#2d2d2d',
+        theme_color: 'white',
         display: 'standalone',
         icon: 'src/assets/sun.png',
       },
