@@ -29,8 +29,6 @@ module.exports = {
         name: 'GatsbyJS',
         short_name: 'GatsbyJS',
         start_url: '/',
-        background_color: 'white',
-        theme_color: 'white',
         display: 'standalone',
         icon: 'src/assets/sun.png',
       },
