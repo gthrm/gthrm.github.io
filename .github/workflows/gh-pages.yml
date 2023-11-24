@@ -10,17 +10,25 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+          # Enable caching for pnpm
+          cache: 'pnpm'
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
+
       - name: Build pages
-        run: npm run build
+        run: pnpm run build
+
       - name: Deploy with gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
