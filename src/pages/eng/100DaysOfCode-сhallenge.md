@@ -2,6 +2,7 @@
 title: "#100DaysOfCode - Challenge"
 date: "2020-05-15"
 lang: "eng"
+type: "main"
 ---
 
 This is a short note about a challenge called #100DaysOfCode and my project within the framework of this challenge.

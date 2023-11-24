@@ -2,6 +2,7 @@
 title: "Order of Storing/Enumerating Keys in a JS Object"
 date: "2021-07-14"
 lang: "eng"
+type: "main"
 ---
 
 In JS, objects were 'unordered' until ES5. Starting from ES6, there is a predictable order of iterating through an object's properties.

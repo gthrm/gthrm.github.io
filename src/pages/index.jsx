@@ -85,7 +85,7 @@ const styledTimeToRead = css`
 export default function App({ data }) {
   return (
     <Layout>
-      <div>
+      <main>
         <div css={styledHeaderWrapper}>
           <div>
             <h1 css={styledHeader}>Roman&#39;s Blog</h1>
@@ -130,20 +130,25 @@ export default function App({ data }) {
             </Link>
           </div>
         ))}
-      </div>
+
+      </main>
     </Layout>
   );
 }
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "main" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
+            type
             date(formatString: "DD MMMM, YYYY")
           }
           fields {
@@ -167,7 +172,8 @@ App.propTypes = {
             id: PropTypes.string.isRequired,
             frontmatter: PropTypes.shape({
               title: PropTypes.string.isRequired,
-              date: PropTypes.string.isRequired, // Assuming date is returned as a string
+              date: PropTypes.string.isRequired,
+              type: PropTypes.string,
             }).isRequired,
             fields: PropTypes.shape({
               slug: PropTypes.string.isRequired,
@@ -179,5 +185,4 @@ App.propTypes = {
       ).isRequired,
     }).isRequired,
   }).isRequired,
-
 };
