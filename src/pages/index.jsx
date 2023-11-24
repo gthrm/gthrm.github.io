@@ -6,6 +6,8 @@ import PropTypes from 'prop-types';
 import { rhythm } from '../utils/typography';
 import Layout from '../components/layout';
 import avatar from '../assets/avatar.jpg';
+import avatarAvif from '../assets/avatar.avif';
+import avatarWebp from '../assets/avatar.webp';
 
 const styledHeaderWrapper = css`
   display: flex;
@@ -93,7 +95,17 @@ export default function App({ data }) {
               {`${data.allMarkdownRemark.totalCount} Notes`}
             </h4>
           </div>
-          <img loading="lazy" src={avatar} alt="Roman" css={styledAvatar} />
+          <picture>
+            <source
+              srcSet={avatarAvif}
+            />
+            <source
+              srcSet={avatarWebp}
+
+            />
+            <img loading="lazy" src={avatar} alt="Roman" css={styledAvatar} />
+          </picture>
+
         </div>
         <div css={styledCoffeeWrapper}>
           <Link to="coffee" css={styledLink}>
