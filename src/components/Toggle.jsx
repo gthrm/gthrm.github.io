@@ -57,6 +57,11 @@ export default class Toggle extends PureComponent {
     }
   }
 
+  componentDidUpdate() {
+    const { checked } = this.props;
+    this.setState({ checked });
+  }
+
   handleTouchStart(event) {
     const { hasFocus } = this.state;
     this.startX = pointerCoord(event).x;
