@@ -220,7 +220,7 @@ Toggle.propTypes = {
 
 Toggle.defaultProps = {
   checked: false,
-  defaultChecked: undefined,
+  defaultChecked: false,
   onFocus: null,
   onBlur: null,
   icons: null,
