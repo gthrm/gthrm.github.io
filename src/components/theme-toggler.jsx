@@ -45,7 +45,7 @@ export default function ThemeTogglerComponent() {
       `}
     >
       <ThemeToggler>
-        {({ theme, toggleTheme }) => (
+        {({ theme, toggleTheme }) => theme && (
           <Toggle
             key={theme}
             icons={icons}
