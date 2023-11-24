@@ -47,6 +47,7 @@ export default function ThemeTogglerComponent() {
       <ThemeToggler>
         {({ theme, toggleTheme }) => (
           <Toggle
+            key={theme}
             icons={icons}
             checked={theme === 'dark'}
             onChange={(e) => handleToggleTheme(e, toggleTheme, theme)}
