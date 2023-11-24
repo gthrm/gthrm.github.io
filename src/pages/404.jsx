@@ -1,6 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
+
 import Layout from '../components/layout';
 import { rhythm } from '../utils/typography';
 
@@ -61,6 +62,6 @@ NotFoundPage.propTypes = {
       key: PropTypes.string.isRequired,
     }),
     key: PropTypes.string.isRequired,
-    action: PropTypes.string.isRequired,
+    action: PropTypes.string,
   }).isRequired,
 };

@@ -5,6 +5,7 @@ body {
   --textNormal: #222;
   --textTitle: #222;
   --textLink: rgb(255, 87, 0);
+  --disabledLink: rgb(148, 148, 148);
   --textLinkHover: rgba(255, 87, 0, 0.8);
   --hr: hsla(0, 0%, 0%, 0.2);
   --codeBg: #f2f2f2;
@@ -51,6 +52,38 @@ a {
   text-decoration: none;
 }
 
-/* a:hover {
-  color: #ff5500ce;
-} */
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    font-size: 1.0rem;
+  }
+
+  p {
+    margin-bottom: 1.1rem;
+  }
+
+  ol {
+    margin-left: 1.1rem;
+  }
+
+  blockquote {
+    margin: 0 0.8rem;
+  }
+}

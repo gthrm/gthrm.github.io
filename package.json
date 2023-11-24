@@ -26,14 +26,13 @@
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-remark": "^6.12.3",
     "gh-pages": "^2.2.0",
-    "prettier": "^3.1.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-typography": "^0.16.23",
     "typography": "^0.16.24",
-    "typography-theme-ocean-beach": "^0.16.19",
-    "prop-types": "^15.8.1"
+    "typography-theme-ocean-beach": "^0.16.19"
   },
   "repository": {
     "type": "git",
@@ -52,6 +51,7 @@
     "gatsby-core-utils": "^4.12.1",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-pnpm": "^1.2.10",
-    "gatsby-react-router-scroll": "^6.12.0"
+    "gatsby-react-router-scroll": "^6.12.0",
+    "prettier": "^3.1.0"
   }
 }

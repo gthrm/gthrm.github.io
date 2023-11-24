@@ -1,15 +1,20 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+import { css } from '@emotion/react';
 import Layout from '../components/layout';
 
-export default function BlogPost({ data }) {
+const styledContainer = css`
+  margin-bottom: 1rem;
+`;
+
+export default function BlogPost({ location, data }) {
   const post = data.markdownRemark;
   return (
-    <Layout>
+    <Layout location={location}>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div css={styledContainer} dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
@@ -34,5 +39,21 @@ BlogPost.propTypes = {
         title: PropTypes.string.isRequired,
       }).isRequired,
     }).isRequired,
+  }).isRequired,
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+    search: PropTypes.string.isRequired,
+    hash: PropTypes.string.isRequired,
+    href: PropTypes.string.isRequired,
+    origin: PropTypes.string.isRequired,
+    protocol: PropTypes.string.isRequired,
+    host: PropTypes.string.isRequired,
+    hostname: PropTypes.string.isRequired,
+    port: PropTypes.string.isRequired,
+    state: PropTypes.shape({
+      key: PropTypes.string.isRequired,
+    }),
+    key: PropTypes.string.isRequired,
+    action: PropTypes.string,
   }).isRequired,
 };
