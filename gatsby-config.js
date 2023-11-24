@@ -9,7 +9,7 @@ module.exports = {
     title: 'cdROma.me',
     links: [
       { id: '000', name: 'github', url: 'https://share.cdroma.me/hnXii' },
-      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/3CBJx' }]
+      { id: '001', name: 'codepen', url: 'https://share.cdroma.me/3CBJx' }],
   },
   plugins: [
     {
@@ -22,7 +22,19 @@ module.exports = {
     'gatsby-transformer-remark',
     'gatsby-plugin-emotion',
     'gatsby-plugin-dark-mode',
-    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-pnpm',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'GatsbyJS',
+        short_name: 'GatsbyJS',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+        icon: 'src/assets/sun.png',
+      },
+    },
     {
       resolve: 'gatsby-plugin-typography',
       options: {
@@ -30,5 +42,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '/'
+  pathPrefix: '/',
 };

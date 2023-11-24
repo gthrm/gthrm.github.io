@@ -1,6 +1,7 @@
 ---
 title: "Useful MacOS Apps for Developers"
 date: "2021-02-10"
+lang: "eng"
 ---
 
 1. [iTerm2](https://www.iterm2.com/)

@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /*
  * Copyright (c) 2015 instructure-react
  * Forked from https://github.com/aaronshaf/react-toggle/
@@ -5,6 +8,7 @@
  * */
 
 import './Toggle.css';
+import PropTypes from 'prop-types';
 
 import React, { PureComponent } from 'react';
 
@@ -51,16 +55,6 @@ export default class Toggle extends PureComponent {
       this.setState({ checked: !!nextProps.checked });
       this.previouslyChecked = !!nextProps.checked;
     }
-  }
-
-  getIcon(type) {
-    const { icons } = this.props;
-    if (!icons) {
-      return null;
-    }
-    return icons[type] === undefined
-      ? Toggle.defaultProps.icons[type]
-      : icons[type];
   }
 
   handleTouchStart(event) {
@@ -156,6 +150,16 @@ export default class Toggle extends PureComponent {
     this.setState({ checked: checkbox.checked });
   }
 
+  getIcon(type) {
+    const { icons } = this.props;
+    if (!icons) {
+      return null;
+    }
+    return icons[type] === undefined
+      ? Toggle.defaultProps.icons[type]
+      : icons[type];
+  }
+
   render() {
     const {
       className, icons: _icons, disabled, ...inputProps
@@ -200,3 +204,26 @@ export default class Toggle extends PureComponent {
     );
   }
 }
+
+Toggle.propTypes = {
+  checked: PropTypes.bool,
+  defaultChecked: PropTypes.bool,
+  onFocus: PropTypes.func,
+  onBlur: PropTypes.func,
+  icons: PropTypes.shape({
+    checked: PropTypes.node,
+    unchecked: PropTypes.node,
+  }),
+  className: PropTypes.string,
+  disabled: PropTypes.bool,
+};
+
+Toggle.defaultProps = {
+  checked: false,
+  defaultChecked: undefined,
+  onFocus: null,
+  onBlur: null,
+  icons: null,
+  className: '',
+  disabled: false,
+};

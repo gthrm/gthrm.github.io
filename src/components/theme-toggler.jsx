@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
-import { css } from '@emotion/core';
 
+import { css } from '@emotion/react';
 import Toggle from './Toggle';
 import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';

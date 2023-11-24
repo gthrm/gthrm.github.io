@@ -1,6 +1,19 @@
 import React from 'react';
-import { css } from '@emotion/core';
+
 import { useStaticQuery, graphql } from 'gatsby';
+import { css } from '@emotion/react';
+
+const styledContainer = css`
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--textNormal);
+
+  @media (max-width: 420px) {
+    display: block;
+  }
+`;
 
 export default function Footer() {
   const data = useStaticQuery(
@@ -16,21 +29,12 @@ export default function Footer() {
               }
             }
           }
-        `
+        `,
   );
 
   return (
     <ul
-      css={css`
-            @media (max-width: 420px) {
-              display: block;
-            }
-            margin: 0;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            border-top: 1px solid var(--textNormal);
-          `}
+      css={styledContainer}
     >
       {data.site.siteMetadata.links.map(
         (item) => (
@@ -56,7 +60,7 @@ export default function Footer() {
               </span>
             </a>
           </li>
-        )
+        ),
       )}
 
     </ul>
