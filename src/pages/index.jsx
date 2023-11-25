@@ -151,7 +151,7 @@ export default function App({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { frontmatter: { type: { eq: "main" } } }
+      filter: { frontmatter: { type: { eq: "main" }, lang: { eq: "eng" } } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       totalCount
