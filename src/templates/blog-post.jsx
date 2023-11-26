@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { css } from '@emotion/react';
+import { Helmet } from 'react-helmet';
 import Layout from '../components/layout';
 
 const styledContainer = css`
@@ -12,6 +13,10 @@ export default function BlogPost({ location, data }) {
   const post = data.markdownRemark;
   return (
     <Layout location={location}>
+      <Helmet>
+        <meta name="theme-color" content="" />
+        <title>{`${data.site.siteMetadata.title} - ${post.frontmatter.title}`}</title>
+      </Helmet>
       <div>
         <h1>{post.frontmatter.title}</h1>
         <div css={styledContainer} dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -22,6 +27,11 @@ export default function BlogPost({ location, data }) {
 
 export const query = graphql`
   query($slug: String!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -33,6 +43,11 @@ export const query = graphql`
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+      }),
+    }),
     markdownRemark: PropTypes.shape({
       html: PropTypes.string.isRequired,
       frontmatter: PropTypes.shape({

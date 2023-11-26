@@ -49,6 +49,7 @@ export default function Layout({ location, children }) {
     <>
       <Helmet>
         <meta name="theme-color" content="" />
+        <title>{data.site.siteMetadata.title}</title>
       </Helmet>
       <div css={styledContainer}>
         <div>
