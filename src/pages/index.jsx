@@ -8,6 +8,7 @@ import Layout from '../components/layout';
 import avatar from '../assets/avatar.jpg';
 import avatarAvif from '../assets/avatar.avif';
 import avatarWebp from '../assets/avatar.webp';
+import SpecialOffer from '../components/special-offer';
 
 const styledHeaderWrapper = css`
   display: flex;
@@ -44,15 +45,6 @@ const styledLink = css`
   color: inherit;
 `;
 
-const styledCoffeeWrapper = css`
-  padding: ${rhythm(1)} 0;
-  margin: ${rhythm(1)} 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 4px dotted var(--textLink);
-`;
-
 const styledLinkHeader = css`
   font-size: ${rhythm(1)};
   margin-bottom: ${rhythm(0.5)};
@@ -65,9 +57,11 @@ const styledLinkHeader = css`
 const styledCoffeeLinkHeader = css`
   font-size: ${rhythm(1)};
   margin: 0;
+  text-wrap: balance;
+  text-align: center;
 
   @media (max-width: 420px) {
-    font-size: ${rhythm(0.8)};
+    font-size: ${rhythm(0.7)};
   }
 `;
 
@@ -107,21 +101,34 @@ export default function App({ data }) {
           </picture>
 
         </div>
-        <div css={styledCoffeeWrapper}>
-          <Link to="coffee" css={styledLink}>
-            <h3 css={styledCoffeeLinkHeader}>
-              <span aria-label="Coffee" role="img">
-                ☕️
-              </span>
-              {' '}
-              The Coffee Blog here
-              {' '}
-              <span aria-label="Click" role="img">
-                👈
-              </span>
-            </h3>
-          </Link>
-        </div>
+        <SpecialOffer to="coffee">
+          <h3 css={styledCoffeeLinkHeader}>
+            <span aria-label="Coffee" role="img">
+              ☕️
+            </span>
+            {' '}
+            The Coffee Blog here
+            {' '}
+            <span aria-label="Click" role="img">
+              👈
+            </span>
+          </h3>
+        </SpecialOffer>
+        <SpecialOffer to="https://cdroma.me/quizlet-lister">
+          <h3 css={styledCoffeeLinkHeader}>
+            <span aria-label="Studding" role="img">
+              🧑‍🎓
+            </span>
+            {' '}
+            Learn foreign language words easily with my new Chrome extension -
+            {' '}
+            <b>Quizlet Lister</b>
+            {' '}
+            <span aria-label="Click" role="img">
+              👈
+            </span>
+          </h3>
+        </SpecialOffer>
 
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
