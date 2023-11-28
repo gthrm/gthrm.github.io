@@ -25,7 +25,7 @@ export default function BlogPost({ location, data }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
         <meta name="twitter:description" content={post.frontmatter.description} />
-        <title>{data.site.siteMetadata.title}</title>
+        <title>{`${data.site.siteMetadata.title} - ${post.frontmatter.title}`}</title>
       </Helmet>
       <div>
         <h1>{post.frontmatter.title}</h1>
