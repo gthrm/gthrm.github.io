@@ -86,11 +86,11 @@ export default function App({ data }) {
         <meta name="theme-color" content="" />
         <meta name="description" content={data.site.siteMetadata.description} />
         <meta name="keywords" content={data.site.siteMetadata.keywords} />
-        <link rel="canonical" href={window.location.href} />
+        <link rel="canonical" href={data.site.siteMetadata.url} />
         <meta property="og:title" content={data.site.siteMetadata.title} />
         <meta property="og:description" content={data.site.siteMetadata.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={window.location.href} />
+        <meta property="og:url" content={data.site.siteMetadata.url} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
         <meta name="twitter:description" content={data.site.siteMetadata.description} />
@@ -178,6 +178,7 @@ export const query = graphql`
         pageTitle
         description
         keywords
+        url
       }
     }
     allMarkdownRemark(
@@ -212,6 +213,7 @@ App.propTypes = {
         pageTitle: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,
         keywords: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
       }),
     }),
     allMarkdownRemark: PropTypes.shape({

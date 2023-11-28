@@ -17,11 +17,11 @@ export default function BlogPost({ location, data }) {
         <meta name="theme-color" content="" />
         <meta name="description" content={post.frontmatter.description} />
         <meta name="keywords" content={post.frontmatter.keywords} />
-        <link rel="canonical" href={location.href} />
+        <link rel="canonical" href={data.site.siteMetadata.url} />
         <meta property="og:title" content={post.frontmatter.title} />
         <meta property="og:description" content={post.frontmatter.description} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={location.href} />
+        <meta property="og:url" content={data.site.siteMetadata.url} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
         <meta name="twitter:description" content={post.frontmatter.description} />
@@ -40,6 +40,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        url
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -58,6 +59,7 @@ BlogPost.propTypes = {
     site: PropTypes.shape({
       siteMetadata: PropTypes.shape({
         title: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired,
       }),
     }),
     markdownRemark: PropTypes.shape({
