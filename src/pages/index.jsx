@@ -94,7 +94,7 @@ export default function App({ data }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
         <meta name="twitter:description" content={data.site.siteMetadata.description} />
-        <title>{`${data.site.siteMetadata.title} -${data.site.siteMetadata.pageTitle}`}</title>
+        <title>{data.site.siteMetadata.pageTitle}</title>
       </Helmet>
       <main>
         <div css={styledHeaderWrapper}>
