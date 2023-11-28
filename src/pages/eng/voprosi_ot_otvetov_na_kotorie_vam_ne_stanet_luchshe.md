@@ -3,6 +3,8 @@ title: "Questions That Won't Make You Feel Better After Knowing the Answers"
 date: "2020-06-03 22:43:00"
 lang: "eng"
 type: "main"
+description: "This intriguing article compiles a series of complex and thought-provoking questions from various JS interviews, covering topics from React JS/Native to CSS and DOM. The article doesn’t necessarily provide answers but presents these questions to reflect on the depth and complexity of JavaScript and web development."
+keywords: "JavaScript interview questions, React JS, React Native, Redux, programming questions, web development, JS Object, DOM, CSS, JavaScript challenges, coding interview, software engineering, frontend development, backend development, React lifecycle, Redux middleware, web technologies, programming concepts, JavaScript complexities, coding problems, developer interviews, web programming, coding knowledge, JavaScript intricacies"
 ---
 
 I created this note to jot down questions that were (or were not) asked of me in (or out of) JS interviews.

@@ -3,6 +3,8 @@ title: "Useful MacOS Apps for Developers"
 date: "2021-02-10"
 lang: "eng"
 type: "main"
+description: "Explore a curated list of essential MacOS apps for developers in this article. From iTerm2 for enhanced terminal experiences to Postman for API testing, discover tools that can streamline your development workflow. Also, delve into VS Code extensions that boost productivity and code quality."
+keywords: "MacOS apps for developers, iTerm2, Terminal replacement, SpectacleApp, window resizing, Transporter AppStore, PixelPerfect, web design, Postman, API testing, Postwoman, docker-openvpn, VPN creation, responsively.app, UI debugging, VS Code extensions, Todo-Tree, vscode-styled-components, polacode, code-spell-checker, color-highlight, vscode-markdownlint, developer tools, software development, coding productivity, MacOS utilities, developer resources"
 ---
 
 1. [iTerm2](https://www.iterm2.com/)

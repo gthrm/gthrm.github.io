@@ -1,11 +1,13 @@
 ---
 title: "#100DaysOfCode - Challenge"
+description: "Discover the #100DaysOfCode challenge in this enlightening post, where I share my journey and the development of an online version of the game 'Imaginarium'. Learn about the challenge, my experiences, and how I'm bringing a classic game to the digital realm."
 date: "2020-05-15"
 lang: "eng"
 type: "main"
+keywords: "#100DaysOfCode, coding challenge, daily coding, project development, Imaginarium, online game development, programming journey, self-improvement, coding skills, game adaptation, digital transformation, creative coding project, personal coding experience, GitHub repository, game testing invitation, code refinement, Imaginarium online version"
 ---
 
-This is a short note about a challenge called #100DaysOfCode and my project within the framework of this challenge.
+This is a short note about a challenge called *#100DaysOfCode* and my project within the framework of this challenge.
 
 ## What is #100DaysOfCode? ##
 

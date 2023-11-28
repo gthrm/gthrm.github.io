@@ -3,6 +3,8 @@ title: "Order of Storing/Enumerating Keys in a JS Object"
 date: "2021-07-14"
 lang: "eng"
 type: "main"
+description: "This article explores the order of storing and enumerating keys in JavaScript objects, a concept that gained predictability with ES6. It covers the sorting of integer keys, string keys, and symbol-named properties, and highlights the functions that respect this order, like Object.keys() and Reflect.ownKeys(). Understanding this order is vital for JavaScript developers dealing with object property iteration."
+keywords: "JavaScript objects, key enumeration, ES6 features, object property order, integer keys, string keys, symbol properties, Object.keys, Object.getOwnPropertyNames, Object.getOwnPropertySymbols, Reflect.ownKeys, for-in loop, prototype chain enumeration, property sorting in JavaScript, JS object properties, ES6 object iteration, web development, JavaScript programming, coding standards, ES6 standards, JavaScript property order"
 ---
 
 In JS, objects were 'unordered' until ES5. Starting from ES6, there is a predictable order of iterating through an object's properties.
@@ -32,4 +34,4 @@ If the enumeration order is relevant, you can always use Map, which guarantees t
 
 > If a property has already been enumerated, any property with the same name will **not be** enumerated again.
 
-> A property will **not be** enumerated, even if an enumerable property with the same name has already been considered. 
+> A property will **not be** enumerated, even if an enumerable property with the same name has already been considered.

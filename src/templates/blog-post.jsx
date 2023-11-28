@@ -15,7 +15,17 @@ export default function BlogPost({ location, data }) {
     <Layout location={location}>
       <Helmet>
         <meta name="theme-color" content="" />
-        <title>{`${data.site.siteMetadata.title} - ${post.frontmatter.title}`}</title>
+        <meta name="description" content={post.frontmatter.description} />
+        <meta name="keywords" content={post.frontmatter.keywords} />
+        <link rel="canonical" href={location.href} />
+        <meta property="og:title" content={post.frontmatter.title} />
+        <meta property="og:description" content={post.frontmatter.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={location.href} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.frontmatter.title} />
+        <meta name="twitter:description" content={post.frontmatter.description} />
+        <title>{data.site.siteMetadata.title}</title>
       </Helmet>
       <div>
         <h1>{post.frontmatter.title}</h1>
@@ -36,6 +46,8 @@ export const query = graphql`
       html
       frontmatter {
         title
+        description
+        keywords
       }
     }
   }
@@ -52,6 +64,8 @@ BlogPost.propTypes = {
       html: PropTypes.string.isRequired,
       frontmatter: PropTypes.shape({
         title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        keywords: PropTypes.string.isRequired,
       }).isRequired,
     }).isRequired,
   }).isRequired,

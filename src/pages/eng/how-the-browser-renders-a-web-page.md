@@ -3,6 +3,8 @@ title: "How a Browser Renders a Web Page"
 date: "2021-03-16"
 lang: "eng"
 type: "main"
+description: "This article offers an insightful overview of the steps a browser takes to render a web page, from parsing HTML into DOM to the final stage of layout calculation and painting. Understanding these processes is crucial for every developer aiming to create fast and reliable websites."
+keywords: "browser rendering, web page rendering, HTML parsing, DOM, CSSOM, JavaScript execution, render tree construction, layout calculation, painting, web development, performance optimization, web design, resource fetching, CSS parsing, JavaScript loading, browser internals, rendering process, web technology"
 ---
 
 As a developer, to create fast and reliable websites, it's crucial to understand every step a browser takes to display a web page, as each can be considered and optimized during development. This post is a **brief** overview of this process.

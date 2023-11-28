@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 import { rhythm } from '../utils/typography';
 import Layout from '../components/layout';
 import avatar from '../assets/avatar.jpg';
@@ -81,6 +82,20 @@ const styledTimeToRead = css`
 export default function App({ data }) {
   return (
     <Layout>
+      <Helmet>
+        <meta name="theme-color" content="" />
+        <meta name="description" content={data.site.siteMetadata.description} />
+        <meta name="keywords" content={data.site.siteMetadata.keywords} />
+        <link rel="canonical" href={window.location.href} />
+        <meta property="og:title" content={data.site.siteMetadata.title} />
+        <meta property="og:description" content={data.site.siteMetadata.description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={window.location.href} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={data.site.siteMetadata.title} />
+        <meta name="twitter:description" content={data.site.siteMetadata.description} />
+        <title>{data.site.siteMetadata.pageTitle}</title>
+      </Helmet>
       <main>
         <div css={styledHeaderWrapper}>
           <div>
@@ -114,7 +129,7 @@ export default function App({ data }) {
             </span>
           </h3>
         </SpecialOffer>
-        <SpecialOffer to="https://cdroma.me/quizlet-lister">
+        <SpecialOffer to="/quizlet-lister">
           <h3 css={styledCoffeeLinkHeader}>
             <span aria-label="Studding" role="img">
               🧑‍🎓
@@ -157,6 +172,14 @@ export default function App({ data }) {
 
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        pageTitle
+        description
+        keywords
+      }
+    }
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "main" }, lang: { eq: "eng" } } }
       sort: { fields: [frontmatter___date], order: DESC }
@@ -183,6 +206,14 @@ export const query = graphql`
 
 App.propTypes = {
   data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        pageTitle: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
+        keywords: PropTypes.string.isRequired,
+      }),
+    }),
     allMarkdownRemark: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
       edges: PropTypes.arrayOf(
