@@ -19,9 +19,11 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "dotenv": "^16.3.1",
     "gatsby": "^5.12.0",
     "gatsby-plugin-dark-mode": "^1.1.1",
     "gatsby-plugin-emotion": "^8.12.0",
+    "gatsby-plugin-gitalk": "^1.2.6",
     "gatsby-plugin-react-helmet": "^6.12.0",
     "gatsby-plugin-sitemap": "^6.12.3",
     "gatsby-plugin-typography": "^5.12.0",

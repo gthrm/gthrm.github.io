@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { css } from '@emotion/react';
 import { Helmet } from 'react-helmet';
+import Gitalk from 'gatsby-plugin-gitalk';
 import Layout from '../components/layout';
 
 const styledContainer = css`
@@ -11,6 +12,12 @@ const styledContainer = css`
 
 export default function BlogPost({ location, data }) {
   const post = data.markdownRemark;
+
+  const gitalkConfig = {
+    id: post.id,
+    title: post.frontmatter.title,
+  };
+
   return (
     <Layout location={location}>
       <Helmet>
@@ -18,6 +25,7 @@ export default function BlogPost({ location, data }) {
         <meta name="description" content={post.frontmatter.description} />
         <meta name="keywords" content={post.frontmatter.keywords} />
         <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
         <meta property="og:title" content={post.frontmatter.title} />
         <meta property="og:description" content={post.frontmatter.description} />
         <meta property="og:type" content="article" />
@@ -31,6 +39,7 @@ export default function BlogPost({ location, data }) {
         <h1>{post.frontmatter.title}</h1>
         <div css={styledContainer} dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <Gitalk options={gitalkConfig} />
     </Layout>
   );
 }
@@ -45,6 +54,7 @@ export const query = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      id
       frontmatter {
         title
         description
@@ -64,6 +74,7 @@ BlogPost.propTypes = {
     }),
     markdownRemark: PropTypes.shape({
       html: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired,
       frontmatter: PropTypes.shape({
         title: PropTypes.string.isRequired,
         description: PropTypes.string.isRequired,

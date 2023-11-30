@@ -26,6 +26,12 @@ jobs:
 
       - name: Build pages
         run: pnpm run build
+        env:
+          GITALK_CLIENT_ID: ${{ secrets.GITALK_CLIENT_ID }}
+          GITALK_SECRET: ${{ secrets.GITALK_SECRET }}
+          GITALK_REPO: ${{ vars.GITALK_REPO }}
+          GITALK_OWNER: ${{ vars.GITALK_OWNER }}
+          GITALK_ADMINS: ${{ vars.GITALK_ADMINS }}
 
       - name: Deploy with gh-pages
         uses: peaceiris/actions-gh-pages@v3
