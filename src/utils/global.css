@@ -91,7 +91,7 @@ a,
 }
 
 .gt-container .gt-comment-admin .gt-comment-content {
-  background-color: var(--bg);
+  background-color: var(--bg) !important;;
 }
 
 .gt-container .gt-comment-body {
