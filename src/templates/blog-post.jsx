@@ -14,7 +14,7 @@ export default function BlogPost({ location, data }) {
   const post = data.markdownRemark;
 
   const gitalkConfig = {
-    id: post.frontmatter.title,
+    id: post.id,
     title: post.frontmatter.title,
   };
 
