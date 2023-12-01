@@ -1,5 +1,6 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
+const { GitalkPluginHelper } = require('gatsby-plugin-gitalk');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -13,7 +14,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 };
 
-exports.createPages = async ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions, getNode }) => {
   const { createPage } = actions;
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
@@ -22,6 +23,12 @@ exports.createPages = async ({ graphql, actions }) => {
         allMarkdownRemark {
           edges {
             node {
+              id
+              frontmatter {
+                title
+                description
+                keywords
+              }
               fields {
                 slug
               }
@@ -30,7 +37,22 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }
     `);
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  const site = getNode('Site');
+  const { siteMetadata: { siteUrl } } = site;
+  result.data.allMarkdownRemark.edges.forEach(async ({ node }) => {
+    const personalToken = process.env.GITALK_CREATE_ISSUE_TOKEN;
+
+    if (personalToken) {
+      const issueOptions = {
+        id: node.id,
+        title: node.frontmatter.title,
+        description: node.frontmatter.description,
+        url: siteUrl,
+        personalToken: process.env.GITALK_CREATE_ISSUE_TOKEN,
+      };
+      await GitalkPluginHelper.createIssue(issueOptions);
+    }
+
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/blog-post.jsx'),
