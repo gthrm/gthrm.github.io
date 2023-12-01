@@ -47,12 +47,48 @@ a:hover h3 {
   color: var(--textLinkHover);
 }
 
-a {
+a,
+.gt-container a {
   color: var(--textLink);
   text-decoration: none;
 }
 
+.gt-container .gt-header-textarea,
+.gt-container .gt-header-preview {
+  background-color: var(--bg) !important;
+  color: var(--textNormal) !important;
+  border-color: var(--textLink) !important;
+  font-size: inherit !important;
+}
 
+.gt-container .gt-btn {
+  background-color: var(--textLink) !important;
+  border-color: var(--textLink) !important;
+  font-size: 16px !important;
+  color: var(--codeBg) !important;
+}
+
+.gt-container .gt-header-controls-tip {
+  color: var(--textLink) !important;
+}
+
+.gt-container .gt-svg svg {
+  fill: var(--textLink) !important;
+}
+
+.gt-container .gt-popup {
+  background-color: var(--bg) !important;
+  color: var(--textNormal) !important;
+}
+
+.gt-container a:hover {
+  color: var(--textLinkHover) !important;
+  text-decoration: none !important;
+}
+
+.gt-container .gt-link {
+  border: none !important;
+}
 
 @media (max-width: 768px) {
   h1 {
