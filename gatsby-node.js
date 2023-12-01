@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 const { GitalkPluginHelper } = require('gatsby-plugin-gitalk');
@@ -39,7 +40,8 @@ exports.createPages = async ({ graphql, actions, getNode }) => {
     `);
   const site = getNode('Site');
   const { siteMetadata: { siteUrl } } = site;
-  result.data.allMarkdownRemark.edges.forEach(async ({ node }) => {
+
+  for await (const { node } of result.data.allMarkdownRemark.edges) {
     const personalToken = process.env.GITALK_CREATE_ISSUE_TOKEN;
 
     if (personalToken) {
@@ -48,6 +50,8 @@ exports.createPages = async ({ graphql, actions, getNode }) => {
         title: node.frontmatter.title,
         description: node.frontmatter.description,
         url: siteUrl,
+        repo: process.env.GITALK_REPO,
+        owner: process.env.GITALK_OWNER,
         personalToken: process.env.GITALK_CREATE_ISSUE_TOKEN,
       };
       await GitalkPluginHelper.createIssue(issueOptions);
@@ -62,5 +66,5 @@ exports.createPages = async ({ graphql, actions, getNode }) => {
         slug: node.fields.slug,
       },
     });
-  });
+  }
 };
