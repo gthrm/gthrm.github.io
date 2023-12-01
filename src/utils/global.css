@@ -94,7 +94,7 @@ a,
   background-color: var(--bg) !important;;
 }
 
-.gt-container .gt-comment-body {
+.gt-container .gt-comment-body p {
   color: var(--textNormal) !important;
 }
 
