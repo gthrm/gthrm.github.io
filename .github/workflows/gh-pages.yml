@@ -34,7 +34,7 @@ jobs:
           GITALK_REPO: ${{ vars.GITALK_REPO }}
           GITALK_OWNER: ${{ vars.GITALK_OWNER }}
           GITALK_ADMINS: ${{ vars.GITALK_ADMINS }}
-          GITALK_CREATE_ISSUE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITALK_CREATE_ISSUE_TOKEN: ${{ secrets.GITALK_CREATE_ISSUE_TOKEN }}
 
       - name: Deploy with gh-pages
         uses: peaceiris/actions-gh-pages@v3
