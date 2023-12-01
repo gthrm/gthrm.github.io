@@ -49,8 +49,8 @@ a:hover h3 {
 
 a,
 .gt-container a {
-  color: var(--textLink);
-  text-decoration: none;
+  color: var(--textLink) !important;;
+  text-decoration: none !important;;
 }
 
 .gt-container .gt-header-textarea,
@@ -81,13 +81,26 @@ a,
   color: var(--textNormal) !important;
 }
 
-.gt-container a:hover {
+.gt-container a:hover, .gt-container .gt-comment-username {
   color: var(--textLinkHover) !important;
   text-decoration: none !important;
 }
 
 .gt-container .gt-link {
   border: none !important;
+}
+
+.gt-container .gt-comment-admin .gt-comment-content {
+  background-color: var(--bg);
+}
+
+.gt-container .gt-comment-body {
+  color: var(--textNormal) !important;
+}
+
+.gt-container .gt-comment-content:hover {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 @media (max-width: 768px) {
