@@ -83,7 +83,6 @@ export default function App({ data }) {
   return (
     <Layout>
       <Helmet>
-        <meta name="theme-color" content="" />
         <meta name="description" content={data.site.siteMetadata.description} />
         <meta name="keywords" content={data.site.siteMetadata.keywords} />
         <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
