@@ -7,12 +7,17 @@ import sun from '../assets/sun.png';
 import moon from '../assets/moon.png';
 
 export default function ThemeTogglerComponent() {
-  const handleToggleTheme = useCallback((e, toggleTheme, theme) => {
-    // that happens before the theme toggled, so we should invert colors
-    // eslint-disable-next-line no-undef
+  const handleSetThemeColor = useCallback((theme, invert) => {
+    const mainColors = ['#2d2d2d', 'white'];
+    const colors = invert ? mainColors.reverse() : mainColors;
     document
       .querySelector('meta[name="theme-color"]')
-      .setAttribute('content', theme === 'dark' ? 'white' : '#2d2d2d');
+      .setAttribute('content', theme === 'dark' ? colors[0] : colors[1]);
+  }, []);
+
+  const handleToggleTheme = useCallback((e, toggleTheme, theme) => {
+    // that happens before the theme toggled, so we should invert colors
+    handleSetThemeColor(theme, true);
     toggleTheme(e.target.checked ? 'dark' : 'light');
   }, []);
 
@@ -45,13 +50,19 @@ export default function ThemeTogglerComponent() {
       `}
     >
       <ThemeToggler>
-        {({ theme, toggleTheme }) => theme && (
-          <Toggle
-            icons={icons}
-            checked={theme === 'dark'}
-            onChange={(e) => handleToggleTheme(e, toggleTheme, theme)}
-          />
-        )}
+        {({ theme, toggleTheme }) => {
+          const themeLocal = localStorage.getItem('theme') || 'light';
+          const mergedTheme = theme || themeLocal;
+          setTimeout(() => { handleSetThemeColor(mergedTheme); });
+
+          return (
+            <Toggle
+              icons={icons}
+              checked={mergedTheme === 'dark'}
+              onChange={(e) => handleToggleTheme(e, toggleTheme, mergedTheme)}
+            />
+          );
+        }}
       </ThemeToggler>
     </div>
   );

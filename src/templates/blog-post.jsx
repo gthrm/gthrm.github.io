@@ -21,7 +21,6 @@ export default function BlogPost({ location, data }) {
   return (
     <Layout location={location}>
       <Helmet>
-        <meta name="theme-color" content="" />
         <meta name="description" content={post.frontmatter.description} />
         <meta name="keywords" content={post.frontmatter.keywords} />
         <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
