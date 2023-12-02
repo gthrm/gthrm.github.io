@@ -47,7 +47,10 @@ a:hover h3 {
   color: var(--textLinkHover);
 }
 
-a,
+a {
+  text-decoration: none;
+}
+
 .gt-container a {
   color: var(--textLink) !important;;
   text-decoration: none !important;;
