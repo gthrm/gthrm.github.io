@@ -23,7 +23,7 @@ As a developer, to create fast and reliable websites, it's crucial to understand
 When the browser receives an HTML page from the network, it parses HTML into the Document Object Model (DOM).
 It breaks down HTML into **tokens**, representing **start tags**, **end tags**, and their **contents**. From this, the browser constructs the DOM.
 
-![parse the html](https://cloud.cdroma.ru/upload/2900d46cf4572086bb3a71a2004f4bc81603967819483.png)
+![parse the html](https://cloud.cdroma.me/upload/2900d46cf4572086bb3a71a2004f4bc81603967819483.png)
 
 ## Fetching External Resources
 
@@ -49,7 +49,7 @@ Moreover, modern browsers will continue to scan HTML while it's blocked and "loo
 <link href="style.css" rel="preload" as="style" />
 ```
 
-![Fetching External Resources](https://cloud.cdroma.ru/upload/de89cbe7244a704261ec4bd7d8a5bd131603969108205.png)
+![Fetching External Resources](https://cloud.cdroma.me/upload/de89cbe7244a704261ec4bd7d8a5bd131603969108205.png)
 
 ## Parsing CSS and Creating CSSOM
 
@@ -61,7 +61,7 @@ Like **HTML** and **DOM**, when **CSS** files are loaded, they need to be parsed
 
 CSSOM differs from DOM in that it can't be constructed incrementally, as CSS rules can overwrite each other due to [specificity](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity). This is why CSS blocks rendering, as until all CSS is parsed and CSSOM is built, the browser can't know where and how to place each element on the screen.
 
-![Parsing CSS and Creating CSSOM](https://cloud.cdroma.ru/upload/e40b18af0d79d7d86179c457aa28005a1603970058277.jpeg)
+![Parsing CSS and Creating CSSOM](https://cloud.cdroma.me/upload/e40b18af0d79d7d86179c457aa28005a1603970058277.jpeg)
 
 ## Executing JavaScript
 
@@ -81,7 +81,7 @@ window.addEventListener('load', (event) => {
 });
 ```
 
-![Executing JavaScript](https://cloud.cdroma.ru/upload/89913c1fdfbfb97c923543839a4ebe9c1603970486086.png)
+![Executing JavaScript](https://cloud.cdroma.me/upload/89913c1fdfbfb97c923543839a4ebe9c1603970486086.png)
 
 ## Combining DOM and CSSOM to Construct the Render Tree
 
@@ -89,7 +89,7 @@ window.addEventListener('load', (event) => {
 
 Different browsers have different [rendering engines](https://en.wikipedia.org/wiki/Comparison_of_browser_engines), just as is the case with JavaScript engines.
 
-![Combining DOM and CSSOM to Construct the Render Tree](https://cloud.cdroma.ru/upload/1211290eccd89fc9d039a0787e5628bd1603970868819.png)
+![Combining DOM and CSSOM to Construct the Render Tree](https://cloud.cdroma.me/upload/1211290eccd89fc9d039a0787e5628bd1603970868819.png)
 
 ## Layout Calculation and Painting
 
@@ -99,6 +99,6 @@ Once this is done, the final step is to take this layout information and paint t
 
 Et voilà! In the end, we have a fully rendered web page!
 
-![Layout Calculation and Painting](<https://cloud.cdroma.ru/upload/92b92971efe1e76b06f45518935c281f1603971427741.png>)
+![Layout Calculation and Painting](<https://cloud.cdroma.me/upload/92b92971efe1e76b06f45518935c281f1603971427741.png>)
 
 [Source](https://dev.to/jstarmx/how-the-browser-renders-a-web-page-1ahc?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)

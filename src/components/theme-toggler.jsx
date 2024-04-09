@@ -38,6 +38,7 @@ export default function ThemeTogglerComponent() {
       />
     ),
   }), []);
+
   return (
     <div
       css={css`

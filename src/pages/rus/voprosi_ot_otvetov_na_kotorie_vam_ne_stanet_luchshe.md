@@ -120,4 +120,4 @@ _______________________
 
 После этого всего в голове остаётся один самый важный вопрос: стал ли я счастливее, узнав ответы на все эти вопросы?
 
-![alt text](https://cloud.cdroma.ru/upload/18abc9fb-dbdb-4161-a48c-48789b974458-1700955531715.jpeg "Logo Title Text 1")
+![alt text](https://cloud.cdroma.me/upload/18abc9fb-dbdb-4161-a48c-48789b974458-1700955531715.jpeg "Logo Title Text 1")

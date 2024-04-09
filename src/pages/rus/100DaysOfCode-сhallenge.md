@@ -61,4 +61,4 @@ keywords: "#100DaysOfCode, кодинг-челендж, ежедневное п�
 
 P.S. Если у вас есть предложения по улучшению и доработке кода, буду рад их принять.
 
-![The-Imagination](https://cloud.cdroma.ru/upload/897ac9b6e3623895213a05df28efd2071590515216564.gif "The-Imagination")
+![The-Imagination](https://cloud.cdroma.me/upload/897ac9b6e3623895213a05df28efd2071590515216564.gif "The-Imagination")

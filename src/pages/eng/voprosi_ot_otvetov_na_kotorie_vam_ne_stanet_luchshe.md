@@ -120,4 +120,4 @@ _______________________
 
 After all this, one most important question remains in mind: did I become happier knowing the answers to all these questions?
 
-![alt text](<https://cloud.cdroma.ru/upload/18abc9fb-dbdb-4161-a48c-48789b974458-1700955531715.jpeg>)
+![alt text](<https://cloud.cdroma.me/upload/18abc9fb-dbdb-4161-a48c-48789b974458-1700955531715.jpeg>)
