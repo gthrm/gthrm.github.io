@@ -52,20 +52,6 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
-    {
-      resolve: 'gatsby-plugin-gitalk',
-      options: {
-        config: {
-          clientID: process.env.GITALK_CLIENT_ID,
-          clientSecret: process.env.GITALK_SECRET,
-          repo: process.env.GITALK_REPO,
-          owner: process.env.GITALK_OWNER,
-          admin: process.env.GITALK_ADMINS ? process.env.GITALK_ADMINS.split(',') : '',
-        },
-
-      },
-    },
-
   ],
   pathPrefix: '/',
 };
