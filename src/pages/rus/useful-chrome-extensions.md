@@ -28,7 +28,7 @@ keywords: "Chrome extensions, web development tools, developer productivity, Wap
    Dark Reader включает темный режим на всех веб-сайтах, что делает просмотр веб-страниц более комфортным в условиях низкой освещенности.
 
 7. **[Quizlet Lister](https://chromewebstore.google.com/detail/quizlet-lister/amkloklikdefpodfhjfeagihleiplpja)**
-   Quizlet Lister автоматически создает списки для изучения из веб-страниц, интегрируясь с платформой Quizlet для эффективного обучения и запоминания нового материала.
+   Quizlet Lister автоматически создает списки слов для изучения из веб-страниц, интегрируясь с платформой Quizlet для эффективного обучения и запоминания нового материала.
 
 8. **[Ghostery](https://chromewebstore.google.com/detail/ghostery-tracker-ad-block/mlomiejdfkolichcflejclcbmpeaniij?hl=en)**
    Ghostery блокирует трекеры и рекламу, предоставляя информацию о том, какие компании отслеживают вашу активность в интернете, и помогает повысить уровень конфиденциальности.
