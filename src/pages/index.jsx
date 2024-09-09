@@ -115,7 +115,7 @@ export default function App({ data }) {
           </picture>
 
         </div>
-        <SpecialOffer to="coffee">
+        {/* <SpecialOffer to="coffee">
           <h3 css={styledCoffeeLinkHeader}>
             <span aria-label="Coffee" role="img">
               ☕️
@@ -127,7 +127,7 @@ export default function App({ data }) {
               👈
             </span>
           </h3>
-        </SpecialOffer>
+        </SpecialOffer> */}
         <SpecialOffer to="/quizlet-lister">
           <h3 css={styledCoffeeLinkHeader}>
             <span aria-label="Studding" role="img">
