@@ -79,6 +79,23 @@ const styledTimeToRead = css`
   font-size: 13px;
 `;
 
+const styledBio = css`
+  font-size: ${rhythm(0.8)};
+  padding: ${rhythm(0.7)};
+  margin: ${rhythm(0.7)} 0;
+  border-bottom: 4px dotted var(--textLink);
+  border-top: 4px dotted var(--textLink);
+
+  @media (max-width: 420px) {
+    font-size: ${rhythm(0.7)};
+  }
+`;
+
+const highlightedText = css`
+  color: var(--textLink);
+  font-weight: 700;
+`;
+
 export default function App({ data }) {
   return (
     <Layout>
@@ -115,7 +132,23 @@ export default function App({ data }) {
           </picture>
 
         </div>
-        <SpecialOffer to="coffee">
+        <div css={styledBio}>
+          <span>
+            Hello!
+            {' '}
+            <span css={highlightedText}>I&apos;m Roman 👋</span>
+          </span>
+          <br />
+          <span>I write frontend 👨‍💻. Do some pet projects 🛠️. Make delicious food 🍲.</span>
+          <br />
+          <span>Enjoy touching grass 🌿.</span>
+          <br />
+          <span>Against Clean code! With a passion 🔥</span>
+          <br />
+          <span>Feature first matters 🚀.</span>
+          <br />
+        </div>
+        {/* <SpecialOffer to="coffee">
           <h3 css={styledCoffeeLinkHeader}>
             <span aria-label="Coffee" role="img">
               ☕️
@@ -127,7 +160,7 @@ export default function App({ data }) {
               👈
             </span>
           </h3>
-        </SpecialOffer>
+        </SpecialOffer> */}
         <SpecialOffer to="/quizlet-lister">
           <h3 css={styledCoffeeLinkHeader}>
             <span aria-label="Studding" role="img">
