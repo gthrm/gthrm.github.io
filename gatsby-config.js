@@ -52,6 +52,17 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Lato:400,700',
+          'limelight',
+          'source sans pro:300,400,400i,700',
+        ],
+        display: 'swap',
+      },
+    },
   ],
   pathPrefix: '/',
 };

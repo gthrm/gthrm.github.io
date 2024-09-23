@@ -15,6 +15,9 @@ body {
   background-color: var(--bg);
   transition-duration: 0.2s;
   transition-property: background-color;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h4 {
@@ -52,8 +55,10 @@ a {
 }
 
 .gt-container a {
-  color: var(--textLink) !important;;
-  text-decoration: none !important;;
+  color: var(--textLink) !important;
+  ;
+  text-decoration: none !important;
+  ;
 }
 
 .gt-container .gt-header-textarea,
@@ -84,7 +89,8 @@ a {
   color: var(--textNormal) !important;
 }
 
-.gt-container a:hover, .gt-container .gt-comment-username {
+.gt-container a:hover,
+.gt-container .gt-comment-username {
   color: var(--textLinkHover) !important;
   text-decoration: none !important;
 }
@@ -94,7 +100,8 @@ a {
 }
 
 .gt-container .gt-comment-admin .gt-comment-content {
-  background-color: var(--bg) !important;;
+  background-color: var(--bg) !important;
+  ;
 }
 
 .gt-container .gt-comment-body p {

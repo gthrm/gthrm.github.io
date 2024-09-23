@@ -23,6 +23,9 @@ dependencies:
   gatsby-plugin-emotion:
     specifier: ^8.12.0
     version: 8.12.0(@babel/core@7.25.2)(@emotion/react@11.11.1)(gatsby@5.12.11)
+  gatsby-plugin-google-fonts:
+    specifier: ^1.0.1
+    version: 1.0.1
   gatsby-plugin-react-helmet:
     specifier: ^6.12.0
     version: 6.12.0(gatsby@5.12.11)(react-helmet@6.1.0)
@@ -6163,6 +6166,10 @@ packages:
       '@emotion/babel-preset-css-prop': 11.11.0(@babel/core@7.25.2)
       '@emotion/react': 11.11.1(react@18.2.0)
       gatsby: 5.12.11(babel-eslint@10.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.5.4)
+    dev: false
+
+  /gatsby-plugin-google-fonts@1.0.1:
+    resolution: {integrity: sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==}
     dev: false
 
   /gatsby-plugin-manifest@5.12.3(gatsby@5.12.11)(graphql@16.9.0):
