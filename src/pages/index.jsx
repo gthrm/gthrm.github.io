@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
@@ -55,7 +56,7 @@ const styledLinkHeader = css`
   }
 `;
 
-const styledCoffeeLinkHeader = css`
+const styledSpecialOfferHeader = css`
   font-size: ${rhythm(1)};
   margin: 0;
   text-wrap: balance;
@@ -94,6 +95,11 @@ const styledBio = css`
 const highlightedText = css`
   color: var(--textLink);
   font-weight: 700;
+`;
+
+const styledFeatures = css`
+    margin-top: ${rhythm(0.8)};
+    text-align: start;
 `;
 
 export default function App({ data }) {
@@ -148,21 +154,28 @@ export default function App({ data }) {
           <span>Feature first matters 🚀.</span>
           <br />
         </div>
-        {/* <SpecialOffer to="coffee">
-          <h3 css={styledCoffeeLinkHeader}>
-            <span aria-label="Coffee" role="img">
-              ☕️
+        <SpecialOffer external to="https://t.me/SrpskiPrijateljBot" target="_blank">
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Srpski Prijatelj Bot" role="img">
+              🤖
             </span>
             {' '}
-            The Coffee Blog here
+            <span>Quickly translate from Serbian to Russian and back using my new Telegram bot.</span>
+            <ul css={styledFeatures}>
+              <li>Text from images</li>
+              <li>Regular text</li>
+              <li>And convert it into speech with just a few clicks</li>
+            </ul>
+
+            <b>Srpski Prijatelj Bot</b>
             {' '}
             <span aria-label="Click" role="img">
               👈
             </span>
           </h3>
-        </SpecialOffer> */}
+        </SpecialOffer>
         <SpecialOffer to="/quizlet-lister">
-          <h3 css={styledCoffeeLinkHeader}>
+          <h3 css={styledSpecialOfferHeader}>
             <span aria-label="Studding" role="img">
               🧑‍🎓
             </span>

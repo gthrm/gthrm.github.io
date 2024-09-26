@@ -18,12 +18,20 @@ const styledLink = css`
   color: inherit;
 `;
 
-function SpecialOffer({ children, to }) {
+function SpecialOffer({
+  external, children, to, target,
+}) {
   return (
     <div css={styledCoffeeWrapper}>
-      <Link to={to} css={styledLink}>
-        {children}
-      </Link>
+      {external ? (
+        <a href={to} target={target} css={styledLink}>
+          {children}
+        </a>
+      ) : (
+        <Link target={target} to={to} css={styledLink}>
+          {children}
+        </Link>
+      )}
     </div>
   );
 }
@@ -31,6 +39,8 @@ function SpecialOffer({ children, to }) {
 SpecialOffer.propTypes = {
   children: PropTypes.node.isRequired,
   to: PropTypes.string.isRequired,
+  target: PropTypes.string,
+  external: PropTypes.bool,
 };
 
 export default SpecialOffer;

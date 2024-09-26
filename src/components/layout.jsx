@@ -86,5 +86,3 @@ Layout.propTypes = {
     action: PropTypes.string,
   }),
 };
-
-Layout.defaultProps = { location: null };

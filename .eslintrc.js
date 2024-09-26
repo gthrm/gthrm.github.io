@@ -18,5 +18,6 @@ module.exports = {
   ],
   rules: {
     'react/no-unknown-property': 0,
+    'react/require-default-props': 'off',
   },
 };
