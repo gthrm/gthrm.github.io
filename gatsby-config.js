@@ -19,7 +19,7 @@ module.exports = {
       { id: '000', name: 'github', url: 'https://share.cdroma.me/hnXii' },
       { id: '001', name: 'codepen', url: 'https://share.cdroma.me/3CBJx' },
       { id: '002', name: 'producthunt', url: 'https://share.cdroma.me/KBpLg' },
-      { id: '003', name: 'buymeacoffee', url: 'https://share.cdroma.me/49i29' },
+      { id: '004', name: 'ko-fi', url: 'https://share.cdroma.me/q9SBM' },
     ],
   },
   plugins: [
