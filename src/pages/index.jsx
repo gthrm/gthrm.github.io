@@ -11,6 +11,7 @@ import avatar from '../assets/avatar.jpg';
 import avatarAvif from '../assets/avatar.avif';
 import avatarWebp from '../assets/avatar.webp';
 import SpecialOffer from '../components/special-offer';
+import PulseButton from '../components/pulse-button';
 
 const styledHeaderWrapper = css`
   display: flex;
@@ -98,8 +99,8 @@ const highlightedText = css`
 `;
 
 const styledFeatures = css`
-    margin-top: ${rhythm(0.8)};
-    text-align: start;
+  margin-top: ${rhythm(0.8)};
+  text-align: start;
 `;
 
 export default function App({ data }) {
@@ -110,12 +111,18 @@ export default function App({ data }) {
         <meta name="keywords" content={data.site.siteMetadata.keywords} />
         <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
         <meta property="og:title" content={data.site.siteMetadata.title} />
-        <meta property="og:description" content={data.site.siteMetadata.description} />
+        <meta
+          property="og:description"
+          content={data.site.siteMetadata.description}
+        />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={data.site.siteMetadata.siteUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
-        <meta name="twitter:description" content={data.site.siteMetadata.description} />
+        <meta
+          name="twitter:description"
+          content={data.site.siteMetadata.description}
+        />
         <title>{data.site.siteMetadata.pageTitle}</title>
       </Helmet>
       <main>
@@ -127,25 +134,20 @@ export default function App({ data }) {
             </h4>
           </div>
           <picture>
-            <source
-              srcSet={avatarAvif}
-            />
-            <source
-              srcSet={avatarWebp}
-
-            />
+            <source srcSet={avatarAvif} />
+            <source srcSet={avatarWebp} />
             <img loading="lazy" src={avatar} alt="Roman" css={styledAvatar} />
           </picture>
-
         </div>
         <div css={styledBio}>
           <span>
-            Hello!
-            {' '}
-            <span css={highlightedText}>I&apos;m Roman 👋</span>
+            Hello! <span css={highlightedText}>I&apos;m Roman 👋</span>
           </span>
           <br />
-          <span>I write frontend 👨‍💻. Do some pet projects 🛠️. Make delicious food 🍲.</span>
+          <span>
+            I write frontend 👨‍💻. Do some pet projects 🛠️. Make delicious food
+            🍲.
+          </span>
           <br />
           <span>Enjoy touching grass 🌿.</span>
           <br />
@@ -154,36 +156,51 @@ export default function App({ data }) {
           <span>Feature first matters 🚀.</span>
           <br />
         </div>
-        <SpecialOffer external to="https://t.me/SrpskiPrijateljBot" target="_blank">
-          <h3 css={styledSpecialOfferHeader}>
-            <span aria-label="Srpski Prijatelj Bot" role="img">
-              🤖
-            </span>
-            {' '}
-            <span>Quickly translate from Serbian to Russian and back using my new Telegram bot.</span>
-            <ul css={styledFeatures}>
-              <li>Text from images</li>
-              <li>Regular text</li>
-              <li>And convert it into speech with just a few clicks</li>
-            </ul>
 
-            <b>Srpski Prijatelj Bot</b>
-            {' '}
+        <SpecialOffer
+          external
+          to="https://share.cdroma.me/QGadl"
+          target="_blank">
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Studding" role="img">
+              👾
+            </span>{' '}
+            <b>My new Hacker Stickers</b> - born in the terminal, made for tech
+            enthusiasts!
             <span aria-label="Click" role="img">
               👈
             </span>
           </h3>
         </SpecialOffer>
+
+        <SpecialOffer external to="https://t.me/SrpskiPrijateljBot">
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Srpski Prijatelj Bot" role="img">
+              🤖
+            </span>{' '}
+            <span>
+              Quickly translate from Serbian to Russian and back using my new
+              Telegram bot.
+            </span>
+            <ul css={styledFeatures}>
+              <li>Text from images</li>
+              <li>Regular text</li>
+              <li>And convert it into speech with just a few clicks</li>
+            </ul>
+            <b>Srpski Prijatelj Bot</b>{' '}
+            <span aria-label="Click" role="img">
+              👈
+            </span>
+          </h3>
+        </SpecialOffer>
+
         <SpecialOffer to="/quizlet-lister">
           <h3 css={styledSpecialOfferHeader}>
             <span aria-label="Studding" role="img">
               🧑‍🎓
-            </span>
-            {' '}
-            Learn foreign language words easily with my new Chrome extension -
-            {' '}
-            <b>Quizlet Lister</b>
-            {' '}
+            </span>{' '}
+            Learn foreign language words easily with my new Chrome extension -{' '}
+            <b>Quizlet Lister</b>{' '}
             <span aria-label="Click" role="img">
               👈
             </span>
@@ -194,12 +211,9 @@ export default function App({ data }) {
           <div key={node.id}>
             <Link to={node.fields.slug} css={styledLink}>
               <h3 css={styledLinkHeader}>
-                {node.frontmatter.title}
-                {' '}
+                {node.frontmatter.title}{' '}
                 <span css={styledLinkHeaderDate}>
-                  —
-                  {' '}
-                  {node.frontmatter.date}
+                  — {node.frontmatter.date}
                 </span>
               </h3>
               <p>{node.excerpt}</p>
@@ -209,7 +223,10 @@ export default function App({ data }) {
             </Link>
           </div>
         ))}
-
+        <PulseButton
+          label="👾 Buy My Stickers"
+          href="https://share.cdroma.me/QGadl"
+        />
       </main>
     </Layout>
   );

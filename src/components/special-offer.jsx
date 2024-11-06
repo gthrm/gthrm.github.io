@@ -18,11 +18,9 @@ const styledLink = css`
   color: inherit;
 `;
 
-function SpecialOffer({
-  external, children, to, target,
-}) {
+function SpecialOffer({ external, children, to, target, styles }) {
   return (
-    <div css={styledCoffeeWrapper}>
+    <div css={[styledCoffeeWrapper, styles]}>
       {external ? (
         <a href={to} target={target} css={styledLink}>
           {children}
@@ -41,6 +39,7 @@ SpecialOffer.propTypes = {
   to: PropTypes.string.isRequired,
   target: PropTypes.string,
   external: PropTypes.bool,
+  styles: PropTypes.string,
 };
 
 export default SpecialOffer;
