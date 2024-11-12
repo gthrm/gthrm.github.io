@@ -8,8 +8,8 @@ body {
   --disabledLink: rgb(148, 148, 148);
   --textLinkHover: rgba(255, 87, 0, 0.8);
   --hr: hsla(0, 0%, 0%, 0.2);
-  --codeBg: #f2f2f2;
-  --codeText: #000;
+  --codeBg: #1b1b1b;
+  --codeText: #f5d67b;
 
   min-width: 320px;
   background-color: var(--bg);
@@ -111,6 +111,20 @@ a {
 .gt-container .gt-comment-content:hover {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
+}
+
+pre code {
+  scrollbar-color: #666 #201c29;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  display: block;
+  max-width: 100%;
+  min-width: 100px;
+  font-size: 16px;
+  padding: 15px 20px 12px 22px;
+  line-height: 1.75;
+  color: var(--codeText) ;
 }
 
 @media (max-width: 768px) {
