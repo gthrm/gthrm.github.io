@@ -159,6 +159,29 @@ export default function App({ data }) {
 
         <SpecialOffer
           external
+          to="https://share.cdroma.me/y5LoX"
+          target="_blank">
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Studding" role="img">
+              💡
+            </span>{' '}
+            <b>Markdown New Tab Extension</b>
+            <br />
+            <br />
+            <span>
+              Turn your new tab into a notes app. Quick, simple, always there
+              when you need it.
+            </span>
+            <ul css={styledFeatures}>
+              <li>Quick notes</li>
+              <li>Markdown support</li>
+              <li>Always there when you need it</li>
+            </ul>
+          </h3>
+        </SpecialOffer>
+
+        <SpecialOffer
+          external
           to="https://share.cdroma.me/QGadl"
           target="_blank">
           <h3 css={styledSpecialOfferHeader}>
