@@ -58,5 +58,18 @@
     "gatsby-react-router-scroll": "^6.16.0",
     "prettier": "^3.8.1"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@10.33.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js",
+      "core-js-pure",
+      "es5-ext",
+      "gatsby",
+      "gatsby-cli",
+      "gatsby-telemetry",
+      "lmdb",
+      "msgpackr-extract",
+      "sharp"
+    ]
+  }
 }
