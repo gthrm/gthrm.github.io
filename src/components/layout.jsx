@@ -47,7 +47,7 @@ export default function Layout({ location, children }) {
 
   return (
     <>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'en' }}>
         <meta name="theme-color" content="" />
         <title>{data.site.siteMetadata.title}</title>
       </Helmet>

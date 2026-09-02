@@ -2,6 +2,7 @@ import React from 'react';
 import { css } from '@emotion/react';
 import { graphql, Link } from 'gatsby';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 import Layout from '../../components/layout';
 import { rhythm } from '../../utils/typography';
 
@@ -49,9 +50,29 @@ const styledHeaderWrapper = css`
   margin-bottom: ${rhythm(1)};
 `;
 
+const DESCRIPTION = 'Brewing notes from my coffee blog: pour-over recipes, '
+  + 'ratios and what actually changed the cup. Written by Roman, a frontend '
+  + 'engineer and specialty coffee enthusiast.';
+
 export default function CoffeePage({ data }) {
+  const { siteUrl, title } = data.site.siteMetadata;
+  const pageUrl = `${siteUrl}/coffee/`;
+
   return (
     <Layout>
+      <Helmet>
+        <meta name="description" content={DESCRIPTION} />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:title" content="My Coffee Blog" />
+        <meta property="og:description" content={DESCRIPTION} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:site_name" content={title} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="My Coffee Blog" />
+        <meta name="twitter:description" content={DESCRIPTION} />
+        <title>{`Roman's Coffee Blog - pour-over notes and recipes`}</title>
+      </Helmet>
       <main>
         <div css={styledHeaderWrapper}>
           <div>
@@ -99,9 +120,15 @@ export default function CoffeePage({ data }) {
 
 export const query = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "coffee" }, lang: { eq: "eng" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       totalCount
       edges {
@@ -125,6 +152,12 @@ export const query = graphql`
 
 CoffeePage.propTypes = {
   data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        siteUrl: PropTypes.string.isRequired,
+      }),
+    }).isRequired,
     allMarkdownRemark: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
       edges: PropTypes.arrayOf(

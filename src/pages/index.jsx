@@ -115,13 +115,22 @@ export default function App({ data }) {
           property="og:description"
           content={data.site.siteMetadata.description}
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content={data.site.siteMetadata.siteUrl} />
+        <meta
+          property="og:image"
+          content={`${data.site.siteMetadata.siteUrl}${avatar}`}
+        />
+        <meta property="og:site_name" content={data.site.siteMetadata.title} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
         <meta
           name="twitter:description"
           content={data.site.siteMetadata.description}
+        />
+        <meta
+          name="twitter:image"
+          content={`${data.site.siteMetadata.siteUrl}${avatar}`}
         />
         <title>{data.site.siteMetadata.pageTitle}</title>
       </Helmet>
@@ -159,6 +168,27 @@ export default function App({ data }) {
 
         <SpecialOffer
           external
+          to="https://share.cdroma.me/GBkHN"
+          target="_blank">
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Studding" role="img">
+              ☕️
+            </span>{' '}
+            <b>V60 Barista - Pixel Brew - iOS App</b>
+            <br />
+            <br />
+            <span>Brew better pour-over at home</span>
+            <ul css={styledFeatures}>
+              <li>A pixel-art coffee calculator</li>
+              <li>Step-by-step pour timer</li>
+              <li>Saved recipes for V60, Chemex, AeroPress and more</li>
+              <li>All fully offline</li>
+            </ul>
+          </h3>
+        </SpecialOffer>
+
+        <SpecialOffer
+          external
           to="https://share.cdroma.me/y5LoX"
           target="_blank">
           <h3 css={styledSpecialOfferHeader}>
@@ -190,40 +220,6 @@ export default function App({ data }) {
             </span>{' '}
             <b>My new Hacker Stickers</b> - born in the terminal, made for tech
             enthusiasts!
-            <span aria-label="Click" role="img">
-              👈
-            </span>
-          </h3>
-        </SpecialOffer>
-
-        <SpecialOffer external to="https://t.me/SrpskiPrijateljBot">
-          <h3 css={styledSpecialOfferHeader}>
-            <span aria-label="Srpski Prijatelj Bot" role="img">
-              🤖
-            </span>{' '}
-            <span>
-              Quickly translate from Serbian to Russian and back using my new
-              Telegram bot.
-            </span>
-            <ul css={styledFeatures}>
-              <li>Text from images</li>
-              <li>Regular text</li>
-              <li>And convert it into speech with just a few clicks</li>
-            </ul>
-            <b>Srpski Prijatelj Bot</b>{' '}
-            <span aria-label="Click" role="img">
-              👈
-            </span>
-          </h3>
-        </SpecialOffer>
-
-        <SpecialOffer to="/quizlet-lister">
-          <h3 css={styledSpecialOfferHeader}>
-            <span aria-label="Studding" role="img">
-              🧑‍🎓
-            </span>{' '}
-            Learn foreign language words easily with my new Chrome extension -{' '}
-            <b>Quizlet Lister</b>{' '}
             <span aria-label="Click" role="img">
               👈
             </span>
@@ -268,7 +264,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "main" }, lang: { eq: "eng" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       totalCount
       edges {

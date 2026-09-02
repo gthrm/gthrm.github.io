@@ -75,6 +75,9 @@ importers:
       eslint-config-airbnb:
         specifier: ^19.0.4
         version: 19.0.4(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.6.2))(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.5(eslint@8.57.1))(eslint@8.57.1)
+      eslint-config-prettier:
+        specifier: ^10.1.8
+        version: 10.1.8(eslint@8.57.1)
       eslint-plugin-import:
         specifier: ^2.32.0
         version: 2.32.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.6.2))(eslint@8.57.1)
@@ -2759,6 +2762,12 @@ packages:
       eslint-plugin-jsx-a11y: ^6.5.1
       eslint-plugin-react: ^7.28.0
       eslint-plugin-react-hooks: ^4.3.0
+
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
 
   eslint-config-react-app@6.0.0:
     resolution: {integrity: sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A==}
@@ -9521,6 +9530,10 @@ snapshots:
       eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
       object.assign: 4.1.7
       object.entries: 1.1.9
+
+  eslint-config-prettier@10.1.8(eslint@8.57.1):
+    dependencies:
+      eslint: 8.57.1
 
   eslint-config-react-app@6.0.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.6.2))(eslint@7.32.0)(typescript@5.6.2))(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.6.2))(babel-eslint@10.1.0(eslint@8.57.1))(eslint-plugin-flowtype@5.10.0(eslint@7.32.0))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@7.32.0)(typescript@5.6.2))(eslint@8.57.1))(eslint-plugin-jsx-a11y@6.10.2(eslint@8.57.1))(eslint-plugin-react-hooks@4.6.2(eslint@8.57.1))(eslint-plugin-react@7.37.5(eslint@8.57.1))(eslint@7.32.0)(typescript@5.6.2):
     dependencies:
