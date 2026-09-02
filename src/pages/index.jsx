@@ -115,13 +115,22 @@ export default function App({ data }) {
           property="og:description"
           content={data.site.siteMetadata.description}
         />
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content={data.site.siteMetadata.siteUrl} />
+        <meta
+          property="og:image"
+          content={`${data.site.siteMetadata.siteUrl}${avatar}`}
+        />
+        <meta property="og:site_name" content={data.site.siteMetadata.title} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={data.site.siteMetadata.title} />
         <meta
           name="twitter:description"
           content={data.site.siteMetadata.description}
+        />
+        <meta
+          name="twitter:image"
+          content={`${data.site.siteMetadata.siteUrl}${avatar}`}
         />
         <title>{data.site.siteMetadata.pageTitle}</title>
       </Helmet>
@@ -255,7 +264,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       filter: { frontmatter: { type: { eq: "main" }, lang: { eq: "eng" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
     ) {
       totalCount
       edges {

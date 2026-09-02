@@ -2,6 +2,27 @@
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 
+// Declared explicitly so optional fields (canonical, image) can be queried even
+// when no markdown file uses them yet.
+exports.createSchemaCustomization = ({ actions }) => {
+  actions.createTypes(`
+    type MarkdownRemarkFrontmatter {
+      title: String
+      date: Date @dateformat
+      lang: String
+      type: String
+      description: String
+      keywords: String
+      canonical: String
+      image: String
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `);
+};
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === 'MarkdownRemark') {
