@@ -103,6 +103,27 @@ const styledFeatures = css`
   text-align: start;
 `;
 
+const styledLinkButton = css`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--textLink);
+  color: var(--textNormal);
+  font-size: ${rhythm(1)};
+  padding: ${rhythm(0.7)};
+  text-align: center;
+
+  :hover {
+    background-color: var(--textLinkHover);
+  }
+`;
+
+const promoMailto = `mailto:hello@cdroma.me?subject=${encodeURIComponent(
+  'Promo code for V60 Barista',
+)}&body=${encodeURIComponent(
+  "Hi Roman!\r\n\r\nI'd like a promo code for V60 Barista - Pixel Brew.\r\n\r\nThanks!",
+)}`;
+
 export default function App({ data }) {
   return (
     <Layout>
@@ -185,6 +206,12 @@ export default function App({ data }) {
               <li>All fully offline</li>
             </ul>
           </h3>
+          <h4>
+            <a css={styledLinkButton} href={promoMailto}>
+              Ask for a Promo Code for <br />
+              FREE Installation
+            </a>
+          </h4>
         </SpecialOffer>
 
         <SpecialOffer

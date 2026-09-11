@@ -7,11 +7,13 @@ const styledContainer = css`
   margin: 0;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  column-gap: 16px;
   border-top: 1px solid var(--textNormal);
 
-  @media (max-width: 420px) {
-    display: block;
+  @media (max-width: 550px) {
+    flex-direction: column;
   }
 `;
 
