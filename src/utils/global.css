@@ -3,6 +3,7 @@ body {
   --tbg: #cccccc;
   --tc: white;
   --textNormal: #222;
+  --textButton: #f2f2f3;
   --textTitle: #222;
   --textLink: rgb(255, 87, 0);
   --disabledLink: rgb(148, 148, 148);
@@ -30,6 +31,7 @@ body.dark {
   --tbg: #66bc6a;
   --tc: #cccccc;
   --textNormal: #f2f2f3;
+  --textButton: #f2f2f3;
   --textTitle: #e7e8eb;
   --textLink: rgb(244, 126, 37);
   --textLinkHover: rgb(244, 126, 37, 0.8);
@@ -124,7 +126,7 @@ pre code {
   font-size: 16px;
   padding: 15px 20px 12px 22px;
   line-height: 1.75;
-  color: var(--codeText) ;
+  color: var(--codeText);
 }
 
 @media (max-width: 768px) {

@@ -108,7 +108,7 @@ const styledLinkButton = css`
   align-items: center;
   justify-content: center;
   background-color: var(--textLink);
-  color: var(--textNormal);
+  color: var(--textButton);
   font-size: ${rhythm(1)};
   padding: ${rhythm(0.7)};
   text-align: center;
