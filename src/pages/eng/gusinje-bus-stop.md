@@ -4,12 +4,12 @@ date: "2026-08-28 10:00:00"
 lang: "eng"
 type: "main"
 canonical: "https://gusinje-bus-stop.cdroma.me/"
-image: "https://gusinje-bus-stop.cdroma.me/gusinje-hero-1216.jpg"
+image: "https://cloud.cdroma.me/upload/b851685c-b62a-47da-9861-2c4f8aeaf7f4-1789123044852.jpg"
 description: "There is no bus station in Gusinje, Montenegro - just a wide bit of road. Here are the exact coordinates, the four daily departures to Plav and Podgorica, ticket prices and a couple of phrases worth saying at the stop."
 keywords: "Gusinje bus stop, Gusinje bus station, bus Gusinje Podgorica, bus Gusinje Plav, Autobuska stanica Gusinje, Montenegro buses, Prokletije, Vusanje, Elan Company, Arena Tours, busticket4.me, Gusinje timetable, Montenegro travel, Plav bus, Podgorica bus"
 ---
 
-![I love Gusinje sign in the centre of Gusinje, Montenegro, with the Prokletije mountains behind](https://gusinje-bus-stop.cdroma.me/gusinje-hero-1216.jpg)
+![I love Gusinje sign in the centre of Gusinje, Montenegro, with the Prokletije mountains behind](https://cloud.cdroma.me/upload/b851685c-b62a-47da-9861-2c4f8aeaf7f4-1789123044852.jpg)
 
 Hi. You are probably looking for the same thing I was: where the bus actually stops in Gusinje.
 
