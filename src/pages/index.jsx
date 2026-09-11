@@ -190,32 +190,30 @@ export default function App({ data }) {
         <SpecialOffer
           external
           to="https://share.cdroma.me/GBkHN"
-          target="_blank">
-          <div>
-            <h3 css={styledSpecialOfferHeader}>
-              <span aria-label="Studding" role="img">
-                ☕️
-              </span>{' '}
-              <b>V60 Barista - Pixel Brew - iOS App</b>
-              <br />
-              <br />
-              <span>Brew better pour-over at home</span>
-              <ul css={styledFeatures}>
-                <li>A pixel-art coffee calculator</li>
-                <li>Step-by-step pour timer</li>
-                <li>Saved recipes for V60, Chemex, AeroPress and more</li>
-                <li>All fully offline</li>
-              </ul>
-            </h3>
-          </div>
-          <div>
+          target="_blank"
+          footer={
             <h4>
               <a css={styledLinkButton} href={promoMailto}>
                 Ask for a Promo Code for <br />
                 FREE Installation
               </a>
             </h4>
-          </div>
+          }>
+          <h3 css={styledSpecialOfferHeader}>
+            <span aria-label="Studding" role="img">
+              ☕️
+            </span>{' '}
+            <b>V60 Barista - Pixel Brew - iOS App</b>
+            <br />
+            <br />
+            <span>Brew better pour-over at home</span>
+            <ul css={styledFeatures}>
+              <li>A pixel-art coffee calculator</li>
+              <li>Step-by-step pour timer</li>
+              <li>Saved recipes for V60, Chemex, AeroPress and more</li>
+              <li>All fully offline</li>
+            </ul>
+          </h3>
         </SpecialOffer>
 
         <SpecialOffer
