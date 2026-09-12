@@ -3,7 +3,7 @@ title: "Useful Chrome Extensions for Developers"
 date: "2024-08-29"
 lang: "eng"
 type: "main"
-description: "This list features useful Chrome extensions that significantly boost productivity and convenience for developers. It includes tools like Wappalyzer, Eye Dropper, Dark Reader, Adblock Plus, and others, offering various functionalities for web development, privacy enhancement, and browser experience improvement."
+description: "As a developer, having the right tools at your fingertips can significantly boost productivity and efficiency. Below is a curated list of Chrome extensions that I find particularly useful in my daily workflow."
 keywords: "Chrome extensions, web development tools, developer productivity, Wappalyzer, Eye Dropper, Dark Reader, Adblock Plus, Ghostery, online privacy, HTTP request interception, cookie management, screen recording, dark mode, ad blocking, JavaScript development, language learning, Chrome Web Store"
 ---
 

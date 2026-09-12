@@ -3,7 +3,7 @@ title: "Что на моем Raspberry Pi 5"
 date: "2024-09-22 21:09:00"
 lang: "rus"
 type: "main"
-description: "Опыт использования Raspberry Pi 5: покупка у официального представителя, настройка личных сервисов и домашнего медиа-сервера. Поделюсь впечатлениями и полезными советами."
+description: "Пару месяцев назад я приобрел Raspberry Pi 5. И вот что из этого вышло. Основная идея заключалась в том, чтобы отказаться от облачных vds (у меня их было 3 в DigitalOcean). Но Raspberry Pi 5 даже превзошел мои ожидания."
 keywords: "Raspberry Pi 5, купить Raspberry Pi 5, Raspberry Pi 5 обзор, настройка Raspberry Pi 5, GalagoMarket Raspberry Pi, Raspberry Pi 5 доставка в Сербию, домашний сервер на Raspberry Pi, self-hosted сервисы Raspberry Pi, Ubuntu на Raspberry Pi, медиа-сервер на Raspberry Pi, установка Raspberry Pi, использование Raspberry Pi 5, опыт использования Raspberry Pi"
 ---
 

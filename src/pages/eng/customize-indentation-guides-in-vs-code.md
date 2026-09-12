@@ -3,7 +3,7 @@ title: "Customize Indentation Guides in VS Code"
 date: "2024-11-12"
 lang: "eng"
 type: "main"
-description: "Enhance readability in Visual Studio Code by setting up colorful indentation guides. This guide helps you navigate code structure with ease and reduce eye strain."
+description: "Setting up indentation guides in Visual Studio Code helps you see folder structure clearly, making it easier to find what you need without straining your eyes."
 keywords: "VS Code indentation guides, Visual Studio Code customization, code readability, coding environment setup, color-coded indentation, VS Code settings, developer productivity, file structure navigation"
 ---
 

@@ -3,7 +3,7 @@ title: "Полезные расширения для Chrome для разраб�
 date: "2024-08-29"
 lang: "ru"
 type: "main"
-description: "Этот список включает в себя полезные расширения для Chrome, которые значительно повышают продуктивность и удобство работы разработчиков. Включены такие инструменты, как Wappalyzer, Eye Dropper, Dark Reader, Adblock Plus и другие, которые предоставляют различные функциональности для веб-разработки, повышения конфиденциальности и комфорта работы с браузером."
+description: "Как разработчик, важно иметь под рукой правильные инструменты, которые могут значительно повысить вашу продуктивность и эффективность. Ниже представлен список расширений для Chrome, которые я считаю особенно полезными в моей ежедневной работе."
 keywords: "Chrome extensions, web development tools, developer productivity, Wappalyzer, Eye Dropper, Dark Reader, Adblock Plus, Ghostery, online privacy, HTTP request interception, cookie management, screen recording, dark mode, ad blocking, JavaScript development, language learning, Chrome Web Store"
 ---
 

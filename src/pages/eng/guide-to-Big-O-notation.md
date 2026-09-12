@@ -3,7 +3,7 @@ title: "Big O Notation Guide for Beginners"
 date: "2020-09-27"
 lang: "eng"
 type: "main"
-description: "This article provides a beginner-friendly guide to understanding Big O Notation in computer science. It explains how Big O is used to describe the performance or complexity of an algorithm, covering various complexities from O(1) to O(2^N) and O(log n), with practical code examples."
+description: "The Big O notation is used in computer science to describe the performance or complexity of an algorithm. As a programmer first and a mathematician second, I've found that the best way to fully grasp Big O is to create some code examples. This article aims to help you understand the basics of Big O and logarithms."
 keywords: "Big O Notation, algorithm complexity, computer science basics, programming concepts, O(1) complexity, O(N) complexity, O(N^2) complexity, O(2^N) complexity, O(log n) complexity, performance analysis, coding for beginners, understanding algorithms, algorithm efficiency, worst-case scenario, space complexity, time complexity, linear time, quadratic time, exponential growth, logarithmic time, binary search, Fibonacci sequence, divide and conquer, code examples, JavaScript algorithms"
 ---
 

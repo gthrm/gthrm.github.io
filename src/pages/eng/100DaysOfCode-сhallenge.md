@@ -1,6 +1,6 @@
 ---
 title: "#100DaysOfCode - Challenge"
-description: "Discover the #100DaysOfCode challenge in this enlightening post, where I share my journey and the development of an online version of the game 'Imaginarium'. Learn about the challenge, my experiences, and how I'm bringing a classic game to the digital realm."
+description: "This is a short note about a challenge called #100DaysOfCode and my project within the framework of this challenge. I decided to move the game Imaginarium online and implement a function for loading cards. Now any picture can be a card."
 date: "2020-05-15"
 lang: "eng"
 type: "main"

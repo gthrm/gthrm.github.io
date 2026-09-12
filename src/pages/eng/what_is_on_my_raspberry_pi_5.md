@@ -3,7 +3,7 @@ title: "What's on My Raspberry Pi 5"
 date: "2024-09-22 21:09:00"
 lang: "eng"
 type: "main"
-description: "Raspberry Pi 5 usage experience: purchasing from an official distributor, setting up personal services, and a home media server. I'll share my impressions and useful tips."
+description: "A couple of months ago I bought a Raspberry Pi 5. Here's what came out of it. The main idea was to stop using cloud VDS (I had 3 on DigitalOcean). But the Raspberry Pi 5 even exceeded my expectations."
 keywords: "Raspberry Pi 5, buy Raspberry Pi 5, Raspberry Pi 5 review, Raspberry Pi 5 setup, GalagoMarket Raspberry Pi, Raspberry Pi 5 delivery to Serbia, home server on Raspberry Pi, self-hosted services Raspberry Pi, Ubuntu on Raspberry Pi, media server on Raspberry Pi, Raspberry Pi installation, Raspberry Pi 5 usage, Raspberry Pi experience"
 ---
 

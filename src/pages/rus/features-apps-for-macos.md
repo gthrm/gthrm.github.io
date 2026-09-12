@@ -3,7 +3,7 @@ title: "Полезные приложения для MacOS для разрабо
 date: "2021-02-10"
 lang: "rus"
 type: "main"
-description: "Подборка нужных приложений под MacOS для разработчиков: от iTerm2 для комфортной работы в терминале до Postman для тестирования API. Инструменты, которые ускоряют рабочий процесс. Плюс расширения для VS Code, повышающие продуктивность и качество кода."
+description: "Полезные приложения для MacOS для разработчиков: iTerm2, SpectacleApp, Transporter, PixelPerfect, Postman, Postwoman, docker-openvpn, responsively.app и расширения для VS Code."
 keywords: "приложения MacOS для разработчиков, iTerm2, замена терминала, SpectacleApp, изменение размера окон, Transporter AppStore, PixelPerfect, веб-дизайн, Postman, тестирование API, Postwoman, docker-openvpn, создание VPN, responsively.app, отладка UI, расширения VS Code, Todo-Tree, vscode-styled-components, polacode, code-spell-checker, color-highlight, vscode-markdownlint, инструменты разработчика, разработка ПО, продуктивность в коде, утилиты MacOS, ресурсы для разработчиков"
 ---
 
