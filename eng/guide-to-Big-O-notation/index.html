@@ -57,7 +57,7 @@ for (let num of nums) {
 <p>Again, the question is: how many input operations are required? Here, you need to iterate over each element, i.e., an operation for each element. The larger the array, the more operations.</p>
 <p>Using Big O notation: O(n), or "complexity of order n." Such algorithms are also called "linear" or that the algorithm "scales linearly."</p>
 <p>Can we make the sum more efficient? Generally no. But what if we know that the array starts with 1, is sorted, and has no gaps? Then we can apply the formula:</p>
-<img src="https://i.upmath.me/svg/S%20%3D%20%7Bn(n%2B1)%20%5Cover%202%7D." alt="S = {n(n+1) \over 2}." />
+<img src="https://i.upmath.me/svg/S%20%3D%20%7Bn(n%2B1)%20%5Cover%202%7D." alt="S = n(n+1)/2" />
 <p>where n is the last element of the array.</p>
 <pre><code class="language-javascript">const sumContiguousArray = function (arr) {
   //get the last item
