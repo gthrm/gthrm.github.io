@@ -48,19 +48,19 @@ An app for debugging UI on various screen sizes.
 
 [Todo-Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-![todo-tree](https://raw.githubusercontent.com/Gruntfuggly/todo-tree/master/resources/screenshot.png)
+![Todo Tree panel in VS Code listing TODO and FIXME comments by project file](https://raw.githubusercontent.com/Gruntfuggly/todo-tree/master/resources/screenshot.png)
 
 [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
-![vscode-styled-components](https://github.com/styled-components/vscode-styled-components/raw/main/demo.gif)
+![CSS syntax highlighting inside a styled-components template in VS Code](https://github.com/styled-components/vscode-styled-components/raw/main/demo.gif)
 
 [polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
-![polacode](https://github.com/octref/polacode/raw/master/demo/usage.gif)
+![Polacode taking a screenshot of selected code in VS Code](https://github.com/octref/polacode/raw/master/demo/usage.gif)
 
 [code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-![code-spell-checker](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
+![Code Spell Checker underlining the typo firstVallue in code](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
 
 [color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 

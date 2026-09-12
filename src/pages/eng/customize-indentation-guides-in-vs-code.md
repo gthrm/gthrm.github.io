@@ -7,7 +7,7 @@ description: "Setting up indentation guides in Visual Studio Code helps you see 
 keywords: "VS Code indentation guides, Visual Studio Code customization, code readability, coding environment setup, color-coded indentation, VS Code settings, developer productivity, file structure navigation"
 ---
 
-![Preview](https://cloud.cdroma.me/upload/d070e9d4-becc-4b45-91d3-c7f1e3fc5ab7-1731433758922.png)
+![VS Code file tree with green indent guides for the nested src and components folders](https://cloud.cdroma.me/upload/d070e9d4-becc-4b45-91d3-c7f1e3fc5ab7-1731433758922.png)
 
 Setting up indentation guides in Visual Studio Code helps you see folder structure clearly, making it easier to find what you need without straining your eyes.
 

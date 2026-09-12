@@ -48,19 +48,19 @@ iTerm2 — замена Terminal и наследник iTerm. Работает �
 
 [Todo-Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
-![todo-tree](https://raw.githubusercontent.com/Gruntfuggly/todo-tree/master/resources/screenshot.png)
+![Панель Todo Tree в VS Code со списком TODO и FIXME по файлам проекта](https://raw.githubusercontent.com/Gruntfuggly/todo-tree/master/resources/screenshot.png)
 
 [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
-![vscode-styled-components](https://github.com/styled-components/vscode-styled-components/raw/main/demo.gif)
+![Подсветка CSS внутри шаблона styled-components в VS Code](https://github.com/styled-components/vscode-styled-components/raw/main/demo.gif)
 
 [polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
-![polacode](https://github.com/octref/polacode/raw/master/demo/usage.gif)
+![Polacode делает скриншот выделенного кода в VS Code](https://github.com/octref/polacode/raw/master/demo/usage.gif)
 
 [code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-![code-spell-checker](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
+![Code Spell Checker подчеркивает опечатку firstVallue в коде](https://raw.githubusercontent.com/streetsidesoftware/vscode-spell-checker/master/packages/client/images/example.gif)
 
 [color-highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 

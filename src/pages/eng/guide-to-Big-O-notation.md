@@ -48,7 +48,7 @@ Using Big O notation: O(n), or "complexity of order n." Such algorithms are also
 
 Can we make the sum more efficient? Generally no. But what if we know that the array starts with 1, is sorted, and has no gaps? Then we can apply the formula:
 
-<img src="https://i.upmath.me/svg/S%20%3D%20%7Bn(n%2B1)%20%5Cover%202%7D." alt="S = {n(n+1) \over 2}." />
+<img src="https://i.upmath.me/svg/S%20%3D%20%7Bn(n%2B1)%20%5Cover%202%7D." alt="S = n(n+1)/2" />
 
 where n is the last element of the array.
 

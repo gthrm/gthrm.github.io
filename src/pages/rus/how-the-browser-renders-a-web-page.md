@@ -23,7 +23,7 @@ keywords: "рендеринг браузера, отображение веб-с
 Когда браузер получает HTML страницу из сети, он парсит HTML в Document Object Model (DOM).
 Разбивает HTML на **токены**, которы представляют собой **начальные теги**, **конечные теги** и их **содержимое** . Из этого браузер строит DOM.
 
-![parse the html](https://cloud.cdroma.me/upload/2900d46cf4572086bb3a71a2004f4bc81603967819483.png)
+![Схема парсинга HTML: исходный HTML разбивается на токены (начальные и конечные теги, текст), из которых строится дерево DOM](https://cloud.cdroma.me/upload/2900d46cf4572086bb3a71a2004f4bc81603967819483.png)
 
 ## Получение внешних ресурсов
 
@@ -49,7 +49,7 @@ keywords: "рендеринг браузера, отображение веб-с
 <link href="style.css" rel="preload" as="style" />
 ```
 
-![Получение внешних ресурсов](https://cloud.cdroma.me/upload/de89cbe7244a704261ec4bd7d8a5bd131603969108205.png)
+![Схема загрузки внешних ресурсов: CSS блокирует рендеринг, JavaScript блокирует парсер, если у скрипта нет defer (ждет окончания парсинга) или async (выполняется сразу после загрузки)](https://cloud.cdroma.me/upload/de89cbe7244a704261ec4bd7d8a5bd131603969108205.png)
 
 ## Парсинг CSS и создание CSSOM
 
@@ -61,7 +61,7 @@ CSSOM вместе с DOM необходим для построения дер�
 
 CSSOM отличается от DOM, тем, что он не может быть построен постепенно, поскольку правила CSS могут перезаписывать друг друга в из-за [специфичности](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity). Вот почему CSS блокирует рендеринг, поскольку до тех пор, пока весь CSS не будет проанализирован и не будет построен CSSOM, браузер не может знать, где и как разместить каждый элемент на экране.
 
-![Парсинг CSS и создание CSSOM](https://cloud.cdroma.me/upload/e40b18af0d79d7d86179c457aa28005a1603970058277.jpeg)
+![Схема построения CSSOM: CSS-правила превращаются в дерево с унаследованными и переопределенными свойствами для body, div, p и span](https://cloud.cdroma.me/upload/e40b18af0d79d7d86179c457aa28005a1603970058277.jpeg)
 
 ## Выполнение JavaScript
 
@@ -81,7 +81,7 @@ window.addEventListener('load', (event) => {
 });
 ```
 
-![Выполнение JavaScript](https://cloud.cdroma.me/upload/89913c1fdfbfb97c923543839a4ebe9c1603970486086.png)
+![Таймлайн выполнения JavaScript: синхронные, отложенные (defer) и асинхронные скрипты, события document.DOMContentLoaded и window.load](https://cloud.cdroma.me/upload/89913c1fdfbfb97c923543839a4ebe9c1603970486086.png)
 
 ## Объединение DOM и CSSOM для построения рендер-дерева
 
@@ -89,7 +89,7 @@ window.addEventListener('load', (event) => {
 
 Как и в случае с движками JavaScript, разные браузеры имеют разные [механизмы рендеринга](https://en.wikipedia.org/wiki/Comparison_of_browser_engines).
 
-![Объединение DOM и CSSOM для постоения рендер-дерева](https://cloud.cdroma.me/upload/1211290eccd89fc9d039a0787e5628bd1603970868819.png)
+![Схема рендер-дерева: DOM и CSSOM объединяются, невидимые узлы head, link, script и элементы с display: none исключаются](https://cloud.cdroma.me/upload/1211290eccd89fc9d039a0787e5628bd1603970868819.png)
 
 ## Расчет макета и отрисовка
 
@@ -99,6 +99,6 @@ window.addEventListener('load', (event) => {
 
 И вуаля! В конце концов, у нас есть полностью отрисованная веб-страница!
 
-![Расчет макета и отрисовка](https://cloud.cdroma.me/upload/92b92971efe1e76b06f45518935c281f1603971427741.png)
+![Схема расчета макета: HTML со стилями размеров превращается в блоки html, body, div, p и span с позициями на странице](https://cloud.cdroma.me/upload/92b92971efe1e76b06f45518935c281f1603971427741.png)
 
 [Оригинальная статья](https://dev.to/jstarmx/how-the-browser-renders-a-web-page-1ahc?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)

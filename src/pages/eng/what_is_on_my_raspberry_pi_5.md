@@ -7,7 +7,7 @@ description: "A couple of months ago I bought a Raspberry Pi 5. Here's what came
 keywords: "Raspberry Pi 5, buy Raspberry Pi 5, Raspberry Pi 5 review, Raspberry Pi 5 setup, GalagoMarket Raspberry Pi, Raspberry Pi 5 delivery to Serbia, home server on Raspberry Pi, self-hosted services Raspberry Pi, Ubuntu on Raspberry Pi, media server on Raspberry Pi, Raspberry Pi installation, Raspberry Pi 5 usage, Raspberry Pi experience"
 ---
 
-![](https://i.vas3k.club/9a1e3df2b7fcdc64c8086f33eb76a5b652d87aabe6bd7b85d775fd2b78053c86.jpg)
+![Raspberry Pi 5 board held in a hand against a mountain view](https://i.vas3k.club/9a1e3df2b7fcdc64c8086f33eb76a5b652d87aabe6bd7b85d775fd2b78053c86.jpg)
 
 A couple of months ago I bought a Raspberry Pi 5. Here's what came out of it.
 

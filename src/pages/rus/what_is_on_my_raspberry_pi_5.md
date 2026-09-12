@@ -7,7 +7,7 @@ description: "Пару месяцев назад я приобрел Raspberry P
 keywords: "Raspberry Pi 5, купить Raspberry Pi 5, Raspberry Pi 5 обзор, настройка Raspberry Pi 5, GalagoMarket Raspberry Pi, Raspberry Pi 5 доставка в Сербию, домашний сервер на Raspberry Pi, self-hosted сервисы Raspberry Pi, Ubuntu на Raspberry Pi, медиа-сервер на Raspberry Pi, установка Raspberry Pi, использование Raspberry Pi 5, опыт использования Raspberry Pi"
 ---
 
-![](https://i.vas3k.club/9a1e3df2b7fcdc64c8086f33eb76a5b652d87aabe6bd7b85d775fd2b78053c86.jpg)
+![Плата Raspberry Pi 5 в руке на фоне гор](https://i.vas3k.club/9a1e3df2b7fcdc64c8086f33eb76a5b652d87aabe6bd7b85d775fd2b78053c86.jpg)
 
 Пару месяцев назад я приобрел Raspberry Pi 5. И вот что из этого вышло.
 
