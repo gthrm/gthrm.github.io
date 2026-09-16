@@ -39,7 +39,14 @@ module.exports = {
     'gatsby-plugin-dark-mode',
     'gatsby-plugin-pnpm',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        // This post points rel=canonical at its own landing page, so the copy
+        // here must not be submitted for indexing as well.
+        excludes: ['/eng/gusinje-bus-stop/'],
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
