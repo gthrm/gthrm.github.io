@@ -1,7 +1,7 @@
 ---
 title: "Полезные расширения для Chrome для разработчиков"
 date: "2024-08-29"
-lang: "ru"
+lang: "rus"
 type: "main"
 description: "Как разработчик, важно иметь под рукой правильные инструменты, которые могут значительно повысить вашу продуктивность и эффективность. Ниже представлен список расширений для Chrome, которые я считаю особенно полезными в моей ежедневной работе."
 keywords: "Chrome extensions, web development tools, developer productivity, Wappalyzer, Eye Dropper, Dark Reader, Adblock Plus, Ghostery, online privacy, HTTP request interception, cookie management, screen recording, dark mode, ad blocking, JavaScript development, language learning, Chrome Web Store"
