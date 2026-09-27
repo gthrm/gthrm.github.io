@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>- самописный клауд для быстрой загрузки картинок и файлов в облако и получения на них ссылки для вставки куда-либо на основе <b>nodejs</b> и <a href="https://www.digitalocean.com/products/spaces">DigitalOcean Spaces</a> (ссылку на код не дам, уж очень он ужасный.</p>
+<p>- <a href="https://github.com/gthrm/image-converter">image-converter</a> конвертер и ресайзер картинок для веба, который позволяет сжимать фото и декодировать в jpeg, webp или aif на базе <b>ffmpeg</b> быстро и просто, адаптирован для мобильных устройсв;</p>
+<p>- боты телеграмм от простых, вроде:</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-5.wml">&lt;&lt; Prev</a> | 6/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-7.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

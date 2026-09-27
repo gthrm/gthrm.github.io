@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Customize Indentation Guides in VS Code">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Customize Indentation Guides in VS Code</b><br/><small>12.11.2024</small></p>
+<p align="center"><img src="/wap/img/5356f7818a7ee8f404ba9ec73ed239ebbb760a9e.wbmp" alt="VS Code file tree with green indent guides for the nested src and components folders"/></p>
+<p>Setting up indentation guides in Visual Studio Code helps you see folder structure clearly, making it easier to find what you need without straining your eyes.</p>
+<p><b>Steps to Configure Indentation Guides</b></p>
+<p>1. <b>Open Settings JSON</b></p>
+<p>Press Cmd + Shift + P (or Ctrl + Shift + P on Windows/Linux) to open the command palette, then type and select <b>Preferences: Open Settings (JSON)</b>.</p>
+<p>2. <b>Add Color Customization</b></p>
+<p>In the settings.json file, add the following code to customize the color of the indentation guides:</p>
+<p mode="wrap">1/2 | <a href="/wap/eng/customize-indentation-guides-in-vs-code-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

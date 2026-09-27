@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p><i>P.s. На тот момент я не знал, что налог на ввоз в Сербию составляет 30%, если стоимость товара превышает 50 евро)</i>.</p>
+<p><b>Комплектация</b></p>
+<p>Я решил заказать полный комплект, чтобы не заморачиваться с доп. частями;</p>
+<p>- <b><a href="https://www.rs.galagomarket.com//item/display/3746?src=raspberrypi">RASPBERRY PI 5, 8GB</a>;</b></p>
+<p>- <b>Кейс <a href="https://www.rs.galagomarket.com/item/display/3750">RASPBERRY PI 5 CASE, WHITE/RED</a></b> <i>(p.s. Верхнюю крышку надевать не стоит, для предотвращения перегрева);</i></p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-2.wml">&lt;&lt; Prev</a> | 3/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Main Pet Services</b></p>
+<p>The first thing I installed was <b>Ubuntu 24</b>, not the server version, but with a graphical interface. Why? I&apos;ll explain later.</p>
+<p><b>Main pet services I use in daily life:</b></p>
+<p>- A custom-made cloud for quickly uploading images and files to the cloud and getting a link to insert them somewhere, based on <b>nodejs</b> and <a href="https://www.digitalocean.com/products/spaces">DigitalOcean Spaces</a> (I won’t give a link to the code, it&apos;s really bad).</p>
+<p>- <a href="https://github.com/gthrm/image-converter">image-converter</a> a converter and resizer for web images, allowing you to compress photos and decode them into jpeg, webp, or aif using <b>ffmpeg</b> quickly and easily, optimized for mobile devices;</p>
+<p>- Telegram bots ranging from simple ones like:</p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-3.wml">&lt;&lt; Prev</a> | 4/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-5.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="English - cdROma.me">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="/wap/eng/features-apps-for-macos.wml">Useful MacOS Apps for Developers</a><br/><small>10.02.2021</small></p>
+<p><a href="/wap/eng/guide-to-Big-O-notation.wml">Big O Notation Guide for Beginners</a><br/><small>27.09.2020</small></p>
+<p><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe.wml">Questions That Won&apos;t Make You Feel Better After Knowing the Answers</a><br/><small>03.06.2020</small></p>
+<p><a href="/wap/eng/100DaysOfCode-%D1%81hallenge.wml">#100DaysOfCode - Challenge</a><br/><small>15.05.2020</small></p>
+<p mode="wrap"><a href="/wap/eng.wml">&lt;&lt; Prev</a> | 2/2<br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

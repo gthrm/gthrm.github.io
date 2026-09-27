@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Порядок хранения/перечисления ключей в JS-объекте">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Порядок хранения/перечисления ключей в JS-объекте</b><br/><small>14.07.2021</small></p>
+<p>В JS объекты были «неупорядоченными» вплоть до ES5. Начиная с ES6 порядок обхода свойств объекта стал предсказуемым.</p>
+<p>1. Сначала все неотрицательные целочисленные ключи меньше 2^32, по возрастанию (например, &apos;1&apos;, &apos;79&apos; и т. д.). Как правило, это все валидные индексы массива (неотрицательные числа до 2^32).</p>
+<p mode="wrap">1/5 | <a href="/wap/rus/order_keys_in_js_objects-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

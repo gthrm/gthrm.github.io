@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>CSSOM отличается от DOM, тем, что он не может быть построен постепенно, поскольку правила CSS могут перезаписывать друг друга в из-за <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Specificity">специфичности</a>. Вот почему CSS блокирует рендеринг, поскольку до тех пор, пока весь CSS не будет проанализирован и не будет построен CSSOM, браузер не может знать, где и как разместить каждый элемент на экране.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-11.wml">&lt;&lt; Prev</a> | 12/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-13.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Так как у меня белый ip, я решил перенести на него часть своих сервисов, которые я использую в личных целях.</p>
+<p>Но Raspberry Pi 5 даже превзошел мои ожидания.</p>
+<p>Но сейчас все по-порядку.</p>
+<p><b>Где и как заказывал</b></p>
+<p>Заказывал у официального представителя, который доставляет в Сербию - <a href="https://www.rs.galagomarket.com//item/display/3746?src=raspberrypi">GalagoMarket</a>. Доставка из Словении заняла чуть больше 2-х недель.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5.wml">&lt;&lt; Prev</a> | 2/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

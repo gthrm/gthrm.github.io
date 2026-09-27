@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful Chrome Extensions for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p>5. <b><a href="https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm">Web Developer</a></b> Web Developer adds a toolbar with a suite of web development tools, including element inspection, CSS validation, and cookie management.</p>
+<p>6. <b><a href="https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a></b> Dark Reader enables dark mode on all websites, making it easier on the eyes when working in low-light environments.</p>
+<p>7. <b><a href="https://chromewebstore.google.com/detail/quizlet-lister/amkloklikdefpodfhjfeagihleiplpja">Quizlet Lister</a></b> Quizlet Lister automatically creates study lists from web pages, integrating seamlessly with Quizlet for efficient learning and memorization.</p>
+<p mode="wrap"><a href="/wap/eng/useful-chrome-extensions-2.wml">&lt;&lt; Prev</a> | 3/5 | <a href="/wap/eng/useful-chrome-extensions-4.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

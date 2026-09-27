@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p mode="wrap">And after everything else, like asynchronous JavaScript, images, etc., has finished loading, the <a href="https://developer.mozilla.org/ru/docs/Web/Events/load">window.load</a> event is fired.</p>
+<p mode="nowrap">window.addEventListener(&apos;load&apos;, (event) =&gt; {<br/>&#160;&#160;&#160;&#160;// The page has now fully loaded<br/>});</p>
+<p align="center" mode="wrap"><img src="/wap/img/5954134deec85d59e50b261debe42276dd38d9f7.wbmp" alt="JavaScript execution timeline: sync, deferred and async scripts, with the document.DOMContentLoaded and window.load events"/></p>
+<p><b>Combining DOM and CSSOM to Construct the Render Tree</b></p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-7.wml">&lt;&lt; Prev</a> | 8/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-9.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

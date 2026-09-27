@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- What are the ways to optimize the application? (sprites, minification, lazy-load, etc.)</p>
+<p>- How many simultaneous requests can be sent from the browser to a specific domain? How is the problem with the limitation solved? Does http/2 solve it?</p>
+<p><b>Other Programming</b></p>
+<p align="center">----------</p>
+<p>- What patterns are there? List the ones you know and explain briefly? (usually they talk about mediator, factory, and decorator)</p>
+<p>- What design patterns do you know and what are their features? (like MVC and MVVM)</p>
+<p>- What is a pure function?</p>
+<p>- What types of programming languages are there (functional/imperative)? What is the essence of these paradigms? To which paradigm does JS belong?</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-7.wml">&lt;&lt; Prev</a> | 8/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-9.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

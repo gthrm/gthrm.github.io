@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое higher-ordered function? (однажды мне задали дополнительный вопрос - &quot;можно ли в неё передать функцию?&quot; и это был очень странный вопрос!)</p>
+<p>- Что такое Promise? Как отлаживать ошибки?</p>
+<p>- Что такое Async/Await и во что его компилят транспиллеры? И как их отлаживать?</p>
+<p>- Что такое генераторы?</p>
+<p>- Что такое Proxy?</p>
+<p>- TypeScript / Flow? Что это и зачем это?</p>
+<p>- Что такое optimistic rendering? Как бы реализовал?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-6.wml">&lt;&lt; Prev</a> | 7/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

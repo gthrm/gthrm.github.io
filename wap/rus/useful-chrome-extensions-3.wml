@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>1. <b><a href="https://www.wappalyzer.com/?utm_source=popup&amp;utm_medium=extension&amp;utm_campaign=wappalyzer">Wappalyzer</a></b> Wappalyzer — это инструмент для анализа веб-сайтов, который показывает, какие технологии используются на веб-сайте, включая фреймворки, системы управления контентом и библиотеки.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-2.wml">&lt;&lt; Prev</a> | 3/10 | <a href="/wap/rus/useful-chrome-extensions-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

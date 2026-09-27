@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p>Четыре рейса в день, все сначала через Плав.</p>
+<p><b>Почему 47 км едут четыре часа</b></p>
+<p>Потому что автобус едет не напрямую. Через горы в Подгорицу автобусного маршрута нет. Он делает петлю на север через Плав, Беране, Мойковац и Колашин — около 195 км дороги. На машине напрямую это меньше двух часов.</p>
+<p><b>Билеты</b></p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-3.wml">&lt;&lt; Prev</a> | 4/9 | <a href="/wap/rus/gusinje-bus-stop-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

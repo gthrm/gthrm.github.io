@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>&#160;&#160;- <a href="https://t.me/SrpskiPrijateljBot">SrpskiPrijateljBot</a> - бот переводчик с сербского на русский и обратно с возможностью распознавания текста с картинки, а так же озвучки текста на базе OpenAI.</p>
+<p>&#160;&#160;- <a href="https://github.com/gthrm/air-quality-monitoring-bot">Air Quality Monitoring Bot</a> - бот который уведомляет о повышении температуры или загрязнении воздуха в квартире на базе <a href="https://thingspeak.com/">ThingSpeak</a> и <a href="https://www.nodemcu.com/index_en.html">nodemcu</a>.</p>
+<p><b>Селф-хостед решения</b></p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-7.wml">&lt;&lt; Prev</a> | 8/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

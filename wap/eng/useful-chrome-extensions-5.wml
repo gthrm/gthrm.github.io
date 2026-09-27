@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful Chrome Extensions for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p>11. <b><a href="https://chromewebstore.google.com/detail/loom-%E2%80%93-screen-recorder-sc/liecbddmkiiihnedobmlmillhodjkdmb">Loom</a></b> Loom is a screen recording extension that lets you quickly create videos from your screen, camera, and microphone, and share them via links.</p>
+<p mode="wrap"><a href="/wap/eng/useful-chrome-extensions-4.wml">&lt;&lt; Prev</a> | 5/5<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

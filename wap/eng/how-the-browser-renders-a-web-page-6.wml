@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p>CSSOM, together with DOM, is necessary to build the render tree, which in turn is used by the browser to lay out and paint the web page.</p>
+<p>Like <b>HTML</b> and <b>DOM</b>, when <b>CSS</b> files are loaded, they need to be parsed and transformed into a tree - this time, <b>CSSOM</b>. It describes all the CSS selectors on the page, their hierarchy, and their properties.</p>
+<p>CSSOM differs from DOM in that it can&apos;t be constructed incrementally, as CSS rules can overwrite each other due to <a href="https://developer.mozilla.org/ru/docs/Web/CSS/Specificity">specificity</a>. This is why CSS blocks rendering, as until all CSS is parsed and CSSOM is built, the browser can&apos;t know where and how to place each element on the screen.</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-5.wml">&lt;&lt; Prev</a> | 6/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-7.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

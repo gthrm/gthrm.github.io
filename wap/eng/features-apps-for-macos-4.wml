@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful MacOS Apps for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/e9561b52ab1dbad3553069f503167467e3d24e84.wbmp" alt="Code Spell Checker underlining the typo firstVallue in code"/></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight">color-highlight</a></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">vscode-markdownlint</a></p>
+<p mode="wrap"><a href="/wap/eng/features-apps-for-macos-3.wml">&lt;&lt; Prev</a> | 4/4<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

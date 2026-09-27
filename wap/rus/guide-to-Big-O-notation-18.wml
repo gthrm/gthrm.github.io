@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>- Вложенные циклы по той же коллекции это O(n^2)</p>
+<p>- Разделяй и властвуй (Divide and Conquer) всегда O(log n)</p>
+<p>- Итерации которые используют Divide and Conquer это O(n log n)</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-17.wml">&lt;&lt; Prev</a> | 18/18<br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

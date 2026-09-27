@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p><b>What&apos;s on My Raspberry Pi 5</b><br/><small>22.09.2024</small></p>
+<p align="center"><img src="/wap/img/16f50bee8986397c81d36baf51c131b8c57c2018.wbmp" alt="Raspberry Pi 5 board held in a hand against a mountain view"/></p>
+<p>A couple of months ago I bought a Raspberry Pi 5. Here&apos;s what came out of it.</p>
+<p><b>About the goals</b></p>
+<p>I didn&apos;t have a specific goal. The main idea was to stop using cloud VDS (I had 3 on <b>DigitalOcean</b>), thereby slightly reducing monthly costs.</p>
+<p>Since I have a static IP, I decided to move some of my personal services onto it.</p>
+<p>But the Raspberry Pi 5 even exceeded my expectations.</p>
+<p>Now, let&apos;s go in order.</p>
+<p><b>Where and how I ordered</b></p>
+<p mode="wrap">1/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

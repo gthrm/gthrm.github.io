@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/cf657f6b566ab2ea1e3c61f4c2062b2ba63d228b.wbmp" alt="Render tree diagram: DOM and CSSOM are merged, non-visible head, link and script nodes and display: none elements are excluded"/></p>
+<p><b>Layout Calculation and Painting</b></p>
+<p>Now that we have the complete render tree, the browser knows what to render but not where to render it. Hence, the layout of the page (i.e., the position and size of each node) needs to be calculated. The rendering engine goes through the render tree from top to bottom, calculating the coordinates at which each node should be displayed.</p>
+<p>Once this is done, the final step is to take this layout information and paint the pixels on the screen.</p>
+<p>Et voilà! In the end, we have a fully rendered web page!</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-9.wml">&lt;&lt; Prev</a> | 10/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-11.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

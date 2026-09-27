@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>- Парсинг HTML в DOM</p>
+<p>- Получение внешних ресурсов</p>
+<p>- Парсинг CSS и создание CSSOM</p>
+<p>- Выполнение JavaScript</p>
+<p>- Объединение DOM и CSSOM для построения рендер-дерева</p>
+<p>- Расчет макета и отрисовка</p>
+<p><b>Парсинг HTML</b></p>
+<p>Когда браузер получает HTML страницу из сети, он парсит HTML в Document Object Model (DOM). Разбивает HTML на <b>токены</b>, которы представляют собой <b>начальные теги</b>, <b>конечные теги</b> и их <b>содержимое</b> . Из этого браузер строит DOM.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page.wml">&lt;&lt; Prev</a> | 2/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

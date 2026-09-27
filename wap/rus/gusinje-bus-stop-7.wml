@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Сколько едет автобус из Гусинье в Подгорицу?</b> Около четырех часов. Напрямую всего 47 км, но автобусного маршрута через горы нет, поэтому он делает петлю на север через Плав, Беране, Мойковац и Колашин — примерно 195 км дороги.</p>
+<p><b>Сколько стоит билет из Гусинье в Подгорицу?</b> Мой стоил 15,80 евро онлайн на busticket4.me. Можно также заплатить водителю наличными при посадке. Багаж — еще 2 евро, тоже водителю.</p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-6.wml">&lt;&lt; Prev</a> | 7/9 | <a href="/wap/rus/gusinje-bus-stop-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

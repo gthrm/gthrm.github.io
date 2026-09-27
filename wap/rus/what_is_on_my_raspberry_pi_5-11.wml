@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Дальше запросы принимает <b>nginx</b> на raspberry и проксирует на нужные порты Raspbery Pi.</p>
+<p>Но это еще не все.</p>
+<p><b>Домашний медиа-сервер</b></p>
+<p>Мой <b>Raspberry Pi 5</b>, в это же время, используется как домашний медиа сервис.</p>
+<p>Так как в арендной квартире совсем не новый и не дорогой телевизор без возможности установки на него приложений, я подключил <b>Raspberry Pi</b> к нему, вот где понадобится графическая оболочка.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-10.wml">&lt;&lt; Prev</a> | 11/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-12.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

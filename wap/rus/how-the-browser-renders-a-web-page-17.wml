@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction">Рендер дерево</a> представляет собой сочетание DOM и CSSOM, а так же то, что будет отрендерено на страницу. Это не обязательно означает, что все узлы в дереве рендеринга будут визуально присутствовать, например узлы со стилями opacity: 0 или visibility: hidden будут включены, и все еще могут быть прочитаны средством чтения с экрана и т.д., тогда как те, которые установлены на display: none, не будут включены. Кроме </p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-16.wml">&lt;&lt; Prev</a> | 17/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-18.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

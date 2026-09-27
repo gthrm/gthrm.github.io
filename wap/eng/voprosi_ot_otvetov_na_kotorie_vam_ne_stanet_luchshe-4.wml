@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- What is delegation? (when we hang a handler on a container and check the click on the element inside - yes, they still ask)</p>
+<p>- What is LocalStorage and how is it different from Cookies? How to protect a cookie so that it cannot be read by js (HttpOnly flag)?</p>
+<p>- What is WebSocket? What is long-polling and how are they different? What problems do they solve?</p>
+<p>- ServiceWorker / WebWorker / SharedWorker? What is it? Why? How?</p>
+<p>- event.preventDefault() and event.stopPropagation() - why and when?</p>
+<p>- What&apos;s interesting in the new proposals and what are you looking forward to the most?</p>
+<p>- What is a higher-ordered function? (once I was asked an additional question - &quot;can you pass a function to it?&quot; and it was a very strange question!)</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-3.wml">&lt;&lt; Prev</a> | 4/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-5.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

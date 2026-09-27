@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p>In the worst case, we make as many operations/divisions as we can divide the array into two parts. For example, how many times can we divide an array of 4 elements into two parts? Twice. And an array of 8 elements? Three times. So, the number of divisions/operations = log2(n) (where n is the number of elements in the array).</p>
+<p><b>Conclusions:</b></p>
+<p>- Accessing an element of a collection is O(1). <i>Whether it&apos;s accessing by index in an array or by key in a dictionary, in Big O notation this is O(1)</i>.</p>
+<p>- Iterating over a collection is O(n).</p>
+<p>- Nested loops over the same collection are O(n^2).</p>
+<p>- Divide and Conquer algorithms are always O(log n).</p>
+<p>- Iterations that use Divide and Conquer are O(n log n).</p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-10.wml">&lt;&lt; Prev</a> | 11/11<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

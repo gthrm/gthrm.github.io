@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>После того, как синхронно загруженный JavaScript и DOM будут полностью спаршены и готовы, будет сгенерировано событие <a href="https://developer.mozilla.org/ru/docs/Web/API/Document/DOMContentLoaded_event">document.DOMContentLoaded</a>. Для любых сценариев, которым требуется доступ к модели DOM, например, для управления ею или прослушивания событий взаимодействия с пользователем, рекомендуется сначала дождаться этого события перед выполнением сценариев.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-13.wml">&lt;&lt; Prev</a> | 14/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-15.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

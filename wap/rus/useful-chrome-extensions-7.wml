@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>6. <b><a href="https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh">Dark Reader</a></b> Dark Reader включает темный режим на всех веб-сайтах, что делает просмотр веб-страниц более комфортным в условиях низкой освещенности.</p>
+<p>7. <b><a href="https://chromewebstore.google.com/detail/quizlet-lister/amkloklikdefpodfhjfeagihleiplpja">Quizlet Lister</a></b> Quizlet Lister автоматически создает списки слов для изучения из веб-страниц, интегрируясь с платформой Quizlet для эффективного обучения и запоминания нового материала.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-6.wml">&lt;&lt; Prev</a> | 7/10 | <a href="/wap/rus/useful-chrome-extensions-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

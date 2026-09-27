@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>Любой, кто читал <i>Programming Pearls</i> или любые другие книги по информатике и не имеет основ математики, наткнется на стену, когда достигнет глав, в которых упоминается O (N log N) или другой, казалось бы, безумный синтаксис.</p>
+<p>Надеюсь, эта статья поможет вам понять основы Big O и логарифмов.</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation.wml">&lt;&lt; Prev</a> | 2/18 | <a href="/wap/rus/guide-to-Big-O-notation-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

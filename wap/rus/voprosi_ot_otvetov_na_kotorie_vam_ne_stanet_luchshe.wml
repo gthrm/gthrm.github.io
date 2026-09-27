@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Вопросы, от ответов на которые вам не станет лучше</b><br/><small>03.06.2020</small></p>
+<p>Эту заметку я создал для того, чтобы записывать в неё вопросы, которые мне (или не мне) задавали на собеседовании (или не собеседовании) по JS.</p>
+<p>Тут вы не найдете ответов на эти вопросы (или немного найдете), только вопросы.</p>
+<p mode="wrap">1/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

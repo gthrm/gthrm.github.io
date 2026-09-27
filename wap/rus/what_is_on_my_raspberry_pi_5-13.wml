@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Для удобного переключения между фильмами я собрал быстрое решение в виде одностраничника на основе <b><a href="https://www.airtable.com/">airtable</a></b>, <b><a href="https://airtable.com/developers/web/api/introduction">airtable api</a>,</b> <b>js</b> и <a href="https://www.omdbapi.com/">Omdbapi API</a>, таким образом, при добавлении ссылки на фильм и его названия в таблицу, автоматически подгружается постер и описание и отображается на домашней станице Chromium на Raspberry при открытии.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-12.wml">&lt;&lt; Prev</a> | 13/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-14.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

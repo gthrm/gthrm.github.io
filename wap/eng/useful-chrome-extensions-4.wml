@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful Chrome Extensions for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p>8. <b><a href="https://chromewebstore.google.com/detail/ghostery-tracker-ad-block/mlomiejdfkolichcflejclcbmpeaniij?hl=en">Ghostery</a></b> Ghostery blocks trackers and ads, offering insight into who is tracking your online activity and helping to enhance your privacy.</p>
+<p>9. <b><a href="https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa">Requestly</a></b> Requestly allows you to intercept and modify HTTP requests in real-time, enabling you to change headers, redirect URLs, and block resources.</p>
+<p>10. <b><a href="https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg">EditThisCookie</a></b> EditThisCookie is a simple yet powerful cookie manager, allowing you to view, edit, delete, and add cookies on any website.</p>
+<p mode="wrap"><a href="/wap/eng/useful-chrome-extensions-3.wml">&lt;&lt; Prev</a> | 4/5 | <a href="/wap/eng/useful-chrome-extensions-5.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

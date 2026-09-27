@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>Теперь, когда у нас есть полное дерево рендеринга, браузер знает, что рендерить, но не знает, где рендерить. Следовательно, необходимо рассчитать макет страницы (т.е. положение и размер каждого узла). Механизм рендеринга проходит дерево рендеринга, с вершины вниз, вычисляя координаты, в которых должен отображаться каждый узел.</p>
+<p>Как только это будет сделано, последний шаг - взять эту информацию о макете и отрисвать пиксели на экране.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-18.wml">&lt;&lt; Prev</a> | 19/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-20.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

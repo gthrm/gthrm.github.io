@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful MacOS Apps for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Useful MacOS Apps for Developers</b><br/><small>10.02.2021</small></p>
+<p>1. <a href="https://www.iterm2.com/">iTerm2</a></p>
+<p>iTerm2 is a replacement for Terminal and successor to iTerm. It runs on Mac with macOS 10.12 or later.</p>
+<p><i>Useful addition - syntax highlighting with <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a></i></p>
+<p><i>Even more useful addition - Zsh prompt with <a href="https://github.com/denysdovhan/spaceship-prompt">spaceship-prompt</a></i></p>
+<p><i>Font with symbols - <a href="https://github.com/tonsky/FiraCode">FiraCode</a></i></p>
+<p>2. <a href="https://www.spectacleapp.com/">SpectacleApp</a></p>
+<p>An app for quickly and easily resizing windows on your desktop.</p>
+<p>3. <a href="https://apps.apple.com/ru/app/transporter/id1450874784?mt=12">Transporter</a></p>
+<p mode="wrap">1/4 | <a href="/wap/eng/features-apps-for-macos-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

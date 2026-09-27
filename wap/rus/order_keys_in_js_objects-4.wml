@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Порядок хранения/перечисления ключей в JS-объекте">
+<do type="prev" label="Back"><prev/></do>
+<p>- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames">Object.getOwnPropertyNames()</a></p>
+<p>- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols">Object.getOwnPropertySymbols()</a></p>
+<p>- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys">Reflect.ownKeys()</a></p>
+<p><i>Обратите внимание: для цикла <b>for in</b> порядок перечисления определён не так строго, как для функций выше, но обычно собственные свойства перечисляются в описанном порядке.</i></p>
+<p mode="wrap"><a href="/wap/rus/order_keys_in_js_objects-3.wml">&lt;&lt; Prev</a> | 4/5 | <a href="/wap/rus/order_keys_in_js_objects-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

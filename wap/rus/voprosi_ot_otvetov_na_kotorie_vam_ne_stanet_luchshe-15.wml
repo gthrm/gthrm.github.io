@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое JSON? Что такое XML? Продолжи список (мне вспомнился только YAML)? Можно ли сконвертировать XML в JSON?</p>
+<p>- Что такое protobuf и messagepack? В чём отличие?</p>
+<p>- Что такое микросервисы? Зачем они? Какие проблемы решает микросервисная архитектура?</p>
+<p>- Что такое мутабельность и иммутабельность?</p>
+<p>После этого всего в голове остаётся один самый важный вопрос: стал ли я счастливее, узнав ответы на все эти вопросы?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-14.wml">&lt;&lt; Prev</a> | 15/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-16.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Order of Storing/Enumerating Keys in a JS Object">
+<do type="prev" label="Back"><prev/></do>
+<p>3. Properties whose names are symbols are listed in the order in which they were added to the object.</p>
+<p>If the enumeration order is relevant, you can always use Map, which guarantees that the insertion order will be preserved.</p>
+<p><b>Functions that enumerate properties in the order described above, taking into account their own limitations</b></p>
+<p>- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">Object.keys()</a></p>
+<p>- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames">Object.getOwnPropertyNames()</a></p>
+<p>- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols">Object.getOwnPropertySymbols()</a></p>
+<p mode="wrap"><a href="/wap/eng/order_keys_in_js_objects.wml">&lt;&lt; Prev</a> | 2/3 | <a href="/wap/eng/order_keys_in_js_objects-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction">The render tree</a> represents the combination of the DOM and CSSOM, and what will be rendered on the page. It doesn&apos;t necessarily mean that all nodes in the render tree will be visually present, for example, nodes with styles like opacity: 0 or visibility: hidden will be included and can still be read by screen readers etc., whereas those set to display: none will not be included. Additionally, tags like &lt;head&gt; that don&apos;t contain visual information will always be skipped.</p>
+<p>Different browsers have different <a href="https://en.wikipedia.org/wiki/Comparison_of_browser_engines">rendering engines</a>, just as is the case with JavaScript engines.</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-8.wml">&lt;&lt; Prev</a> | 9/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-10.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

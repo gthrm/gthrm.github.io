@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Есть ли автобус из Гусинье в Плав?</b> Да. Все четыре рейса сначала заезжают в Плав, так что подойдет любой. Это первая остановка после Гусинье.</p>
+<p><b>Какая компания везет?</b> Elan Company — в Плав и Подгорицу.</p>
+<p><b>Можно купить билет онлайн?</b> Да, на busticket4.me. Стоит около 15,80 евро, билет нужно распечатать до поездки. Иначе платите водителю наличными в автобусе.</p>
+<p><b>Сэкономил тебе время на остановке?</b></p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-7.wml">&lt;&lt; Prev</a> | 8/9 | <a href="/wap/rus/gusinje-bus-stop-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

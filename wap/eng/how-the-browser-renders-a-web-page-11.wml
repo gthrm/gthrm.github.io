@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/7578a831379595916b6a1fd2657f9cc4aeff3f44.wbmp" alt="Layout diagram: HTML with layout styles becomes html, body, div, p and span boxes positioned on the page"/></p>
+<p><a href="https://dev.to/jstarmx/how-the-browser-renders-a-web-page-1ahc?utm_source=digest_mailer&amp;utm_medium=email&amp;utm_campaign=digest_email">Source</a></p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-10.wml">&lt;&lt; Prev</a> | 11/11<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

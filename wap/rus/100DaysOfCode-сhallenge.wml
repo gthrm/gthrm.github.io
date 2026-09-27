@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Челендж">
+<do type="prev" label="Back"><prev/></do>
+<p><b>#100DaysOfCode - Челендж</b><br/><small>15.05.2020</small></p>
+<p>Это короткая заметка о челендже под названием <i>#100DaysOfCode</i> и моем проекте в рамках этого челенджа.</p>
+<p><b>Что такое #100DaysOfCode?</b></p>
+<p align="center">----------</p>
+<p>Этот челендж призван помочь вам реализовать ваши давние идеи, связанные с кодом.</p>
+<p>Будь то ваш собственный проект или образование в области программирования, на которое у вас никогда не хватает времени.</p>
+<p mode="wrap">1/6 | <a href="/wap/rus/100DaysOfCode-%D1%81hallenge-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

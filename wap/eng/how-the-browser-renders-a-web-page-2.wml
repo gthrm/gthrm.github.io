@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p>When the browser receives an HTML page from the network, it parses HTML into the Document Object Model (DOM). It breaks down HTML into <b>tokens</b>, representing <b>start tags</b>, <b>end tags</b>, and their <b>contents</b>. From this, the browser constructs the DOM.</p>
+<p align="center"><img src="/wap/img/a7b2796ffd0fca3067186f7bc3c6ec096b07ebc9.wbmp" alt="Parsing HTML diagram: raw HTML is split into start tag, end tag and text tokens, which build the DOM tree"/></p>
+<p><b>Fetching External Resources</b></p>
+<p>When the parser encounters an external resource like a CSS or JavaScript file, it pauses to request these files. The parser will continue when CSS starts loading, although it will <b>block rendering</b> until it&apos;s loaded and parsed (more on this later).</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page.wml">&lt;&lt; Prev</a> | 2/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

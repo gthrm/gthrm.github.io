@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>Файлы <b>JavaScript</b> немного отличаются - по умолчанию они блокируют парсинг HTML, пока файл JavaScript загружается, а затем парсится. Есть два атрибута, которые можно добавить в теги сценария, чтобы улучшить это: defer и async. Оба позволяют парсеру продолжать работу, пока файл JavaScript загружается в фоновом режиме, но они работают по-разному в том, как они выполняются. Подробнее об этом:</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-4.wml">&lt;&lt; Prev</a> | 5/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое LocalStorage и в чём его отличия от Cookie? Как защитить запись в куке, чтобы её не смог прочитать js (флаг HttpOnly)?</p>
+<p>- Что такое WebSocket? Что такое long-polling и в чём их разница? Какие проблемы они решают?</p>
+<p>- ServiceWorker / WebWorker / SharedWorker? Что это? Зачем это? Как это?</p>
+<p>- event.preventDefault() и event.stopPropagation() - зачем и когда?</p>
+<p>- Что интересного в новых proposal и чего ждёшь больше всего?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-5.wml">&lt;&lt; Prev</a> | 6/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-7.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

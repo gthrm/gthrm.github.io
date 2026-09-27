@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Порядок хранения/перечисления ключей в JS-объекте">
+<do type="prev" label="Back"><prev/></do>
+<p><i>&#160;&#160;<i>Внимание</i>: &apos;05&apos; целочисленным ключом считаться не будет — целое число, полученное при разборе, даёт другое строковое представление.</i></p>
+<p>2. Затем все строковые ключи в порядке вставки (в том порядке, в котором их добавляли в объект).</p>
+<p><i>&#160;&#160;Сюда же попадут числовые строки, не подошедшие под первый пункт, и числа с плавающей точкой.</i></p>
+<p mode="wrap"><a href="/wap/rus/order_keys_in_js_objects.wml">&lt;&lt; Prev</a> | 2/5 | <a href="/wap/rus/order_keys_in_js_objects-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Big O Notation Guide for Beginners</b><br/><small>27.09.2020</small></p>
+<p>The <b>Big O notation</b> is used in computer science to describe the performance or complexity of an algorithm. Big O specifically describes the <i>worst-case scenario</i>, and can be used to describe the time or space (e.g., in memory or on disk) required by an algorithm.</p>
+<p>Anyone who has read <i>Programming Pearls</i> or any other computer science books without a strong mathematics background might hit a wall when they reach chapters mentioning O(N log N) or other seemingly arcane syntax.</p>
+<p>This article aims to help you understand the basics of Big O and logarithms.</p>
+<p mode="wrap">1/11 | <a href="/wap/eng/guide-to-Big-O-notation-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

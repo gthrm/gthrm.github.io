@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Order of Storing/Enumerating Keys in a JS Object">
+<do type="prev" label="Back"><prev/></do>
+<p>- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys">Reflect.ownKeys()</a></p>
+<p><i>Note that the enumeration order for the <b>for in</b> loop is not as strictly defined as for the above functions, but usually, the enumeration of own properties occurs in the order described above.</i></p>
+<p><i>Since the <b>for in</b> loop also enumerates properties in the prototype chain, after enumerating own properties, it will move <i>up the prototype chain</i>, enumerating the properties of each prototype object <i>in the same order as described above</i>.</i></p>
+<p><i>If a property has already been enumerated, any property with the same name will <b>not be</b> enumerated again.</i></p>
+<p><i>A property will <b>not be</b> enumerated, even if an enumerable property with the same name has already been considered.</i></p>
+<p mode="wrap"><a href="/wap/eng/order_keys_in_js_objects-2.wml">&lt;&lt; Prev</a> | 3/3<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

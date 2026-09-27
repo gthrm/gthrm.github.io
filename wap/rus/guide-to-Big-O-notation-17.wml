@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>Т.е. в худшем случае делаем столько операций, сколько раз можем разделить массив на две части. Например, сколько раз мы можем разделить на две части массив из 4 элементов? 2 раза. А массив из 8 элементов? 3 раза. Т.е. кол-во делений/операций = log2(n) (где n кол-во элементов массива).</p>
+<p><b>Итоги:</b></p>
+<p>- Получение элемента коллекции это O(1). <i>Будь то получение по индексу в массиве, или по ключу в словаре в нотации Big O это будет O(1)</i></p>
+<p>- Перебор коллекции это O(n)</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-16.wml">&lt;&lt; Prev</a> | 17/18 | <a href="/wap/rus/guide-to-Big-O-notation-18.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

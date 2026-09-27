@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Руководство по нотации Big O для новичков</b><br/><small>27.09.2020</small></p>
+<p>Обозначение <b>Big O</b> используется в компьютерных науках для описания производительности или сложности алгоритма. Big O специально описывает <i>наихудший сценарий</i> и может использоваться для описания требуемого времени выполнения или пространства, используемого <i>(например, в памяти или на диске)</i> алгоритмом.</p>
+<p mode="wrap">1/18 | <a href="/wap/rus/guide-to-Big-O-notation-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

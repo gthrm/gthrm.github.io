@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- What is Redux?</p>
+<p>- What are side-effects?</p>
+<p>- What kinds of middlewares are there in Redux?</p>
+<p>- What is redux-thunk used for?</p>
+<p>- What is redux-saga built on (generators) and what is it used for?</p>
+<p>- React Router and redux-router. What? Why? How?</p>
+<p>- Why is the second argument used in the setState function?</p>
+<p>- From which version of React have you been using and what major changes have occurred during this time?</p>
+<p>- What breaking changes occurred in version 16?</p>
+<p>- What is the Context API and what changes have occurred in it?</p>
+<p>- What is Flux architecture and how does it differ from the Redux implementation?</p>
+<p>- React and Vue - which is better and for what tasks?</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe.wml">&lt;&lt; Prev</a> | 2/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

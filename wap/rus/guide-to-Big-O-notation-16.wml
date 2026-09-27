@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>набора входных данных мало влияет на его рост, поскольку после одной итерации алгоритма набор данных будет уменьшен вдвое и, следовательно, наравне с набором входных данных вдвое меньше. Это делает такие алгоритмы, как двоичный поиск, чрезвычайно эффективными при работе с большими наборами данных.</p>
+<p>Такой тип алгоритмов называется «разделяй и влавствуй» <i>Divide and Conquer</i>.</p>
+<p>В алгоритме «бинарный поиск» на каждом шаге мы делим массив на две части.</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-15.wml">&lt;&lt; Prev</a> | 16/18 | <a href="/wap/rus/guide-to-Big-O-notation-17.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

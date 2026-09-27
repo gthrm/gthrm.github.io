@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Оплатил налог и счет за услуги компании, которая оформляет документы на границе.</p>
+<p>Итого получилось около <b>170 евро</b>.</p>
+<p>Таким образом стоимость всего комплекта составила 8.5 месяцев аренды vds.</p>
+<p>Так для чего же он нужен?</p>
+<p><b>Основные пет-сервисы</b></p>
+<p>Первым делом я установил на него <b>Ubuntu 24</b>, не сервер, а с графической оболочкой. Почему? Расскажу позже.</p>
+<p><b>Основные пет-сервисы, которые использую в повседневной жизни:</b></p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-4.wml">&lt;&lt; Prev</a> | 5/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>Когда парсер встречает внешний ресурс, такой как файл CSS или JavaScript, он останавливается, чтобы запросить эти файлы. Парсер продолжит работу когда CSS начнёт загружаться, хотя он будет <b>блокировать рендеринг</b>, пока он не будет загружен и пропаршен (подробнее об этом чуть позже).</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-3.wml">&lt;&lt; Prev</a> | 4/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

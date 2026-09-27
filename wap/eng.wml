@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="English - cdROma.me">
+<do type="prev" label="Back"><prev/></do>
+<p><b>English</b></p>
+<p><a href="/wap/eng/prokletije-zla-kolata.wml">Zla Kolata and Prokletije: 300 Euros There and Back</a><br/><small>24.09.2026</small></p>
+<p><a href="/wap/eng/gusinje-bus-stop.wml">Gusinje Bus Stop: Where the Bus to Podgorica and Plav Actually Stops</a><br/><small>28.08.2026</small></p>
+<p><a href="/wap/eng/customize-indentation-guides-in-vs-code.wml">Customize Indentation Guides in VS Code</a><br/><small>12.11.2024</small></p>
+<p><a href="/wap/eng/what_is_on_my_raspberry_pi_5.wml">What&apos;s on My Raspberry Pi 5</a><br/><small>22.09.2024</small></p>
+<p><a href="/wap/eng/useful-chrome-extensions.wml">Useful Chrome Extensions for Developers</a><br/><small>29.08.2024</small></p>
+<p><a href="/wap/eng/order_keys_in_js_objects.wml">Order of Storing/Enumerating Keys in a JS Object</a><br/><small>14.07.2021</small></p>
+<p><a href="/wap/eng/how-the-browser-renders-a-web-page.wml">How a Browser Renders a Web Page</a><br/><small>16.03.2021</small></p>
+<p mode="wrap">1/2 | <a href="/wap/eng-2.wml">Next &gt;&gt;</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

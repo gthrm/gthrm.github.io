@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>Как в первую очередь программист, а во вторую - математик (а может, третий или четвертый) я обнаружил, что лучший способ полностью понять Big O - это создать несколько примеров в коде. Итак, ниже приведены некоторые общие приктики, а также описания и примеры, где это возможно.</p>
+<p><b>O(1)</b></p>
+<p>O(1) - описывает алгоритм, который всегда будет выполняться в одно и то же время (или пространство) независимо от размера набора входных данных.</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-2.wml">&lt;&lt; Prev</a> | 3/18 | <a href="/wap/rus/guide-to-Big-O-notation-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

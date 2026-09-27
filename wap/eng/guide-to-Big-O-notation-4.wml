@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p>Can we make the sum more efficient? Generally no. But what if we know that the array starts with 1, is sorted, and has no gaps? Then we can apply the formula:</p>
+<p><img src="/wap/img/9d2046f9b8c6696659e168773ed4a67e932224e9.wbmp" alt="S = n(n+1)/2"/></p>
+<p>where n is the last element of the array.</p>
+<p mode="nowrap">const sumContiguousArray = function (arr) {<br/>&#160;&#160;//get the last item<br/>&#160;&#160;const lastItem = arr[arr.length - 1];<br/>&#160;&#160;//Gauss&apos;s trick<br/>&#160;&#160;return (lastItem * (lastItem + 1)) / 2;<br/>};<br/>const nums = [1, 2, 3, 4, 5];<br/>const sumOfArray = sumContiguousArray(nums);</p>
+<p mode="wrap"><b>O(N^2)</b></p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-3.wml">&lt;&lt; Prev</a> | 4/11 | <a href="/wap/eng/guide-to-Big-O-notation-5.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

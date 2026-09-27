@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Челендж">
+<do type="prev" label="Back"><prev/></do>
+<p>- Нужно собрать много людей (около 5, для меня это много) в одном месте, чтобы играть, а сейчас режим самоизоляции;</p>
+<p>- Карты быстро надоедают.</p>
+<p>И я решил перенести эту игру в онлайн и реализовать функцию загрузки карт.</p>
+<p>Теперь любая картинка может быть картой.</p>
+<p>В настоящее время работа над игрой все еще продолжается, но основные функции уже реализованы.</p>
+<p>Это значит, что в нее уже можно играть.</p>
+<p mode="wrap"><a href="/wap/rus/100DaysOfCode-%D1%81hallenge-3.wml">&lt;&lt; Prev</a> | 4/6 | <a href="/wap/rus/100DaysOfCode-%D1%81hallenge-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

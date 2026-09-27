@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Настройка направляющих линий в VS Code">
+<do type="prev" label="Back"><prev/></do>
+<p>Нажмите Cmd + Shift + P (или Ctrl + Shift + P на Windows/Linux), чтобы открыть командную палитру, затем введите и выберите <b>Preferences: Open Settings (JSON)</b>.</p>
+<p>2. <b>Добавьте цветовые настройки</b></p>
+<p>В файле settings.json добавьте следующий код для настройки цвета направляющих линий:</p>
+<p mode="nowrap">&quot;workbench.tree.renderIndentGuides&quot;: &quot;always&quot;,<br/>&quot;workbench.colorCustomizations&quot;: {<br/>&#160;&#160;&#160;&quot;tree.indentGuidesStroke&quot;: &quot;#05ef3c&quot;<br/>},</p>
+<p mode="wrap">3. <b>Настройка ширины отступов (по желанию)</b></p>
+<p mode="wrap"><a href="/wap/rus/customize-indentation-guides-in-vs-code.wml">&lt;&lt; Prev</a> | 2/3 | <a href="/wap/rus/customize-indentation-guides-in-vs-code-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

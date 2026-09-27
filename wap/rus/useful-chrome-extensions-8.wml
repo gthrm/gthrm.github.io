@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>8. <b><a href="https://chromewebstore.google.com/detail/ghostery-tracker-ad-block/mlomiejdfkolichcflejclcbmpeaniij?hl=en">Ghostery</a></b> Ghostery блокирует трекеры и рекламу, предоставляя информацию о том, какие компании отслеживают вашу активность в интернете, и помогает повысить уровень конфиденциальности.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-7.wml">&lt;&lt; Prev</a> | 8/10 | <a href="/wap/rus/useful-chrome-extensions-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

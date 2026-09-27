@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>11. <b><a href="https://chromewebstore.google.com/detail/loom-%E2%80%93-screen-recorder-sc/liecbddmkiiihnedobmlmillhodjkdmb">Loom</a></b> Loom — расширение для записи экрана, которое позволяет легко создавать видеоролики с экрана, камеры и микрофона и делиться ими через ссылки.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-9.wml">&lt;&lt; Prev</a> | 10/10<br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

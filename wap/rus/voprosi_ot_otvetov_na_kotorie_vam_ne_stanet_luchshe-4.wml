@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое Flux-архитектура и в чём её отличия с реализацией Redux?</p>
+<p>- React и Vue - что лучше и для каких задач?</p>
+<p>- Redux и MobX - что лучше и для каких задач? Какие ещё есть библиотеки для управления стейта приложения?</p>
+<p>- Server-Side Rendering?</p>
+<p>- Что такое Higher-Ordered Component?</p>
+<p>- Что такое React Native? Зачем оно? В чём отличия от обычного React? (да, именно так мне его и задали)</p>
+<p>- Как отрендерить компонент в указанное время?</p>
+<p><b>Java Script</b></p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-3.wml">&lt;&lt; Prev</a> | 4/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

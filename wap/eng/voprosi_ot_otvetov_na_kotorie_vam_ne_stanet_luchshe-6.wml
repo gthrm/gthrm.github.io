@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- DOM Events: 3 phases of event propagation ( Capturing phase - the event goes down from the top. Target phase - the event reaches the target (source) element. Bubbling stage - the event starts to rise.</p>
+<p>).</p>
+<p>- How to prevent bubbling? (event.stopPropagation(), event.stopImmediatePropagation())</p>
+<p><b>CSS</b></p>
+<p align="center">----------</p>
+<p>- If it comes to css, for some reason they still ask about ways to &quot;center a block in the middle of the screen&quot;. In 2k18!</p>
+<p>- Preprocessors and their pros/cons relative to each other (this is usually a question about experience and somehow no one asked about postcss)?</p>
+<p>- css-modules / styled-components. What is it? Why? Pros and cons?</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-5.wml">&lt;&lt; Prev</a> | 6/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-7.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">const fibonacci = function (num) {<br/>&#160;&#160;if (num &lt;= 1) {<br/>&#160;&#160;&#160;&#160;return num;<br/>&#160;&#160;}<br/>&#160;&#160;return fibonacci(num - 2) + fibonacci(num - 1);<br/>};<br/>fibonacci(5); //true</p>
+<p mode="wrap"><b>O(log n)</b></p>
+<p><b>Example:</b></p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-7.wml">&lt;&lt; Prev</a> | 8/11 | <a href="/wap/eng/guide-to-Big-O-notation-9.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

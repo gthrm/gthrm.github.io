@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>To run my services, I use <b><a href="https://pm2.keymetrics.io/">pm2</a>,</b> <b><a href="https://www.docker.com/">Docker</a></b> and <b><a href="https://nginx.org/en/">nginx</a></b>.</p>
+<p>For CI/CD <a href="https://www.jenkins.io/">Jenkins</a> and <a href="https://github.com/">github</a>.</p>
+<p>For quick automations <a href="https://docs.n8n.io/hosting/">n8n</a>.</p>
+<p>For backups <b><a href="https://rclone.org/install/">rclone</a></b> and <b><a href="https://www.digitalocean.com/products/spaces">DigitalOcean Spaces</a></b>.</p>
+<p>For protection against attacks, I set up <b><a href="https://www.cloudflare.com/">Cloudflare</a></b> (free plan), which proxies requests to my domains to nginx.</p>
+<p>By the way, DNS record management is also done through Cloudflare, which is much more convenient than the registrar’s dashboard.</p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-6.wml">&lt;&lt; Prev</a> | 7/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-8.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

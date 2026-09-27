@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>- <a href="https://docs.n8n.io/hosting/">n8n</a> <i>(<a href="https://n8n.io/workflows/2327-host-your-own-uptime-monitoring-with-scheduled-triggers/">например, флоу для мониторинга доступности своих ресурсов</a>)</i>;</p>
+<p>- <a href="https://www.jenkins.io/download/">Jenkins</a>;</p>
+<p>- <a href="https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/">Postgres</a>;</p>
+<p>- <a href="https://clickhouse.com/docs/en/install">ClickHouse</a>.</p>
+<p><b>Архитектура</b></p>
+<p>Для запуска своих сервисов я использую <b><a href="https://pm2.keymetrics.io/">pm2</a>,</b> <b><a href="https://www.docker.com/">Docker</a></b> и <b><a href="https://nginx.org/en/">nginx</a></b>.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-8.wml">&lt;&lt; Prev</a> | 9/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-10.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое canvas и почему он такой быстрый?</p>
+<p>- Какие бывают способы оптимизации приложения? (спрайты, минификация, лейзи-лоад, etc.)</p>
+<p>- Сколько запросов одновременно можно отправить из браузера на определённый домен? Как решают проблему с ограничением? Решает ли её http/2?</p>
+<p><b>Other программирование</b></p>
+<p align="center">----------</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-11.wml">&lt;&lt; Prev</a> | 12/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-13.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

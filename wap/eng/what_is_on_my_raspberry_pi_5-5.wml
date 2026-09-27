@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>&#160;&#160;- <a href="https://t.me/get_my_data_bot">get_my_data_bot</a> - lets you get information about your user;</p>
+<p>&#160;&#160;&#160;&#160;to more complex ones like:</p>
+<p>&#160;&#160;- <a href="https://t.me/sub_track_bot">sub_track_bot</a> - analyzes the attendance of Telegram groups and monitors user activity in the group. It gives the owner the ability to get data for analysis. Access is currently by request only;</p>
+<p>&#160;&#160;- <a href="https://t.me/SrpskiPrijateljBot">SrpskiPrijateljBot</a> - a bot that translates between Serbian and Russian with the ability to recognize text from an image and voice the text using OpenAI.</p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-4.wml">&lt;&lt; Prev</a> | 5/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-6.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

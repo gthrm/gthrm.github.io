@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>Этот тип алгоритма описывается как O (log N) . Итеративное сокращение вдвое наборов данных, описанное в примере двоичного поиска, дает кривую роста, которая достигает пика в начале и медленно выравнивается по мере увеличения размера наборов данных, например, для набора входных данных, содержащего 10 элементов, требуется одна секунда, для набора данных 100 элементов занимает две секунды, а набор данных, содержащий 1000 элементов, занимает три секунды. Удвоение размера </p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-14.wml">&lt;&lt; Prev</a> | 15/18 | <a href="/wap/rus/guide-to-Big-O-notation-16.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

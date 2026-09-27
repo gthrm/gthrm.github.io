@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>- <b>Блок питания <a href="https://www.rs.galagomarket.com/item/display/3748">RASPBERRY PI 27W USB-C POWER SUPPLY, EU PLUG, WHITE</a>;</b></p>
+<p>- <b>Официальный кабель HDMI</b> <b><a href="https://www.rs.galagomarket.com/item/display/1865">MICRO-HDMI TO HDMI CABLE 1M, WHITE</a>;</b></p>
+<p>- <b>Куллер <a href="https://www.rs.galagomarket.com/item/display/3751">ACTIVE COOLER</a></b> <i>(в корпусе есть встроенный куллер, но он довольно бесполезный и очень громкий, этот в разы тише и эффективнее).</i></p>
+<p>Весь комплект обошелся в 115 евро плюс доставка DHL — 30 евро.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-3.wml">&lt;&lt; Prev</a> | 4/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

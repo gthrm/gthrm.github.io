@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Челендж">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/32a2da23bd5b902eaf7c4c6e2a988d7e11d5db15.wbmp" alt="Онлайн-игра The Imagination: партия на мониторе рядом со звонком в Discord и на ноутбуке MacBook Pro"/></p>
+<p mode="wrap"><a href="/wap/rus/100DaysOfCode-%D1%81hallenge-5.wml">&lt;&lt; Prev</a> | 6/6<br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

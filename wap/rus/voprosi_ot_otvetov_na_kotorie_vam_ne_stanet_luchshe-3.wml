@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Какие бывают миддлвары в Redux?</p>
+<p>- Для чего нужен redux-thunk?</p>
+<p>- На чём построена redux-saga (на генераторах) и для чего она нужна?</p>
+<p>- React Router и redux-router. Что? Зачем? Почему?</p>
+<p>- Для чего нужен второй аргумент в функции setState?</p>
+<p>- С какой версии React пользуешься и какие крупные изменения за это время произошли?</p>
+<p>- Какие ломающие изменения произошли в 16 версии?</p>
+<p>- Что такое Context API и какие в нём произошли изменения?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-2.wml">&lt;&lt; Prev</a> | 3/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Что на моем Raspberry Pi 5</b><br/><small>22.09.2024</small></p>
+<p align="center"><img src="/wap/img/16f50bee8986397c81d36baf51c131b8c57c2018.wbmp" alt="Плата Raspberry Pi 5 в руке на фоне гор"/></p>
+<p>Пару месяцев назад я приобрел Raspberry Pi 5. И вот что из этого вышло.</p>
+<p><b>О целях</b></p>
+<p>У меня не было какой-то конкретной цели. Основная идея заключалась в том, чтобы отказаться от облачных vds (у меня их было 3 в <b>DigitalOcean</b>). Тем самым немного сократить ежемесячные затраты.</p>
+<p mode="wrap">1/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

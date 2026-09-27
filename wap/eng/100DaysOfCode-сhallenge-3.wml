@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Challenge">
+<do type="prev" label="Back"><prev/></do>
+<p>Currently, work on the game is still ongoing, but the main functions have already been implemented.</p>
+<p>This means that you can already play it.</p>
+<p>If you are interested in testing the game, write to me, I will give you access and tell you more.</p>
+<p>Also, you can take the game&apos;s source code and deploy it yourself.</p>
+<p>Repository: <a href="https://github.com/gthrm/The-Imagination">https://github.com/gthrm/The-Imagination</a></p>
+<p>I&apos;m glad if I interested you.</p>
+<p>P.S. If you have any suggestions for improving and refining the code, I&apos;ll be happy to accept them.</p>
+<p align="center"><img src="/wap/img/32a2da23bd5b902eaf7c4c6e2a988d7e11d5db15.wbmp" alt="The Imagination online game running on a monitor next to a Discord call and on a MacBook Pro"/></p>
+<p mode="wrap"><a href="/wap/eng/100DaysOfCode-%D1%81hallenge-2.wml">&lt;&lt; Prev</a> | 3/3<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="cdROma.me">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/avatar.wbmp" alt="Roman"/><br/><b>Roman&apos;s Blog</b><br/><small>WAP edition</small></p>
+<p>Hello! I&apos;m Roman. I write frontend. Do some pet projects. Make delicious food. Enjoy touching grass.</p>
+<p><a href="/wap/eng.wml">English (11)</a><br/><a href="/wap/rus.wml">Русский (11)</a></p>
+<p><small><a href="https://cdroma.me/">Full version</a></small></p>
+</card>
+</wml>

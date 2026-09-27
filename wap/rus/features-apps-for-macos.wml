@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные приложения для MacOS для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Полезные приложения для MacOS для разработчиков</b><br/><small>10.02.2021</small></p>
+<p>1. <a href="https://www.iterm2.com/">iTerm2</a></p>
+<p>iTerm2 — замена Terminal и наследник iTerm. Работает на Mac с macOS 10.12 и новее.</p>
+<p><i>Полезное дополнение — подсветка синтаксиса с <a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a></i></p>
+<p><i>Ещё более полезное дополнение — приглашение Zsh с <a href="https://github.com/denysdovhan/spaceship-prompt">spaceship-prompt</a></i></p>
+<p><i>Шрифт с символами — <a href="https://github.com/tonsky/FiraCode">FiraCode</a></i></p>
+<p mode="wrap">1/5 | <a href="/wap/rus/features-apps-for-macos-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

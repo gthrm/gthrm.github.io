@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p mode="wrap">async means the file will execute as soon as it&apos;s loaded, which can be during or after the parsing process, and thus the order in which asynchronous scripts are executed cannot be guaranteed.</p>
+<p mode="nowrap">&lt;script type=&quot;text/javascript&quot; src=&quot;script.js&quot; async&gt;</p>
+<p mode="wrap">Moreover, modern browsers will continue to scan HTML while it&apos;s blocked and &quot;look ahead&quot; to see what external resources are defined further on, then load them. How browsers do this varies, so it&apos;s unreliable to expect them to behave in a specific way. To mark a resource as important and thus more likely to be loaded early in the rendering process, you can use the link tag with <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Preloading_content">rel=&quot;preload&quot;</a>.</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-3.wml">&lt;&lt; Prev</a> | 4/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-5.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

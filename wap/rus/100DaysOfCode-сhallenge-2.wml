@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Челендж">
+<do type="prev" label="Back"><prev/></do>
+<p>В челендже нет ограничений по теме или стеку, вы можете выбрать что угодно для реализации, все зависит от вас.</p>
+<p>У челенджа есть только два основных правила:</p>
+<p>- Кодировать как минимум час каждый день в течение следующих 100 дней;</p>
+<p>- Ежедневно сообщать о своем прогрессе с использованием хэштега #100DaysOfCode в Twitter.</p>
+<p>Чтобы принять участие в нем, вам нужно публично обязаться это сделать - подробности <a href="https://www.100daysofcode.com/">здесь</a>.</p>
+<p mode="wrap"><a href="/wap/rus/100DaysOfCode-%D1%81hallenge.wml">&lt;&lt; Prev</a> | 2/6 | <a href="/wap/rus/100DaysOfCode-%D1%81hallenge-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

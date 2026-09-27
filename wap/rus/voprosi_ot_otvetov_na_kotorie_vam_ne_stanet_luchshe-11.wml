@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Чем отличается opacity: 0 от opacity: 0.00001?</p>
+<p>- Чем отличается visibility: hidden от display: none?</p>
+<p>- <a href="https://webref.ru/course/float/clearfix">Что такое float? Как обнулить? Из чего состоит .clearfix</a>?</p>
+<p>- В чём разница box-sizing: content-box от border-box?</p>
+<p>- Через какие директивы реализуется респонзив?</p>
+<p>- Какого цвета будет текст если ...</p>
+<p><b>Other Браузер</b></p>
+<p align="center">----------</p>
+<p>- Что такое SVG? Какие есть способы вставить SVG на страницу? SVG-анимации?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-10.wml">&lt;&lt; Prev</a> | 11/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-12.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Challenge">
+<do type="prev" label="Back"><prev/></do>
+<p>To participate in it, you need to publicly commit to it - more details <a href="https://www.100daysofcode.com/">here</a>.</p>
+<p>I have been participating for about 20 days. Honestly, it is not possible to code every day due to work projects. Sometimes it is just physically impossible to allocate even an hour.</p>
+<p>But still, I try not to deviate from the schedule.</p>
+<p><b>About my project</b></p>
+<p align="center">----------</p>
+<p>I think many of you have played the game Imaginarium?!</p>
+<p>I really like this game, but it has, in my opinion, two problems:</p>
+<p>- You need to gather a lot of people (about 5, for me, it&apos;s a lot) in one place to play, and now there is self-isolation mode;</p>
+<p>- Cards quickly become boring.</p>
+<p>And I decided to move this game online and implement a function for loading cards.</p>
+<p>Now any picture can be a card.</p>
+<p mode="wrap"><a href="/wap/eng/100DaysOfCode-%D1%81hallenge.wml">&lt;&lt; Prev</a> | 2/3 | <a href="/wap/eng/100DaysOfCode-%D1%81hallenge-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

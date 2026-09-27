@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>9. <b><a href="https://chromewebstore.google.com/detail/requestly-intercept-modif/mdnleldcmiljblolnjhpnblkcekpdkpa">Requestly</a></b> Requestly позволяет перехватывать и изменять HTTP-запросы в реальном времени, давая возможность изменять заголовки запросов, перенаправлять URL и блокировать определенные ресурсы.</p>
+<p>10. <b><a href="https://chromewebstore.google.com/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg">EditThisCookie</a></b> EditThisCookie — простой и удобный менеджер cookies, позволяющий просматривать, редактировать, удалять и добавлять cookies на веб-сайтах.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-8.wml">&lt;&lt; Prev</a> | 9/10 | <a href="/wap/rus/useful-chrome-extensions-10.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

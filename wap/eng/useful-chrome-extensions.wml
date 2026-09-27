@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful Chrome Extensions for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Useful Chrome Extensions for Developers</b><br/><small>29.08.2024</small></p>
+<p>As a developer, having the right tools at your fingertips can significantly boost productivity and efficiency. Below is a curated list of Chrome extensions that I find particularly useful in my daily workflow. Each of these extensions offers unique functionalities that cater to various aspects of web development, design, and overall browsing experience.</p>
+<p>1. <b><a href="https://www.wappalyzer.com/?utm_source=popup&amp;utm_medium=extension&amp;utm_campaign=wappalyzer">Wappalyzer</a></b> Wappalyzer is a technology profiler that helps you identify the technologies used on any website, including frameworks, CMS, and libraries.</p>
+<p mode="wrap">1/5 | <a href="/wap/eng/useful-chrome-extensions-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

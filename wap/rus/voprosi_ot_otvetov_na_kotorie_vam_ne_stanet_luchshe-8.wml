@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Что такое virtual scroll? Как оно работает?</p>
+<p>- Что такое node.js?</p>
+<p>- Что такое d3? Для чего она нужна?</p>
+<p>- Как работают генераторы?</p>
+<p>- Напиши генератор, который реализует последовательность Фибоначи (лайв кодинг не моё вообще, после собеса подумал и <a href="https://gist.github.com/gthrm/7274dc2bf8149944f8360325a6673642">написал</a>)</p>
+<p><b>DOM</b></p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-7.wml">&lt;&lt; Prev</a> | 8/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

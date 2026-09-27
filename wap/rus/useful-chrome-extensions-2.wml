@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>Как разработчик, важно иметь под рукой правильные инструменты, которые могут значительно повысить вашу продуктивность и эффективность. Ниже представлен список расширений для Chrome, которые я считаю особенно полезными в моей ежедневной работе. Каждое из этих расширений предлагает уникальные функции, которые пригодятся для различных аспектов веб-разработки, дизайна и общего удобства использования браузера.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions.wml">&lt;&lt; Prev</a> | 2/10 | <a href="/wap/rus/useful-chrome-extensions-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

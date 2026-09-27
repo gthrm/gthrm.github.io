@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Customize Indentation Guides in VS Code">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">&quot;workbench.tree.renderIndentGuides&quot;: &quot;always&quot;,<br/>&quot;workbench.colorCustomizations&quot;: {<br/>&#160;&#160;&#160;&quot;tree.indentGuidesStroke&quot;: &quot;#05ef3c&quot;<br/>},</p>
+<p mode="wrap">3. <b>Adjust Indentation Width (Optional)</b></p>
+<p>To change the width of indentation levels, add this line:</p>
+<p mode="nowrap">&quot;workbench.tree.indent&quot;: 15, // Adjust as needed</p>
+<p mode="wrap">4. <b>Save and Restart</b></p>
+<p>Save settings.json, then restart VS Code to see your new indentation guides.</p>
+<p><b>Thank You</b></p>
+<p>Enjoy coding with a cleaner view!</p>
+<p mode="wrap"><a href="/wap/eng/customize-indentation-guides-in-vs-code.wml">&lt;&lt; Prev</a> | 2/2<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- What are the values for display and are there any elements that are inline-block by default (img)?</p>
+<p>- What&apos;s the difference between opacity: 0 and opacity: 0.00001?</p>
+<p>- What&apos;s the difference between visibility: hidden and display: none?</p>
+<p>- <a href="https://webref.ru/course/float/clearfix">What is float? How to clear it? What does .clearfix consist of</a>?</p>
+<p>- What&apos;s the difference between box-sizing: content-box and border-box?</p>
+<p>- Through which directives is responsive design implemented?</p>
+<p>- What color will the text be if ...</p>
+<p><b>Other Browser</b></p>
+<p align="center">----------</p>
+<p>- What is SVG? What are the ways to insert SVG on the page? SVG animations?</p>
+<p>- What is canvas and why is it so fast?</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-6.wml">&lt;&lt; Prev</a> | 7/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-8.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

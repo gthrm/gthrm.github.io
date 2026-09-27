@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p>As a programmer first and a mathematician second (or maybe third or fourth), I&apos;ve found that the best way to fully grasp Big O is to create some code examples. So below are some common practices, along with descriptions and examples where possible.</p>
+<p><b>O(1)</b></p>
+<p>O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.</p>
+<p mode="nowrap">const nums = [1, 2, 3, 4, 5];<br/>const firstNumber = nums[0];</p>
+<p mode="wrap">In our example, the input size is 5 because there are 5 elements in the array. To get the result, one operation is required (fetching an element by index). How many operations are needed if there are 100, 1000, or 100,000 elements? Only one operation is still required.</p>
+<p><b>O(N)</b></p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation.wml">&lt;&lt; Prev</a> | 2/11 | <a href="/wap/eng/guide-to-Big-O-notation-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

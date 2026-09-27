@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">&#160;&#160;//if we&apos;re here, no dups<br/>&#160;&#160;return false;<br/>};<br/>const nums = [1, 2, 3, 4, 5, 5];<br/>hasDuplicates(nums); //true</p>
+<p mode="wrap">Мы уже знаем что итерирование массива это O(N). Но у нас есть вложенный цикл, для каждого элемента мы еще раз итерируем — т.е. O(N^2) или «сложность порядка n квадрат».</p>
+<p>Алгоритмы с вложенными циклами по той же коллекции всегда O(N^2).</p>
+<p><b>O(2^N)</b></p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-10.wml">&lt;&lt; Prev</a> | 11/18 | <a href="/wap/rus/guide-to-Big-O-notation-12.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

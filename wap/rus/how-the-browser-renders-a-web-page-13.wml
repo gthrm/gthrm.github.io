@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/4f0712f37434fac15e70c74b1618e34c8b232973.wbmp" alt="Схема построения CSSOM: CSS-правила превращаются в дерево с унаследованными и переопределенными свойствами для body, div, p и span"/></p>
+<p><b>Выполнение JavaScript</b></p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-12.wml">&lt;&lt; Prev</a> | 13/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-14.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>того, такие теги, как &lt;head&gt; не содержащие визуальной информации, всегда будут пропущены.</p>
+<p>Как и в случае с движками JavaScript, разные браузеры имеют разные <a href="https://en.wikipedia.org/wiki/Comparison_of_browser_engines">механизмы рендеринга</a>.</p>
+<p align="center"><img src="/wap/img/cf657f6b566ab2ea1e3c61f4c2062b2ba63d228b.wbmp" alt="Схема рендер-дерева: DOM и CSSOM объединяются, невидимые узлы head, link, script и элементы с display: none исключаются"/></p>
+<p><b>Расчет макета и отрисовка</b></p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-17.wml">&lt;&lt; Prev</a> | 18/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-19.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

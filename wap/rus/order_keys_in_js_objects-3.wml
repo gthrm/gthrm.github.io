@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Порядок хранения/перечисления ключей в JS-объекте">
+<do type="prev" label="Back"><prev/></do>
+<p>3. И наконец свойства, имена которых являются символами, — в том порядке, в котором их добавляли в объект.</p>
+<p>Если порядок перечисления важен, всегда можно взять Map: он гарантирует сохранение порядка вставки.</p>
+<p><b>Функции, которые перечисляют свойства в описанном выше порядке — с учётом собственных ограничений</b></p>
+<p>- <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">Object.keys()</a></p>
+<p mode="wrap"><a href="/wap/rus/order_keys_in_js_objects-2.wml">&lt;&lt; Prev</a> | 3/5 | <a href="/wap/rus/order_keys_in_js_objects-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

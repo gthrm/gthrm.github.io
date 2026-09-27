@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful MacOS Apps for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/33387e19026e1e6aaed9440725ed935c73924141.wbmp" alt="Todo Tree panel in VS Code listing TODO and FIXME comments by project file"/></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components">vscode-styled-components</a></p>
+<p align="center"><img src="/wap/img/e37eaeb2a949020d1d8a410f666062d851e70827.wbmp" alt="CSS syntax highlighting inside a styled-components template in VS Code"/></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=pnp.polacode">polacode</a></p>
+<p align="center"><img src="/wap/img/c6671f8caef53edb60f029415fe1befadf547c81.wbmp" alt="Polacode taking a screenshot of selected code in VS Code"/></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">code-spell-checker</a></p>
+<p mode="wrap"><a href="/wap/eng/features-apps-for-macos-2.wml">&lt;&lt; Prev</a> | 3/4 | <a href="/wap/eng/features-apps-for-macos-4.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">&lt;link href=&quot;style.css&quot; rel=&quot;preload&quot; as=&quot;style&quot; /&gt;</p>
+<p align="center" mode="wrap"><img src="/wap/img/a992adc371c39d026431e26400f8641929531bb5.wbmp" alt="Fetching external resources diagram: CSS blocks rendering, JavaScript blocks the parser unless the script has defer (waits until parsing is finished) or async (executes as soon as it loads)"/></p>
+<p><b>Parsing CSS and Creating CSSOM</b></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSSOM">CSSOM</a> is a map of all CSS selectors and their corresponding properties for each selector in a tree format with root, sibling, descendant, child elements, etc. CSSOM is very similar to the Document Object Model (DOM). Both are part of the rendering path, which is a series of steps that must happen for a website to be rendered correctly.</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-4.wml">&lt;&lt; Prev</a> | 5/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-6.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

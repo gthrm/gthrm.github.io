@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>элемента зонда, он выполнит операцию с нижней половиной. Он будет продолжать уменьшать вдвое набор данных с каждой итерацией до тех пор, пока значение не будет найдено или пока он больше не сможет разделить набор данных.</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-13.wml">&lt;&lt; Prev</a> | 14/18 | <a href="/wap/rus/guide-to-Big-O-notation-15.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

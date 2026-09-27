@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>Можем ли мы сделать суммирование более эффективным? В общем случае нет. Но если мы знаем, что массив гарантированно начинается с 1, отсортирован и не имеет пропусков? Тогда можно применить формулу:</p>
+<p><img src="/wap/img/9d2046f9b8c6696659e168773ed4a67e932224e9.wbmp" alt="S = n(n+1)/2"/></p>
+<p>, где n последний элемент массива</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-6.wml">&lt;&lt; Prev</a> | 7/18 | <a href="/wap/rus/guide-to-Big-O-notation-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

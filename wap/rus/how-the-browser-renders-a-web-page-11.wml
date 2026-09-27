@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p>CSSOM вместе с DOM необходим для построения дерева рендеринга, которое, в свою очередь, используется браузером для компоновки и отрисовки веб-страницы.</p>
+<p>Подобно <b>HTML</b> и <b>DOM</b>, когда файлы <b>CSS</b> загружаются, они должны быть пропаршены и преобразованы в дерево - на этот раз <b>CSSOM</b>. Он описывает все селекторы CSS на странице, их иерархию и их свойства.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-10.wml">&lt;&lt; Prev</a> | 11/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-12.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

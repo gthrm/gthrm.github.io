@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful Chrome Extensions for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p>2. <b><a href="https://chromewebstore.google.com/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka">Eye Dropper</a></b> Eye Dropper is a color picker tool that allows you to easily pick and copy colors from any webpage to your clipboard.</p>
+<p>3. <b><a href="https://chromewebstore.google.com/detail/ai-grammar-checker-paraph/oldceeleldhonbafppcapldpdifcinji?utm_source=lt-homepage">AI Grammar Checker &amp; Paraphraser by Linguix</a></b> This AI-powered tool helps correct grammatical errors, rephrase sentences, and enhance the overall quality of your writing.</p>
+<p>4. <b><a href="https://chromewebstore.google.com/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb">Adblock Plus</a></b> Adblock Plus is a popular extension for blocking ads and trackers, ensuring a safer and more pleasant browsing experience.</p>
+<p mode="wrap"><a href="/wap/eng/useful-chrome-extensions.wml">&lt;&lt; Prev</a> | 2/5 | <a href="/wap/eng/useful-chrome-extensions-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

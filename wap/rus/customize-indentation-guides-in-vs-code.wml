@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Настройка направляющих линий в VS Code">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Настройка направляющих линий в VS Code</b><br/><small>12.11.2024</small></p>
+<p align="center"><img src="/wap/img/5356f7818a7ee8f404ba9ec73ed239ebbb760a9e.wbmp" alt="Дерево файлов VS Code с зелеными направляющими отступов у вложенных папок src и components"/></p>
+<p>Настройка направляющих линий в Visual Studio Code помогает четко видеть структуру папок, что облегчает поиск нужного без излишнего напряжения для глаз.</p>
+<p><b>Шаги по настройке направляющих линий</b></p>
+<p>1. <b>Откройте настройки JSON</b></p>
+<p mode="wrap">1/3 | <a href="/wap/rus/customize-indentation-guides-in-vs-code-2.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

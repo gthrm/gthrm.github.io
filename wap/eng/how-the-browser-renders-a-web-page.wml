@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p><b>How a Browser Renders a Web Page</b><br/><small>16.03.2021</small></p>
+<p>As a developer, to create fast and reliable websites, it&apos;s crucial to understand every step a browser takes to display a web page, as each can be considered and optimized during development. This post is a <b>brief</b> overview of this process.</p>
+<p><b>The process can be broken down into the following main stages</b></p>
+<p>- Parsing HTML into DOM</p>
+<p>- Fetching External Resources</p>
+<p>- Parsing CSS and Creating CSSOM</p>
+<p>- Executing JavaScript</p>
+<p>- Combining DOM and CSSOM to Construct the Render Tree</p>
+<p>- Layout Calculation and Painting</p>
+<p><b>Parsing HTML</b></p>
+<p mode="wrap">1/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

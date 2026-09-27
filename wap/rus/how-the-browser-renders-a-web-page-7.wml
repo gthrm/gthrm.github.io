@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p mode="wrap">async означает, что файл будет выполнен, как только он загрузится, что может быть во время или после процесса парсинга, и поэтому порядок, в котором выполняются асинхронные сценарии, не может быть гарантирован.</p>
+<p mode="nowrap">&lt;script type=&quot;text/javascript&quot; src=&quot;script.js&quot; async&gt;</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-6.wml">&lt;&lt; Prev</a> | 7/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

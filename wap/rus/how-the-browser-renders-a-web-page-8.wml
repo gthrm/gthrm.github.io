@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p mode="wrap">Кроме того, современные браузеры будут продолжать сканировать HTML-код, пока он заблокирован, и &quot;смотреть&quot; на то, какие внешние ресурсы определены дальше, а затем загружать их. То, как браузеры это делают, варьируется в зависимости от браузера, поэтому нельзя полагаться на то, что они будут вести себя определенным образом. Чтобы пометить ресурс как важный и, следовательно, с большей вероятностью быть загруженным на ранней стадии процесса </p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-7.wml">&lt;&lt; Prev</a> | 8/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

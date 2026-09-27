@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>И когда вы найдёте ответы на эти вопросы где-то ещё, то вам не станет от этого лучше. Это просто вопросы, ответы на которые кто-то кому-то задает.</p>
+<p align="center">----------</p>
+<p><b>React JS / Native</b></p>
+<p align="center">----------</p>
+<p>- Жизненный цикл компонента? В какой метод какие аргументы приходят? Где и как лучше обновлять стейт?</p>
+<p>- Что такое функциональный компонент и PureComponent? В чём разница?</p>
+<p>- Что такое Redux?</p>
+<p>- Что такое сайд-эффекты?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe.wml">&lt;&lt; Prev</a> | 2/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

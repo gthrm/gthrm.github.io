@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные приложения для MacOS для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>6. <a href="https://postwoman.io/">Postwoman</a></p>
+<p>То же самое, что Postman, только в браузере.</p>
+<p>7. <a href="https://github.com/kylemanna/docker-openvpn/">docker-openvpn</a></p>
+<p>Поднять свой собственный VPN.</p>
+<p>8. <a href="https://responsively.app/">responsively.app</a></p>
+<p>Приложение для отладки UI на разных размерах экрана.</p>
+<p>9. Расширения для <a href="https://code.visualstudio.com/">VS Code</a></p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo-Tree</a></p>
+<p align="center"><img src="/wap/img/33387e19026e1e6aaed9440725ed935c73924141.wbmp" alt="Панель Todo Tree в VS Code со списком TODO и FIXME по файлам проекта"/></p>
+<p mode="wrap"><a href="/wap/rus/features-apps-for-macos-2.wml">&lt;&lt; Prev</a> | 3/5 | <a href="/wap/rus/features-apps-for-macos-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

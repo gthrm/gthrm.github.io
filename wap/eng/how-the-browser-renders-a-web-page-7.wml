@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p align="center"><img src="/wap/img/4f0712f37434fac15e70c74b1618e34c8b232973.wbmp" alt="Building the CSSOM diagram: CSS rules turn into a tree of inherited and overridden properties for body, div, p and span"/></p>
+<p><b>Executing JavaScript</b></p>
+<p>Once synchronously loaded JavaScript and the DOM are fully parsed and ready, the <a href="https://developer.mozilla.org/ru/docs/Web/API/Document/DOMContentLoaded_event">document.DOMContentLoaded</a> event is fired. For any scripts that require access to the DOM model, such as to manipulate it or listen for user interaction events, it&apos;s recommended to wait for this event before executing the scripts.</p>
+<p mode="nowrap">document.addEventListener(&apos;DOMContentLoaded&apos;, (event) =&gt; {<br/>&#160;&#160;&#160;&#160;// You can now safely access the DOM<br/>});</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-6.wml">&lt;&lt; Prev</a> | 7/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-8.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

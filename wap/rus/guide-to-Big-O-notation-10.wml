@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">const hasDuplicates = function (num) {<br/>&#160;&#160;//loop the list, our O(n) op<br/>&#160;&#160;for (let i = 0; i &lt; nums.length; i++) {<br/>&#160;&#160;&#160;&#160;const thisNum = nums[i];<br/>&#160;&#160;&#160;&#160;//loop the list again, the O(n^2) op<br/>&#160;&#160;&#160;&#160;for (let j = 0; j &lt; nums.length; j++) {<br/>&#160;&#160;&#160;&#160;&#160;&#160;//make sure we&apos;re not checking same number<br/>&#160;&#160;&#160;&#160;&#160;&#160;if (j !== i) {<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;const otherNum = nums[j];<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//if there&apos;s an equal value, return<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (otherNum === thisNum) return true;<br/>&#160;&#160;&#160;&#160;&#160;&#160;}<br/>&#160;&#160;&#160;&#160;}<br/>&#160;&#160;}<br/></p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-9.wml">&lt;&lt; Prev</a> | 10/18 | <a href="/wap/rus/guide-to-Big-O-notation-11.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

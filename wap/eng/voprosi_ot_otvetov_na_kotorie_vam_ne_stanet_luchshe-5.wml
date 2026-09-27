@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- What is a Promise? How to debug errors?</p>
+<p>- What is Async/Await and what do transpilers compile it into? And how to debug them?</p>
+<p>- What are generators?</p>
+<p>- What is Proxy?</p>
+<p>- TypeScript / Flow? What is it and why is it?</p>
+<p>- What is optimistic rendering? How would you implement it?</p>
+<p>- What is virtual scroll? How does it work?</p>
+<p>- What is node.js?</p>
+<p>- What is d3? Why is it needed?</p>
+<p>- How do generators work?</p>
+<p>- Write a generator that implements the Fibonacci sequence (live coding is not my thing at all, after the interview I thought and <a href="https://gist.github.com/gthrm/7274dc2bf8149944f8360325a6673642">wrote</a>)</p>
+<p><b>DOM</b></p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-4.wml">&lt;&lt; Prev</a> | 5/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-6.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

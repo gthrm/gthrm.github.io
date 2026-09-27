@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные расширения для Chrome для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>3. <b><a href="https://chromewebstore.google.com/detail/ai-grammar-checker-paraph/oldceeleldhonbafppcapldpdifcinji?utm_source=lt-homepage">AI Grammar Checker &amp; Paraphraser by Linguix</a></b> Это расширение, основанное на искусственном интеллекте, помогает исправлять грамматические ошибки, перефразировать предложения и улучшать общее качество текста.</p>
+<p mode="wrap"><a href="/wap/rus/useful-chrome-extensions-4.wml">&lt;&lt; Prev</a> | 5/10 | <a href="/wap/rus/useful-chrome-extensions-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

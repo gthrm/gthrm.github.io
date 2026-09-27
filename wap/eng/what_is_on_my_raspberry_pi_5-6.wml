@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>&#160;&#160;- <a href="https://github.com/gthrm/air-quality-monitoring-bot">Air Quality Monitoring Bot</a> - a bot that notifies about increased temperature or air pollution in the apartment based on <a href="https://thingspeak.com/">ThingSpeak</a> and <a href="https://www.nodemcu.com/index_en.html">nodemcu</a>.</p>
+<p><b>Self-hosted Solutions</b></p>
+<p>- <a href="https://docs.n8n.io/hosting/">n8n</a> <i>(<a href="https://n8n.io/workflows/2327-host-your-own-uptime-monitoring-with-scheduled-triggers/">for example, a flow for monitoring resource availability</a>)</i>;</p>
+<p>- <a href="https://www.jenkins.io/download/">Jenkins</a>;</p>
+<p>- <a href="https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/">Postgres</a>;</p>
+<p>- <a href="https://clickhouse.com/docs/en/install">ClickHouse</a>.</p>
+<p><b>Architecture</b></p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-5.wml">&lt;&lt; Prev</a> | 6/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-7.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

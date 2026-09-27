@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Useful MacOS Apps for Developers">
+<do type="prev" label="Back"><prev/></do>
+<p>An app for quickly uploading .ipa files to the AppStore.</p>
+<p>4. <a href="http://pixelperfect-app.com/">PixelPerfect</a></p>
+<p>An app for overlaying an image mockup onto a page for pixel-perfect web design.</p>
+<p>5. <a href="https://www.postman.com/">Postman</a></p>
+<p>A well-known app for working with APIs (debugging, testing, etc.).</p>
+<p>6. <a href="https://postwoman.io/">Postwoman</a></p>
+<p>Similar to Postman, but web-based.</p>
+<p>7. <a href="https://github.com/kylemanna/docker-openvpn/">docker-openvpn</a></p>
+<p>Create your own VPN.</p>
+<p>8. <a href="https://responsively.app/">responsively.app</a></p>
+<p>An app for debugging UI on various screen sizes.</p>
+<p>9. <a href="https://code.visualstudio.com/">VS Code</a> Extensions</p>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree">Todo-Tree</a></p>
+<p mode="wrap"><a href="/wap/eng/features-apps-for-macos.wml">&lt;&lt; Prev</a> | 2/4 | <a href="/wap/eng/features-apps-for-macos-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

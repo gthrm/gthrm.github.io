@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p>This type of algorithm is described as O(log N). Iterative halving of data sets, as described in the binary search example, yields a growth curve that peaks early and slowly levels out as the size of the data sets increases, e.g., a data set of 10 elements takes one second, a data set of 100 elements takes two seconds, and a data set containing 1000 elements takes three seconds. Doubling the size of the input data set has little effect on its growth, as after one iteration of the algorithm, the data set will be halved and, therefore, on par with a data set half its size. This makes algorithms like binary search extremely efficient when working with large data sets.</p>
+<p>Such algorithms are called &quot;Divide and Conquer.&quot;</p>
+<p>In the &quot;binary search&quot; algorithm, we divide the array into two parts at each step.</p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-9.wml">&lt;&lt; Prev</a> | 10/11 | <a href="/wap/eng/guide-to-Big-O-notation-11.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">const nums = [1, 2, 3, 4, 5];<br/>const firstNumber = nums[0];</p>
+<p mode="wrap">В нашем примере входных параметров 5, потому что в массиве 5 элементов. Для получения результата нужно выполнить одну операцию (взять элемент по индексу). Сколько операций потребуется если элементов массива будет 100? Или 1000? Или 100 000? Все равно нужна только одна операция.</p>
+<p><b>O(N)</b></p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-3.wml">&lt;&lt; Prev</a> | 4/18 | <a href="/wap/rus/guide-to-Big-O-notation-5.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Русский - cdROma.me">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="/wap/rus/order_keys_in_js_objects.wml">Порядок хранения/перечисления ключей в JS-объекте</a><br/><small>14.07.2021</small></p>
+<p><a href="/wap/rus/how-the-browser-renders-a-web-page.wml">Как браузер отображает веб-страницу</a><br/><small>16.03.2021</small></p>
+<p><a href="/wap/rus/features-apps-for-macos.wml">Полезные приложения для MacOS для разработчиков</a><br/><small>10.02.2021</small></p>
+<p><a href="/wap/rus/guide-to-Big-O-notation.wml">Руководство по нотации Big O для новичков</a><br/><small>27.09.2020</small></p>
+<p><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe.wml">Вопросы, от ответов на которые вам не станет лучше</a><br/><small>03.06.2020</small></p>
+<p mode="wrap"><a href="/wap/rus.wml">&lt;&lt; Prev</a> | 2/3 | <a href="/wap/rus-3.wml">Next &gt;&gt;</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

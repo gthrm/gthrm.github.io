@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Если дело вообще касается css, то почему-то всё ещё спрашивают про способы &quot;оцентровать блок по центру экрана&quot;. В 2к18!</p>
+<p>- Препроцессоры и их плюсы/минусы относительно друг друга (это обычно вопрос про опыт и почему-то про postcss так никто и не спросил)?</p>
+<p>- css-modules / styled-components. Что это? Зачем это? Плюсы-минусы?</p>
+<p>- Какие бывают значения display и есть ли элементы, которые по-умолчанию inline-block (img)?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-9.wml">&lt;&lt; Prev</a> | 10/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-11.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

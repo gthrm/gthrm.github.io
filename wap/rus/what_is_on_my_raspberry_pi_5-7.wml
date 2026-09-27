@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>&#160;&#160;- <a href="https://t.me/get_my_data_bot">get_my_data_bot</a> - позволяет получить информацию о своем пользователе;</p>
+<p>&#160;&#160;&#160;&#160;до сложных, вроде:</p>
+<p>&#160;&#160;- <a href="https://t.me/sub_track_bot">sub_track_bot</a> - анализирует посещаемость групп тг и мониторит активность пользователей в группе. Дает возможность овнеру получить данные для анализа. Доступ к нему сейчас только по запросу;</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-6.wml">&lt;&lt; Prev</a> | 7/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-8.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

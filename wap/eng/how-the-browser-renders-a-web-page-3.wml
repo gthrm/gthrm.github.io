@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="How a Browser Renders a Web Page">
+<do type="prev" label="Back"><prev/></do>
+<p><b>JavaScript files</b> are a bit different - by default, they block HTML parsing until the JavaScript file is loaded and then parsed. There are two attributes you can add to script tags to improve this: defer and async. Both allow the parser to continue while the JavaScript file loads in the background, but they function differently in how they are executed. More on this:</p>
+<p>defer means the execution of the file will be deferred until after the document has been parsed. If multiple files have the defer attribute, they will execute in the order they were discovered in the HTML.</p>
+<p mode="nowrap">&lt;script type=&quot;text/javascript&quot; src=&quot;script.js&quot; defer&gt;</p>
+<p mode="wrap"><a href="/wap/eng/how-the-browser-renders-a-web-page-2.wml">&lt;&lt; Prev</a> | 3/11 | <a href="/wap/eng/how-the-browser-renders-a-web-page-4.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p>Два варианта. Купить онлайн на <a href="https://busticket4.me/">busticket4.me</a> — мне это обошлось в 15,80 евро, билет нужно распечатать до поездки. Или заплатить водителю наличными при посадке. Багаж — еще 2 евро, тоже водителю.</p>
+<p><b>Что стоит сказать вслух на остановке</b></p>
+<p><b>Da li cekate autobus za Podgoricu?</b> — Вы ждете автобус на Подгорицу?</p>
+<p><b>Odakle polazi autobus za Podgoricu?</b> — Откуда отправляется автобус на Подгорицу?</p>
+<p><b>Короткие ответы</b></p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-4.wml">&lt;&lt; Prev</a> | 5/9 | <a href="/wap/rus/gusinje-bus-stop-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

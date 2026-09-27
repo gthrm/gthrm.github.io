@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="#100DaysOfCode - Челендж">
+<do type="prev" label="Back"><prev/></do>
+<p>Если вам интересно протестировать игру, напишите мне, я дам вам доступ и расскажу больше.</p>
+<p>Также вы можете взять исходный код игры и развернуть его самостоятельно.</p>
+<p>Репозиторий: <a href="https://github.com/gthrm/The-Imagination">https://github.com/gthrm/The-Imagination</a></p>
+<p>Я рад, если заинтересовал вас.</p>
+<p>P.S. Если у вас есть предложения по улучшению и доработке кода, буду рад их принять.</p>
+<p mode="wrap"><a href="/wap/rus/100DaysOfCode-%D1%81hallenge-4.wml">&lt;&lt; Prev</a> | 5/6 | <a href="/wap/rus/100DaysOfCode-%D1%81hallenge-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

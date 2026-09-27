@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>O(N^2) - представляет алгоритм, производительность которого прямо пропорциональна квадрату размера набора входных данных. Это типично для алгоритмов, которые включают вложенные итерации по набору данных. Более глубокие вложенные итерации приведут к O(N^3), O(N^4) и т. д.</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-8.wml">&lt;&lt; Prev</a> | 9/18 | <a href="/wap/rus/guide-to-Big-O-notation-10.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

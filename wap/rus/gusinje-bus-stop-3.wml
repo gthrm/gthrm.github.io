@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p><b>42.56583, 19.83322</b> — <a href="https://www.google.com/maps/search/?api=1&amp;query=42.56583,19.83322">открыть точку в Google Maps</a></p>
+<p>Сюда подъезжает автобус Elan Company, идущий в Плав и дальше в Подгорицу.</p>
+<p><b>Автобус Гусинье — Подгорица</b></p>
+<p>Автобус с этой остановки ходит в Подгорицу четыре раза в день, сначала заезжая в Плав.</p>
+<p><b>Время отправления</b></p>
+<p>- <b>05:46</b> — Elan Company</p>
+<p>- <b>12:21</b> — Elan Company</p>
+<p>- <b>15:45</b> — Elan Company</p>
+<p>- <b>16:45</b> — Arena Tours</p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-2.wml">&lt;&lt; Prev</a> | 3/9 | <a href="/wap/rus/gusinje-bus-stop-4.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

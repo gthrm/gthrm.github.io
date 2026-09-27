@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Questions That Won&apos;t Make You Feel Better After Knowing the Answers</b><br/><small>03.06.2020</small></p>
+<p>I created this note to jot down questions that were (or were not) asked of me in (or out of) JS interviews.</p>
+<p>Here you won&apos;t find answers to these questions (or maybe a few), just questions.</p>
+<p>And when you find answers to these questions elsewhere, it won&apos;t make you feel any better. These are just questions that someone asks someone.</p>
+<p align="center">----------</p>
+<p><b>React JS / Native</b></p>
+<p align="center">----------</p>
+<p>- What is the life cycle of a component? What arguments come in which method? Where and how is it best to update the state?</p>
+<p>- What is a functional component and PureComponent? What&apos;s the difference?</p>
+<p mode="wrap">1/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-2.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSSOM">CSSOM</a> - это карта всех селекторов CSS и соответствующих свойств для каждого селектора в форме дерева с корневым узлом, родственником, потомком, дочерним элементом и другими отношениями. CSSOM очень похож на объектную модель документа (DOM). Оба они являются частью пути рендеринга, который представляет собой серию шагов, которые должны произойти для правильного рендеринга веб-сайта.</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-9.wml">&lt;&lt; Prev</a> | 10/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-11.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

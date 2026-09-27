@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>O(2^N) - обозначает алгоритм, рост которого удваивается с каждым добавлением к входному набору данных. Кривая роста функции O(2^N) является экспоненциальной - сначала очень мелкой, а затем стремительно поднимающейся. Примером функции O(2^N) является рекурсивное вычисление чисел Фибоначчи:</p>
+<p mode="nowrap">const fibonacci = function (num) {<br/>&#160;&#160;if (num &lt;= 1) {<br/>&#160;&#160;&#160;&#160;return num;<br/>&#160;&#160;}<br/>&#160;&#160;return fibonacci(num - 2) + fibonacci(num - 1);<br/>};<br/>fibonacci(5); //true</p>
+<p mode="wrap"><b>O(log n)</b></p>
+<p><b>Пример:</b></p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-11.wml">&lt;&lt; Prev</a> | 12/18 | <a href="/wap/rus/guide-to-Big-O-notation-13.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

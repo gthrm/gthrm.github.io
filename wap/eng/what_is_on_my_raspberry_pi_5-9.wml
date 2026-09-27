@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>For easy switching between movies, I quickly assembled a solution in the form of a one-pager based on <b><a href="https://www.airtable.com/">airtable</a></b>, <b><a href="https://airtable.com/developers/web/api/introduction">airtable API</a>,</b> <b>js</b> and <a href="https://www.omdbapi.com/">Omdbapi API</a>, so when adding a link to the movie and its title in the table, the poster and description are automatically loaded and displayed on the home page of Chromium on the Raspberry when opened.</p>
+<p>In addition, the Raspberry Pi 5 has Bluetooth, making it easy to connect to an audio system.</p>
+<p>In the end, it turns into a media solution for watching movies and listening to music while also running the services.</p>
+<p>How do you use your Raspberry Pi?</p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-8.wml">&lt;&lt; Prev</a> | 9/9<br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

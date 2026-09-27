@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Настройка направляющих линий в VS Code">
+<do type="prev" label="Back"><prev/></do>
+<p>Чтобы изменить ширину уровня отступов, добавьте следующую строку:</p>
+<p mode="nowrap">&quot;workbench.tree.indent&quot;: 15, // Измените по необходимости</p>
+<p mode="wrap">4. <b>Сохраните и перезапустите</b></p>
+<p>Сохраните settings.json и перезапустите VS Code, чтобы увидеть новые направляющие линии.</p>
+<p><b>Спасибо</b></p>
+<p>Приятного кодинга!</p>
+<p mode="wrap"><a href="/wap/rus/customize-indentation-guides-in-vs-code-2.wml">&lt;&lt; Prev</a> | 3/3<br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Next, <b>nginx</b> on the Raspberry Pi receives the requests and proxies them to the appropriate Raspberry Pi ports.</p>
+<p>But that&apos;s not all.</p>
+<p><b>Home Media Server</b></p>
+<p>At the same time, my <b>Raspberry Pi 5</b> is used as a home media server.</p>
+<p>Since the rented apartment has an old, inexpensive TV without the ability to install apps, I connected the <b>Raspberry Pi</b> to it, which is where the graphical interface comes in handy.</p>
+<p>Thus, you can watch movies, listen to music, and browse YouTube right from the couch.</p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5-7.wml">&lt;&lt; Prev</a> | 8/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-9.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

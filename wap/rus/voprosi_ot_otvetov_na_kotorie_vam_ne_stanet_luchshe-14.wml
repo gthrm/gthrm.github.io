@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Вопросы, от ответов на которые вам не станет лучше">
+<do type="prev" label="Back"><prev/></do>
+<p>- Чем компилируемые языки отличаются от интерпретируемых? Какие есть интерпретируемые языки? Где интерпретируется их код?</p>
+<p>- Что такое Rx?</p>
+<p>- Что такое REST и в чём его отличие от RPC? CRUD?</p>
+<p>- Чем отличается GET от POST? Какие ещё виды запросов есть и для чего используются?</p>
+<p>- На каком уровне OSI находятся http / tcp / ping / json / витая пара?</p>
+<p>- Что происходит после запроса из браузера на открытие какой-то страницы?</p>
+<p>- S.O.L.I.D.?</p>
+<p mode="wrap"><a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-13.wml">&lt;&lt; Prev</a> | 14/16 | <a href="/wap/rus/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-15.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

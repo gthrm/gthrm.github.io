@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p>O(N^2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is typical for algorithms that include nested iterations over the data set. Deeper nested iterations will lead to O(N^3), O(N^4), etc.</p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-4.wml">&lt;&lt; Prev</a> | 5/11 | <a href="/wap/eng/guide-to-Big-O-notation-6.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

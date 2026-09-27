@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- How do compiled languages differ from interpreted ones? What are the interpreted languages? Where is their code interpreted?</p>
+<p>- What is Rx?</p>
+<p>- What is REST and how does it differ from RPC? CRUD?</p>
+<p>- What&apos;s the difference between GET and POST? What other types of requests are there and what are they used for?</p>
+<p>- At what level of OSI do http / tcp / ping / json / twisted pair occur?</p>
+<p>- What happens after a request from a browser to open a certain page?</p>
+<p>- S.O.L.I.D.?</p>
+<p>- What is JSON? What is XML? Continue the list (I only remembered YAML)? Can XML be converted to JSON?</p>
+<p>- What is protobuf and messagepack? What&apos;s the difference?</p>
+<p>- What are microservices? Why are they? What problems does microservice architecture solve?</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-8.wml">&lt;&lt; Prev</a> | 9/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-10.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

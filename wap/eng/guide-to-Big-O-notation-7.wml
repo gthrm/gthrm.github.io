@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">&#160;&#160;return false;<br/>};<br/>const nums = [1, 2, 3, 4, 5, 5];<br/>hasDuplicates(nums); //true</p>
+<p mode="wrap">Iterating an array is O(N). But we have a nested loop, iterating again for each element – i.e., O(N^2) or &quot;complexity of order n square.&quot;</p>
+<p>Algorithms with nested loops over the same collection are always O(N^2).</p>
+<p><b>O(2^N)</b></p>
+<p>O(2^N) denotes an algorithm whose growth doubles with each addition to the input data set. The growth curve of an O(2^N) function is exponential - starting off shallow and then steeply rising. An example of an O(2^N) function is the recursive calculation of Fibonacci numbers:</p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-6.wml">&lt;&lt; Prev</a> | 7/11 | <a href="/wap/eng/guide-to-Big-O-notation-8.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

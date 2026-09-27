@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Полезные приложения для MacOS для разработчиков">
+<do type="prev" label="Back"><prev/></do>
+<p>2. <a href="https://www.spectacleapp.com/">SpectacleApp</a></p>
+<p>Приложение для быстрого и удобного изменения размеров окон на рабочем столе.</p>
+<p>3. <a href="https://apps.apple.com/ru/app/transporter/id1450874784?mt=12">Transporter</a></p>
+<p>Приложение для быстрой загрузки .ipa-файлов в AppStore.</p>
+<p>4. <a href="http://pixelperfect-app.com/">PixelPerfect</a></p>
+<p>Приложение для наложения макета на страницу — чтобы вёрстка была pixel perfect.</p>
+<p>5. <a href="https://www.postman.com/">Postman</a></p>
+<p>Известное приложение для работы с API (отладка, тестирование и т. д.).</p>
+<p mode="wrap"><a href="/wap/rus/features-apps-for-macos.wml">&lt;&lt; Prev</a> | 2/5 | <a href="/wap/rus/features-apps-for-macos-3.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

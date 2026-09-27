@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">const sumContiguousArray = function (arr) {<br/>&#160;&#160;//get the last item<br/>&#160;&#160;const lastItem = arr[arr.length - 1];<br/>&#160;&#160;//Gauss&apos;s trick<br/>&#160;&#160;return (lastItem * (lastItem + 1)) / 2;<br/>};<br/>const nums = [1, 2, 3, 4, 5];<br/>const sumOfArray = sumContiguousArray(nums);</p>
+<p mode="wrap"><b>O(N^2)</b></p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-7.wml">&lt;&lt; Prev</a> | 8/18 | <a href="/wap/rus/guide-to-Big-O-notation-9.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Руководство по нотации Big O для новичков">
+<do type="prev" label="Back"><prev/></do>
+<p>O(N) - описывает алгоритм, производительность которого будет расти линейно и прямо пропорционально размеру входного набора данных.</p>
+<p>Пример ниже также демонстрирует, как Big O поддерживает наихудший сценарий производительности</p>
+<p mode="nowrap">const nums = [1, 2, 3, 4, 5];<br/>let sum = 0;<br/>for (let num of nums) {<br/>&#160;&#160;sum += num;<br/>}</p>
+<p mode="wrap"><a href="/wap/rus/guide-to-Big-O-notation-4.wml">&lt;&lt; Prev</a> | 5/18 | <a href="/wap/rus/guide-to-Big-O-notation-6.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

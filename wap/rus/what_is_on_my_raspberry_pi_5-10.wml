@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Что на моем Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>Для CI/CD <a href="https://www.jenkins.io/">jenkins</a> и <a href="https://github.com/">github</a>.</p>
+<p>Для быстрых автоматизаций <a href="https://docs.n8n.io/hosting/">n8n</a>.</p>
+<p>Для бэкапа <b><a href="https://rclone.org/install/">rclone</a></b> и <b><a href="https://www.digitalocean.com/products/spaces">DigitalOcean Spaces</a></b></p>
+<p>Для защиты от атак настроил <b><a href="https://www.cloudflare.com/">Сloudflare</a></b> (бесплатный тариф), он проксирует запросы к моим доменам до nginx.</p>
+<p>Кстати, управление DNS записями так же осуществляться через Cloudflare, что намного удобнее, чем в дашборде регистратора.</p>
+<p mode="wrap"><a href="/wap/rus/what_is_on_my_raspberry_pi_5-9.wml">&lt;&lt; Prev</a> | 10/14 | <a href="/wap/rus/what_is_on_my_raspberry_pi_5-11.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

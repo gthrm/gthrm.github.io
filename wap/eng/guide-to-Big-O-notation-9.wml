@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Big O Notation Guide for Beginners">
+<do type="prev" label="Back"><prev/></do>
+<p><a href="https://en.wikipedia.org/wiki/Binary_search">Binary Search</a> - this method is used for searching in sorted data sets. It works by selecting the middle element of the data set, essentially the median value, and comparing it to the target value. If the values match, it returns true. If the target value is higher than the probe element&apos;s value, it takes the upper half of the data set and performs the same operation with it. Likewise, if the target value is lower than the probe element&apos;s value, it performs the operation with the lower half. It continues to halve the data set with each iteration until the value is found or it can no longer divide the data set.</p>
+<p mode="wrap"><a href="/wap/eng/guide-to-Big-O-notation-8.wml">&lt;&lt; Prev</a> | 9/11 | <a href="/wap/eng/guide-to-Big-O-notation-10.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

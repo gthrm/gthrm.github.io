@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p mode="wrap">рендеринга, можно использовать тег ссылки с <a href="https://developer.mozilla.org/ru/docs/Web/HTML/Preloading_content">rel=&quot;preload&quot;</a>.</p>
+<p mode="nowrap">&lt;link href=&quot;style.css&quot; rel=&quot;preload&quot; as=&quot;style&quot; /&gt;</p>
+<p align="center" mode="wrap"><img src="/wap/img/a992adc371c39d026431e26400f8641929531bb5.wbmp" alt="Схема загрузки внешних ресурсов: CSS блокирует рендеринг, JavaScript блокирует парсер, если у скрипта нет defer (ждет окончания парсинга) или async (выполняется сразу после загрузки)"/></p>
+<p><b>Парсинг CSS и создание CSSOM</b></p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-8.wml">&lt;&lt; Prev</a> | 9/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-10.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

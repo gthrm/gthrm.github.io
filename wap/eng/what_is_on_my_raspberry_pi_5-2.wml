@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="What&apos;s on My Raspberry Pi 5">
+<do type="prev" label="Back"><prev/></do>
+<p>I ordered it from the official distributor, who delivers to Serbia - <a href="https://www.rs.galagomarket.com//item/display/3746?src=raspberrypi">GalagoMarket</a>. Delivery from Slovenia took a little more than 2 weeks.</p>
+<p><i>P.s. At the time, I didn’t know that the import tax to Serbia is 30% if the item&apos;s price exceeds 50 euros.</i></p>
+<p><b>Package Contents</b></p>
+<p>I decided to order the full set so I wouldn&apos;t have to deal with additional parts:</p>
+<p>- <b><a href="https://www.rs.galagomarket.com//item/display/3746?src=raspberrypi">RASPBERRY PI 5, 8GB</a>;</b></p>
+<p>- <b>Case <a href="https://www.rs.galagomarket.com/item/display/3750">RASPBERRY PI 5 CASE, WHITE/RED</a></b> <i>(P.S. It&apos;s better not to put on the top cover to prevent overheating);</i></p>
+<p mode="wrap"><a href="/wap/eng/what_is_on_my_raspberry_pi_5.wml">&lt;&lt; Prev</a> | 2/9 | <a href="/wap/eng/what_is_on_my_raspberry_pi_5-3.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

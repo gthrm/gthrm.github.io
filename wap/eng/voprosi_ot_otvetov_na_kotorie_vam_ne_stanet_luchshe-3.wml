@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Questions That Won&apos;t Make You Feel Better After Knowing the Answers">
+<do type="prev" label="Back"><prev/></do>
+<p>- Redux and MobX - which is better and for what tasks? What other libraries are there for managing the state of an application?</p>
+<p>- Server-Side Rendering?</p>
+<p>- What is a Higher-Ordered Component?</p>
+<p>- What is React Native? Why is it used? What&apos;s the difference from regular React? (yes, that&apos;s exactly how they asked me)</p>
+<p>- How to render a component at a specified time?</p>
+<p><b>Java Script</b></p>
+<p align="center">----------</p>
+<p>- So what is a <i>closure</i>, finally!?</p>
+<p>- How does the Event Loop work? Tasks, microtasks, queues, etc.?</p>
+<p>- What is garbage collector in js and how does it work? (no references - no object, there is a reference - there is suffering)</p>
+<p mode="wrap"><a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-2.wml">&lt;&lt; Prev</a> | 3/10 | <a href="/wap/eng/voprosi_ot_otvetov_na_kotorie_vam_ne_stanet_luchshe-4.wml">Next &gt;&gt;</a><br/><a href="/wap/eng.wml">English</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Автобусная остановка в Гусинье: откуда реально уходит автобус на Подгорицу и Плав">
+<do type="prev" label="Back"><prev/></do>
+<p><b>Есть ли в Гусинье автовокзал?</b> Нет. Карты показывают точку «Autobuska stanica Gusinje», но там нет ни здания, ни кассы, ни персонала. Это просто кусок дороги.</p>
+<p><b>Во сколько уходит автобус из Гусинье?</b> Четыре раза в день. 05:46, 12:21 и 15:45 — Elan Company, затем 16:45 — Arena Tours. Все сначала заезжают в Плав.</p>
+<p mode="wrap"><a href="/wap/rus/gusinje-bus-stop-5.wml">&lt;&lt; Prev</a> | 6/9 | <a href="/wap/rus/gusinje-bus-stop-7.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

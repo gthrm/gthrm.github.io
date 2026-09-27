@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p align="center" mode="wrap"><img src="/wap/img/5954134deec85d59e50b261debe42276dd38d9f7.wbmp" alt="Таймлайн выполнения JavaScript: синхронные, отложенные (defer) и асинхронные скрипты, события document.DOMContentLoaded и window.load"/></p>
+<p><b>Объединение DOM и CSSOM для построения рендер-дерева</b></p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-15.wml">&lt;&lt; Prev</a> | 16/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-17.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="c" title="Как браузер отображает веб-страницу">
+<do type="prev" label="Back"><prev/></do>
+<p mode="nowrap">document.addEventListener(&apos;DOMContentLoaded&apos;, (event) =&gt; {<br/>&#160;&#160;&#160;&#160;// You can now safely access the DOM<br/>});</p>
+<p mode="wrap">А после того, как все остальное, например асинхронный JavaScript, изображения и т.д., завершили загрузку, запускается событие <a href="https://developer.mozilla.org/ru/docs/Web/Events/load">window.load</a>.</p>
+<p mode="nowrap">window.addEventListener(&apos;load&apos;, (event) =&gt; {<br/>&#160;&#160;&#160;&#160;// The page has now fully loaded<br/>});</p>
+<p mode="wrap"><a href="/wap/rus/how-the-browser-renders-a-web-page-14.wml">&lt;&lt; Prev</a> | 15/20 | <a href="/wap/rus/how-the-browser-renders-a-web-page-16.wml">Next &gt;&gt;</a><br/><a href="/wap/rus.wml">Русский</a><br/><a href="/wap/index.wml">Home</a></p>
+</card>
+</wml>
