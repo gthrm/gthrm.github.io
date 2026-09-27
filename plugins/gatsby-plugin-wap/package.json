@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-plugin-wap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Builds a WML (WAP 1.x) copy of the blog into public/wap",
+  "main": "index.js",
+  "peerDependencies": {
+    "sharp": "^0.32.6"
+  }
+}

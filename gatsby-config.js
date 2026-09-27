@@ -7,6 +7,8 @@
 const PAGE_TITLE =
   "Roman's Blog - Frontend Engineer, Specialty Coffee Enthusiast, and Creator";
 
+const path = require('path');
+
 require('dotenv').config();
 
 module.exports = {
@@ -24,6 +26,7 @@ module.exports = {
       { id: '002', name: 'producthunt', url: 'https://share.cdroma.me/KBpLg' },
       { id: '003', name: 'itch.io', url: 'https://share.cdroma.me/NHU0l' },
       { id: '004', name: 'ko-fi', url: 'https://share.cdroma.me/q9SBM' },
+      { id: '005', name: 'wap', url: '/wap/index.wml' },
     ],
   },
   plugins: [
@@ -39,6 +42,19 @@ module.exports = {
     'gatsby-plugin-dark-mode',
     'gatsby-plugin-pnpm',
     'gatsby-plugin-react-helmet',
+    {
+      // Local plugin in ./plugins: a WML copy of the blog in public/wap.
+      resolve: 'gatsby-plugin-wap',
+      options: {
+        imageWidth: 96,
+        deckBytes: 1400,
+        avatar: 'src/assets/avatar.jpg',
+        avatarAlt: 'Roman',
+        heading: "Roman's Blog",
+        intro:
+          "Hello! I'm Roman. I write frontend. Do some pet projects. Make delicious food. Enjoy touching grass.",
+      },
+    },
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
@@ -76,4 +92,12 @@ module.exports = {
     },
   ],
   pathPrefix: '/',
+  // `gatsby develop` only answers folder URLs with Gatsby pages, so /wap gets
+  // the WAP home deck by hand (public/wap is written by `gatsby build`).
+  developMiddleware: (app) => {
+    app.get(['/wap', '/wap/'], (req, res) => {
+      res.type('text/vnd.wap.wml');
+      res.sendFile(path.join(__dirname, 'public/wap/index.wml'));
+    });
+  },
 };
