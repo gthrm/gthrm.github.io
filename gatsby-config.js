@@ -27,6 +27,7 @@ module.exports = {
       { id: '003', name: 'itch.io', url: 'https://share.cdroma.me/NHU0l' },
       { id: '004', name: 'ko-fi', url: 'https://share.cdroma.me/q9SBM' },
       { id: '005', name: 'wap', url: '/wap/index.wml' },
+      { id: '006', name: 'tldr', url: 'https://tldr.cdroma.me' },
     ],
   },
   plugins: [
